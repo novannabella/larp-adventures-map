@@ -8,6 +8,8 @@
 <body>
   <div id="app">
     <h1>Hex Map</h1>
+
+    <!-- (You can keep or remove controls; script.js doesn't use them right now) -->
     <div id="controls">
       <button id="mode-none">No Color</button>
       <button id="mode-highlight1">Highlight 1</button>
@@ -18,8 +20,15 @@
       <!-- Background image & hex grid live here -->
       <div id="hex-map"></div>
     </div>
+
+    <!-- Add this so script.js can write into it -->
+    <div id="hex-info">
+      Click a hex to see its details here.
+    </div>
   </div>
 
+  <!-- IMPORTANT: load data BEFORE script.js -->
+  <script src="map-data.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
