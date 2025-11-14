@@ -13,9 +13,9 @@ body {
 }
 
 #app {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 10px 24px;          /* <-- gives you “a little room” on left/right */
+  max-width: 100%;          /* don't crop the map */
+  margin: 0;
+  padding: 10px 16px;       /* "a little room" on left/right */
 }
 
 h1 {
@@ -47,21 +47,21 @@ h1 {
   border: 1px solid #333;
   background: #000;
   width: 100%;
-  height: calc(100vh - 90px);   /* fill most of window height */
+  height: calc(100vh - 90px);
 }
 
 /* Background map + overlay grid */
 
 #hex-map {
   position: relative;
-  padding: 10px;               /* padding around the hex grid itself */
+  padding: 10px;             /* padding around the hex grid itself */
   width: max-content;
 
-  display: flex;               /* columns left → right */
+  display: flex;             /* columns left → right */
   align-items: flex-start;
 
   background-image: url("img/map.png");
-  background-size: cover;      /* or 'contain' if you prefer */
+  background-size: cover;    /* or 'contain' if you want full map visible */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -72,12 +72,11 @@ h1 {
   display: flex;
   flex-direction: column;
 
-  /* pull columns together so slanted sides touch:
-     centers are 0.75 * width apart ⇒ overlap by 0.25 * width */
+  /* centers 0.75 * width apart ⇒ overlap by 0.25 * width */
   margin-right: calc(var(--hex-size) * -0.25);
 }
 
-/* Stagger every other column down by half a hex height.
+/* Stagger every other column down by half a hex height
    Flat-top regular hex: height ≈ 0.866 * width, half ≈ 0.433 * width */
 .hex-col:nth-child(even) {
   margin-top: calc(var(--hex-size) * 0.433);
@@ -97,7 +96,6 @@ h1 {
   background: transparent;
   cursor: pointer;
 
-  /* flat-topped hexagon */
   clip-path: polygon(
     25% 0%,
     75% 0%,
@@ -108,7 +106,7 @@ h1 {
   );
 }
 
-/* Content inside the clipped hex */
+/* Inner content & border */
 
 .hex-inner {
   width: 100%;
@@ -120,14 +118,14 @@ h1 {
   justify-content: center;
 
   font-size: 11px;
-  color: #000;                       /* like your reference numbers */
+  color: #000;
   text-shadow: none;
 
-  /* transparent by default; faction color is applied via inline style */
+  /* transparent by default; script sets backgroundColor per faction */
   background-color: rgba(0, 0, 0, 0);
 
-  /* FULL BLACK BORDER all the way around each hex,
-     drawn *inside* the hex so overlaps don't erase it */
+  /* FULL BLACK BORDER all the way around each hex
+     drawn INSIDE the clipped hex */
   border: 1px solid #000;
 
   transition: background-color 0.2s, transform 0.1s;
@@ -148,7 +146,7 @@ h1 {
   border: 1px solid #333;
 }
 
-/* (optional) keyboard focus */
+/* Optional keyboard focus */
 
 .hex:focus-visible {
   outline: 2px solid #0af;
