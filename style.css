@@ -54,7 +54,10 @@ h1 {
 .hex-col {
   display: flex;
   flex-direction: column;
-  margin-right: 0;            /* no horizontal gap between columns */
+
+  /* KEY FIX:
+     Overlap columns by 25% of hex width so the slanted sides touch */
+  margin-right: calc(var(--hex-size) * -0.25);
 }
 
 /* Stagger every other column DOWN by half a hex HEIGHT
@@ -63,7 +66,7 @@ h1 {
   margin-top: calc(var(--hex-size) * 0.433);
 }
 
-/* FLAT-TOP HEX CELL */
+/* FLAT-TOP REGULAR HEX */
 
 .hex {
   position: relative;
@@ -87,18 +90,19 @@ h1 {
     0% 50%
   );
 
-  /* BLACK OUTLINE – follows the clipped hex shape */
+  /* BLACK OUTLINE following the hex shape */
   box-shadow: 0 0 0 1px #000;
 }
 
-/* Slight fudge to absolutely kill micro-gaps, if any appear:
-   uncomment this if you still see hairline gaps between edges */
+/* If at some zoom levels you still see hairline gaps,
+   you can uncomment this tiny overlap fudge:
+*/
 /*
 .hex {
   margin-bottom: -0.5px;
 }
 .hex-col {
-  margin-right: -0.5px;
+  margin-right: calc(var(--hex-size) * -0.26);
 }
 */
 
