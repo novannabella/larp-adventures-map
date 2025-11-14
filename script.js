@@ -1,4 +1,5 @@
 // script.js
+// NO map-data.js required. We build everything from map.csv + factions.csv.
 
 const hexMapEl = document.getElementById("hex-map");
 const infoEl = document.getElementById("hex-info");
@@ -44,7 +45,7 @@ function hexToRgba(hex, alpha) {
 // map.csv: hex,display,faction,name,location
 function parseMapCsv(text) {
   const lines = text.split(/\r?\n/).filter(l => l.trim().length > 0);
-  if (!lines.length) return { byHex: {} };
+  if (!lines.length) return [];
 
   const headers = lines[0].split(",").map(h => h.trim().toLowerCase());
   const idxHex     = headers.indexOf("hex");
@@ -56,7 +57,7 @@ function parseMapCsv(text) {
   const get = (cells, idx) =>
     idx < 0 || idx >= cells.length ? "" : cells[idx].trim();
 
-  const byHex = {};
+  const result = [];
 
   for (let i = 1; i < lines.length; i++) {
     const row = lines[i].split(",");
@@ -67,19 +68,31 @@ function parseMapCsv(text) {
     const hexNum = parseInt(hexStr, 10);
     if (Number.isNaN(hexNum)) continue;
 
-    byHex[hexNum] = {
-      display: get(row, idxDisplay),
-      faction: get(row, idxFaction),
-      name:    get(row, idxName),
-      location:get(row, idxLoc)
-    };
+    const display = get(row, idxDisplay) || String(hexNum);
+    const faction = get(row, idxFaction);
+    const name    = get(row, idxName);
+    const loc     = get(row, idxLoc);
+
+    // derive col & row from the hex code: e.g. 1307 → col=13, row=7
+    const col = Math.floor(hexNum / 100);
+    const rowNum = hexNum % 100;
+
+    result.push({
+      hex: hexNum,
+      display,
+      faction,
+      name,
+      location: loc,
+      row: rowNum,
+      col
+    });
   }
 
-  console.log("map.csv entries:", Object.keys(byHex).length);
-  return { byHex };
+  console.log("map.csv rows parsed:", result.length);
+  return result;
 }
 
-// factions.csv: Faction,Hex (hex color) OR faction,color (rgba)
+// factions.csv: Faction,Hex (hex color) or faction,color
 function parseFactionsCsv(text) {
   const lines = text.split(/\r?\n/).filter(l => l.trim().length > 0);
   if (!lines.length) return { ...DEFAULT_FACTION_COLORS };
@@ -88,9 +101,8 @@ function parseFactionsCsv(text) {
   const lower   = headers.map(h => h.toLowerCase());
 
   let idxFaction = lower.indexOf("faction");
-  if (idxFaction === -1) idxFaction = lower.indexOf("name"); // just in case
+  if (idxFaction === -1) idxFaction = lower.indexOf("name");
 
-  // color can be "color" or "hex"
   let idxColor = lower.indexOf("color");
   if (idxColor === -1) idxColor = lower.indexOf("hex");
 
@@ -109,10 +121,9 @@ function parseFactionsCsv(text) {
     if (row.length === 1 && row[0].trim() === "") continue;
 
     const faction = get(row, idxFaction);
-    let   color   = get(row, idxColor);
+    let color     = get(row, idxColor);
     if (!faction || !color) continue;
 
-    // convert #rrggbb → rgba(..., 0.4)
     if (color.startsWith("#")) {
       const rgba = hexToRgba(color, 0.4);
       if (rgba) color = rgba;
@@ -121,69 +132,70 @@ function parseFactionsCsv(text) {
     colors[faction] = color;
   }
 
-  console.log("factions colors (merged):", colors);
+  console.log("factions colors:", colors);
   return colors;
 }
 
-// ---------- build grid ----------
+// ---------- build grid from CSV only ----------
 
-function buildHexMap(mapLookup, factionColors) {
-  if (!Array.isArray(HEX_DATA)) {
-    console.error("HEX_DATA missing – check map-data.js");
+function buildHexMap(mapData, factionColors) {
+  hexMapEl.innerHTML = "";
+
+  if (!Array.isArray(mapData) || mapData.length === 0) {
+    console.error("No map data to build from.");
     return;
   }
 
-  const overrides = mapLookup.byHex || {};
-  hexMapEl.innerHTML = "";
+  // Group cells by column
+  const colsMap = new Map();
+  let minCol = Infinity;
+  let maxCol = -Infinity;
 
-  let currentCol = -1;
-  let colEl = null;
+  for (const cell of mapData) {
+    if (!colsMap.has(cell.col)) colsMap.set(cell.col, []);
+    colsMap.get(cell.col).push(cell);
+    if (cell.col < minCol) minCol = cell.col;
+    if (cell.col > maxCol) maxCol = cell.col;
+  }
 
-  HEX_DATA.forEach(cell => {
-    if (cell.col !== currentCol) {
-      currentCol = cell.col;
-      colEl = document.createElement("div");
-      colEl.className = "hex-col";
-      colEl.dataset.col = cell.col;
-      hexMapEl.appendChild(colEl);
+  for (let col = minCol; col <= maxCol; col++) {
+    const colCells = colsMap.get(col);
+    if (!colCells) continue;
+
+    // sort by row ascending (top to bottom)
+    colCells.sort((a, b) => a.row - b.row);
+
+    const colEl = document.createElement("div");
+    colEl.className = "hex-col";
+    colEl.dataset.col = col;
+    hexMapEl.appendChild(colEl);
+
+    for (const cell of colCells) {
+      const hexBtn = document.createElement("button");
+      hexBtn.className = "hex";
+      hexBtn.type = "button";
+
+      hexBtn.dataset.row = cell.row;
+      hexBtn.dataset.col = cell.col;
+      hexBtn.dataset.hex = cell.hex;
+      hexBtn.dataset.display = cell.display;
+      if (cell.location) hexBtn.dataset.location = cell.location;
+      if (cell.faction)  hexBtn.dataset.faction = cell.faction;
+      if (cell.name)     hexBtn.dataset.name = cell.name;
+
+      const inner = document.createElement("div");
+      inner.className = "hex-inner";
+      inner.textContent = cell.display;
+
+      const color = cell.faction && factionColors[cell.faction];
+      inner.style.backgroundColor = color || "rgba(0,0,0,0)";
+
+      hexBtn.appendChild(inner);
+      colEl.appendChild(hexBtn);
     }
+  }
 
-    const baseFaction  = cell.faction  || "";
-    const baseName     = cell.name     || "";
-    const baseLocation = cell.location || "";
-    const baseDisplay  = cell.display  || String(cell.hex);
-
-    const o = overrides[cell.hex];
-
-    const faction  = o && ("faction" in o)  ? (o.faction  || "") : baseFaction;
-    const name     = o && ("name" in o)     ? (o.name     || "") : baseName;
-    const location = o && ("location" in o) ? (o.location || "") : baseLocation;
-    const display  = o && ("display" in o)  ? (o.display  || baseDisplay) : baseDisplay;
-
-    const hexBtn = document.createElement("button");
-    hexBtn.className = "hex";
-    hexBtn.type = "button";
-
-    hexBtn.dataset.row = cell.row;
-    hexBtn.dataset.col = cell.col;
-    hexBtn.dataset.hex = cell.hex;
-    hexBtn.dataset.display = display;
-    if (location) hexBtn.dataset.location = location;
-    if (faction)  hexBtn.dataset.faction = faction;
-    if (name)     hexBtn.dataset.name = name;
-
-    const inner = document.createElement("div");
-    inner.className = "hex-inner";
-    inner.textContent = display;
-
-    const color = faction && factionColors[faction];
-    inner.style.backgroundColor = color || "rgba(0,0,0,0)";
-
-    hexBtn.appendChild(inner);
-    colEl.appendChild(hexBtn);
-  });
-
-  console.log("Hex map built.");
+  console.log("Hex map built purely from CSV.");
 }
 
 // ---------- init ----------
@@ -196,8 +208,8 @@ function init() {
     })
     .then(parseMapCsv)
     .catch(err => {
-      console.warn("Could not load map.csv; using only map-data.js values.", err);
-      return { byHex: {} };
+      console.error("Could not load map.csv:", err);
+      return [];
     });
 
   const factionsPromise = fetch("factions.csv")
@@ -212,7 +224,7 @@ function init() {
     });
 
   Promise.all([mapPromise, factionsPromise]).then(
-    ([mapLookup, factionColors]) => buildHexMap(mapLookup, factionColors)
+    ([mapData, factionColors]) => buildHexMap(mapData, factionColors)
   );
 }
 
