@@ -15,7 +15,7 @@ body {
 #app {
   max-width: 100%;
   margin: 0;
-  padding: 10px 16px;       /* "a little room" on left/right */
+  padding: 10px 16px;       /* “a little room” on sides */
 }
 
 h1 {
@@ -61,12 +61,12 @@ h1 {
   align-items: flex-start;
 
   background-image: url("img/map.png");
-  background-size: cover;    /* change to 'contain' if you want full map visible */
+  background-size: cover;    /* switch to 'contain' if you want full map visible */
   background-repeat: no-repeat;
   background-position: center;
 }
 
-/* Each COLUMN of hexes (101–126, 201–226, etc.) */
+/* Each column of hexes */
 
 .hex-col {
   display: flex;
@@ -96,6 +96,7 @@ h1 {
   cursor: pointer;
 
   box-sizing: border-box;
+
   /* FULL BLACK BORDER in a hex shape */
   border: 1px solid #000;
   clip-path: polygon(
