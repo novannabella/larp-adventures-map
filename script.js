@@ -125,7 +125,7 @@ function parseFactionsCsv(text) {
     if (!faction || !color) continue;
 
     if (color.startsWith("#")) {
-      const rgba = hexToRgba(color, 0.4);
+      const rgba = hexToRgba(color, 0.4); // Ensure transparency is applied to hex codes
       if (rgba) color = rgba;
     }
 
@@ -183,12 +183,16 @@ function buildHexMap(mapData, factionColors) {
       if (cell.faction)  hexBtn.dataset.faction = cell.faction;
       if (cell.name)     hexBtn.dataset.name = cell.name;
 
+      // **FIX**: Apply faction color to the outer .hex element.
+      const color = cell.faction && factionColors[cell.faction];
+      hexBtn.style.backgroundColor = color || "rgba(0,0,0,0)";
+
       const inner = document.createElement("div");
       inner.className = "hex-inner";
       inner.textContent = cell.display;
 
-      const color = cell.faction && factionColors[cell.faction];
-      inner.style.backgroundColor = color || "rgba(0,0,0,0)";
+      // The inner content's background is now redundant/transparent.
+      inner.style.backgroundColor = "rgba(0,0,0,0)"; 
 
       hexBtn.appendChild(inner);
       colEl.appendChild(hexBtn);
