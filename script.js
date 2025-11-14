@@ -1,19 +1,33 @@
 // script.js
-// Uses:
-//   map-data.js   (HEX_DATA with row/col/hex/display)
-//   map.csv       (hex -> faction/name/location overrides)
-//   factions.csv  (faction -> rgba color)
 
-// DOM references
 const hexMapEl = document.getElementById("hex-map");
 const infoEl = document.getElementById("hex-info");
 const container = document.getElementById("hex-map-container");
 
-// ------------------------------------------------------------
-// CSV PARSERS
-// ------------------------------------------------------------
+// Built-in faction colors (from your factions.csv) as a safety net
+const DEFAULT_FACTION_COLORS = {
+  "Cedar Hill": "rgba(181,99,255,0.40)",
+  "Catalpa": "rgba(222,32,20,0.40)",
+  "Kult of Tharros": "rgba(230,93,0,0.40)",
+  "Wardens": "rgba(151,207,78,0.40)",
+  "Black Sky": "rgba(48,122,168,0.40)",
+  "The Order": "rgba(49,59,62,0.40)",
+  "Haven": "rgba(164,40,194,0.40)",
+  "Prismatic Troupe": "rgba(84,255,0,0.40)",
+  "GrimFrost": "rgba(92,56,255,0.40)",
+  "The Cast": "rgba(242,230,25,0.40)",
+  "White Ravens": "rgba(255,255,255,0.40)",
+  "The Grove": "rgba(126,82,8,0.40)",
+  "Geth": "rgba(2,27,144,0.40)",
+  "Vidaria": "rgba(147,14,0,0.40)",
+  "Silver Branches": "rgba(44,133,14,0.40)",
+  "Blackthorne": "rgba(230,77,94,0.40)",
+  "Mellondor": "rgba(93,167,44,0.40)"
+};
 
-// map.csv: Location,Hex,Faction,Name
+// ---------------------- CSV PARSERS ----------------------
+
+// map.csv: headers should be something like: Location,Hex,Faction,Name
 function parseMapCsv(text) {
   const lines = text.split(/\r?\n/).filter(l => l.trim().length > 0);
   if (!lines.length) return { byHex: {} };
@@ -48,21 +62,24 @@ function parseMapCsv(text) {
   return { byHex };
 }
 
-// factions.csv: faction,color (color = rgba(...) string)
+// factions.csv: faction,color (rgba string)
 function parseFactionsCsv(text) {
   const lines = text.split(/\r?\n/).filter(l => l.trim().length > 0);
-  if (!lines.length) return {};
+  if (!lines.length) return { ...DEFAULT_FACTION_COLORS };
 
   const headers = lines[0].split(",").map(h => h.trim().toLowerCase());
-  let idxFaction = headers.indexOf("faction");
-  let idxColor   = headers.indexOf("color");
+  const idxFaction = headers.indexOf("faction");
+  const idxColor   = headers.indexOf("color");
 
-  // Backwards-compat: if someone still has "hex" column as color
-  if (idxColor === -1) idxColor = headers.indexOf("hex");
+  if (idxFaction === -1 || idxColor === -1) {
+    console.warn("factions.csv headers not recognized, using built-in colors only");
+    return { ...DEFAULT_FACTION_COLORS };
+  }
 
   const get = (cells, idx) => (idx < 0 || idx >= cells.length) ? "" : cells[idx].trim();
 
-  const colors = {};
+  const colors = { ...DEFAULT_FACTION_COLORS };
+
   for (let i = 1; i < lines.length; i++) {
     const row = lines[i].split(",");
     if (row.length === 1 && row[0].trim() === "") continue;
@@ -74,13 +91,11 @@ function parseFactionsCsv(text) {
     colors[faction] = color;
   }
 
-  console.log("factions.csv colors:", colors);
+  console.log("factions colors (merged):", colors);
   return colors;
 }
 
-// ------------------------------------------------------------
-// BUILD HEX GRID
-// ------------------------------------------------------------
+// ---------------------- BUILD GRID ----------------------
 
 function buildHexMap(mapLookup, factionColors) {
   if (!Array.isArray(HEX_DATA)) {
@@ -94,7 +109,7 @@ function buildHexMap(mapLookup, factionColors) {
   let colEl = null;
 
   HEX_DATA.forEach(cell => {
-    // Start new column when col index changes
+    // New column when col index changes
     if (cell.col !== currentCol) {
       currentCol = cell.col;
       colEl = document.createElement("div");
@@ -103,13 +118,13 @@ function buildHexMap(mapLookup, factionColors) {
       hexMapEl.appendChild(colEl);
     }
 
-    // Use ONLY map.csv for faction/location/name.
-    const override = mapLookup.byHex[cell.hex] || {};
+    // Only map.csv determines faction/name/location
+    const override = (mapLookup.byHex && mapLookup.byHex[cell.hex]) || {};
     const faction  = override.faction || "";
     const name     = override.name || "";
     const location = override.location || "";
 
-    // Create hex button
+    // Hex button
     const hexBtn = document.createElement("button");
     hexBtn.className = "hex";
     hexBtn.type = "button";
@@ -118,20 +133,19 @@ function buildHexMap(mapLookup, factionColors) {
     hexBtn.dataset.col = cell.col;
     hexBtn.dataset.hex = cell.hex;
     hexBtn.dataset.display = cell.display;
-
     if (location) hexBtn.dataset.location = location;
     if (faction)  hexBtn.dataset.faction = faction;
     if (name)     hexBtn.dataset.name = name;
 
-    // Inner label + color
     const inner = document.createElement("div");
     inner.className = "hex-inner";
     inner.textContent = cell.display;
 
+    // Apply faction color (translucent) if we have one
     if (faction && factionColors[faction]) {
-      inner.style.backgroundColor = factionColors[faction]; // translucent color
+      inner.style.backgroundColor = factionColors[faction];
     } else {
-      inner.style.backgroundColor = "rgba(0,0,0,0)";       // fully transparent
+      inner.style.backgroundColor = "rgba(0,0,0,0)";
     }
 
     hexBtn.appendChild(inner);
@@ -141,9 +155,7 @@ function buildHexMap(mapLookup, factionColors) {
   console.log("Hex map built.");
 }
 
-// ------------------------------------------------------------
-// INITIALISE: load both CSVs, then build
-// ------------------------------------------------------------
+// ---------------------- INIT ----------------------
 
 function init() {
   const mapPromise = fetch("map.csv")
@@ -153,7 +165,7 @@ function init() {
     })
     .then(parseMapCsv)
     .catch(err => {
-      console.warn("Could not load map.csv:", err);
+      console.warn("Could not load map.csv; no factions will be assigned.", err);
       return { byHex: {} };
     });
 
@@ -164,8 +176,8 @@ function init() {
     })
     .then(parseFactionsCsv)
     .catch(err => {
-      console.warn("Could not load factions.csv:", err);
-      return {};
+      console.warn("Could not load factions.csv; using built-in colors only.", err);
+      return { ...DEFAULT_FACTION_COLORS };
     });
 
   Promise.all([mapPromise, factionsPromise]).then(
@@ -175,9 +187,7 @@ function init() {
 
 init();
 
-// ------------------------------------------------------------
-// CLICK HANDLER – show details
-// ------------------------------------------------------------
+// ---------------------- CLICK INFO ----------------------
 
 hexMapEl.addEventListener("click", (e) => {
   const hex = e.target.closest(".hex");
@@ -202,16 +212,12 @@ hexMapEl.addEventListener("click", (e) => {
   console.log("Clicked hex:", details);
 });
 
-// ------------------------------------------------------------
-// CTRL + SCROLL ZOOM
-// ------------------------------------------------------------
+// ---------------------- CTRL + SCROLL ZOOM ----------------------
 
 let zoom = 1;
 
 container.addEventListener("wheel", (e) => {
-  // Only zoom while CTRL is held; otherwise let normal scroll happen
-  if (!e.ctrlKey) return;
-
+  if (!e.ctrlKey) return;  // only zoom while CTRL is held
   e.preventDefault();
 
   const factor = e.deltaY < 0 ? 1.1 : 0.9;
