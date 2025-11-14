@@ -1,0 +1,136 @@
+:root {
+  --hex-size: 40px; /* width of each hex; tweak to fit your map image */
+  --hex-gap: 2px;
+}
+
+/* Basic page layout */
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #111;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#app {
+  max-width: 100%;
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+#controls {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+#controls button {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: 1px solid #444;
+  background: #222;
+  color: #eee;
+  cursor: pointer;
+}
+
+#controls button.active {
+  border-color: #0af;
+}
+
+/* Hex map container with background image */
+
+#hex-map-container {
+  position: relative;
+  overflow: auto;       /* in case it gets bigger than the screen */
+  border: 1px solid #333;
+  background: #000;
+}
+
+#hex-map {
+  position: relative;
+  padding: 20px;
+  width: max-content;
+  /* Your drawn map goes here */
+  background-image: url("img/map.png"); /* <-- adjust path/name if needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Rows of hexes */
+
+.hex-row {
+  display: flex;
+  margin-bottom: calc(var(--hex-size) * -0.25 + var(--hex-gap));
+}
+
+/* Offset every other row for hex staggering */
+.hex-row:nth-child(even) {
+  margin-left: calc(var(--hex-size) * 0.5);
+}
+
+/* Hex cell as a button */
+
+.hex {
+  position: relative;
+  width: var(--hex-size);
+  aspect-ratio: 1 / 1;
+  margin-right: var(--hex-gap);
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+
+  /* Make the button itself the clickable shape */
+  clip-path: polygon(
+    25% 6.7%, 75% 6.7%,
+    100% 50%,
+    75% 93.3%, 25% 93.3%,
+    0% 50%
+  );
+}
+
+/* The overlay & label sit inside */
+.hex-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #fff;
+  text-shadow: 0 0 3px #000;
+  background-color: rgba(0, 0, 0, 0.1); /* default faint overlay */
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+/* Hover effect */
+.hex:hover .hex-inner {
+  transform: scale(1.05);
+}
+
+/* Color modes (semi-transparent) */
+
+.hex.highlight-none .hex-inner {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.hex.highlight-1 .hex-inner {
+  background-color: rgba(0, 128, 255, 0.4); /* blue-ish, transparent */
+}
+
+.hex.highlight-2 .hex-inner {
+  background-color: rgba(0, 255, 128, 0.4); /* green-ish, transparent */
+}
+
+/* Optional: keyboard focus outline */
+.hex:focus-visible {
+  outline: 2px solid #0af;
+}
