@@ -8,7 +8,6 @@ const HEX_DATA = [
     "hex": 101,
     "display": "101",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -18,7 +17,6 @@ const HEX_DATA = [
     "hex": 102,
     "display": "102",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -28,7 +26,6 @@ const HEX_DATA = [
     "hex": 103,
     "display": "103",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -38,7 +35,6 @@ const HEX_DATA = [
     "hex": 104,
     "display": "104",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -48,7 +44,6 @@ const HEX_DATA = [
     "hex": 105,
     "display": "105",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -58,7 +53,6 @@ const HEX_DATA = [
     "hex": 106,
     "display": "106",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -68,7 +62,6 @@ const HEX_DATA = [
     "hex": 107,
     "display": "107",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -78,7 +71,6 @@ const HEX_DATA = [
     "hex": 108,
     "display": "108",
     "location": "West",
-    "faction": "Blackthorne",
     "name": ""
   },
   {
@@ -88,7 +80,6 @@ const HEX_DATA = [
     "hex": 109,
     "display": "109",
     "location": "West",
-    "faction": "Blackthorne",
     "name": ""
   },
   {
@@ -98,7 +89,6 @@ const HEX_DATA = [
     "hex": 110,
     "display": "110",
     "location": "West",
-    "faction": "Blackthorne",
     "name": ""
   },
   {
@@ -108,7 +98,6 @@ const HEX_DATA = [
     "hex": 111,
     "display": "111",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -118,7 +107,6 @@ const HEX_DATA = [
     "hex": 112,
     "display": "112",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -128,7 +116,6 @@ const HEX_DATA = [
     "hex": 113,
     "display": "113",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -138,7 +125,6 @@ const HEX_DATA = [
     "hex": 114,
     "display": "114",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -148,7 +134,6 @@ const HEX_DATA = [
     "hex": 115,
     "display": "115",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -158,7 +143,6 @@ const HEX_DATA = [
     "hex": 116,
     "display": "116",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -168,7 +152,6 @@ const HEX_DATA = [
     "hex": 117,
     "display": "117",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -178,7 +161,6 @@ const HEX_DATA = [
     "hex": 118,
     "display": "118",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -188,7 +170,6 @@ const HEX_DATA = [
     "hex": 119,
     "display": "119",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -198,7 +179,6 @@ const HEX_DATA = [
     "hex": 120,
     "display": "120",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -208,7 +188,6 @@ const HEX_DATA = [
     "hex": 121,
     "display": "121",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -218,7 +197,6 @@ const HEX_DATA = [
     "hex": 122,
     "display": "122",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -228,7 +206,6 @@ const HEX_DATA = [
     "hex": 123,
     "display": "123",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -238,7 +215,6 @@ const HEX_DATA = [
     "hex": 124,
     "display": "124",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -248,7 +224,6 @@ const HEX_DATA = [
     "hex": 125,
     "display": "125",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -258,7 +233,6 @@ const HEX_DATA = [
     "hex": 126,
     "display": "126",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -268,7 +242,6 @@ const HEX_DATA = [
     "hex": 201,
     "display": "201",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -278,7 +251,6 @@ const HEX_DATA = [
     "hex": 202,
     "display": "202",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -288,7 +260,6 @@ const HEX_DATA = [
     "hex": 203,
     "display": "203",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -298,7 +269,6 @@ const HEX_DATA = [
     "hex": 204,
     "display": "204",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -308,7 +278,6 @@ const HEX_DATA = [
     "hex": 205,
     "display": "205",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -318,7 +287,6 @@ const HEX_DATA = [
     "hex": 206,
     "display": "206",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -328,7 +296,6 @@ const HEX_DATA = [
     "hex": 207,
     "display": "207",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -338,7 +305,6 @@ const HEX_DATA = [
     "hex": 208,
     "display": "208",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -348,7 +314,6 @@ const HEX_DATA = [
     "hex": 209,
     "display": "209",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -358,7 +323,6 @@ const HEX_DATA = [
     "hex": 210,
     "display": "210",
     "location": "West",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -368,7 +332,6 @@ const HEX_DATA = [
     "hex": 211,
     "display": "211",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -378,7 +341,6 @@ const HEX_DATA = [
     "hex": 212,
     "display": "212",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -388,7 +350,6 @@ const HEX_DATA = [
     "hex": 213,
     "display": "213",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -398,7 +359,6 @@ const HEX_DATA = [
     "hex": 214,
     "display": "214",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -408,7 +368,6 @@ const HEX_DATA = [
     "hex": 215,
     "display": "215",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -418,7 +377,6 @@ const HEX_DATA = [
     "hex": 216,
     "display": "216",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -428,7 +386,6 @@ const HEX_DATA = [
     "hex": 217,
     "display": "217",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -438,7 +395,6 @@ const HEX_DATA = [
     "hex": 218,
     "display": "218",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -448,7 +404,6 @@ const HEX_DATA = [
     "hex": 219,
     "display": "219",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -458,7 +413,6 @@ const HEX_DATA = [
     "hex": 220,
     "display": "220",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -468,7 +422,6 @@ const HEX_DATA = [
     "hex": 221,
     "display": "221",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -478,7 +431,6 @@ const HEX_DATA = [
     "hex": 222,
     "display": "222",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -488,7 +440,6 @@ const HEX_DATA = [
     "hex": 223,
     "display": "223",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -498,7 +449,6 @@ const HEX_DATA = [
     "hex": 224,
     "display": "224",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -508,7 +458,6 @@ const HEX_DATA = [
     "hex": 225,
     "display": "225",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -518,7 +467,6 @@ const HEX_DATA = [
     "hex": 226,
     "display": "226",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -528,7 +476,6 @@ const HEX_DATA = [
     "hex": 301,
     "display": "301",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -538,7 +485,6 @@ const HEX_DATA = [
     "hex": 302,
     "display": "302",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -548,7 +494,6 @@ const HEX_DATA = [
     "hex": 303,
     "display": "303",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -558,7 +503,6 @@ const HEX_DATA = [
     "hex": 304,
     "display": "304",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -568,7 +512,6 @@ const HEX_DATA = [
     "hex": 305,
     "display": "305",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -578,7 +521,6 @@ const HEX_DATA = [
     "hex": 306,
     "display": "306",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -588,7 +530,6 @@ const HEX_DATA = [
     "hex": 307,
     "display": "307",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -598,7 +539,6 @@ const HEX_DATA = [
     "hex": 308,
     "display": "308",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -608,7 +548,6 @@ const HEX_DATA = [
     "hex": 309,
     "display": "309",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -618,7 +557,6 @@ const HEX_DATA = [
     "hex": 310,
     "display": "310",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -628,7 +566,6 @@ const HEX_DATA = [
     "hex": 311,
     "display": "311",
     "location": "West",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -638,7 +575,6 @@ const HEX_DATA = [
     "hex": 312,
     "display": "312",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -648,7 +584,6 @@ const HEX_DATA = [
     "hex": 313,
     "display": "313",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -658,7 +593,6 @@ const HEX_DATA = [
     "hex": 314,
     "display": "314",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -668,7 +602,6 @@ const HEX_DATA = [
     "hex": 315,
     "display": "315",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": ""
   },
   {
@@ -678,7 +611,6 @@ const HEX_DATA = [
     "hex": 316,
     "display": "316",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": "Oread's Summit"
   },
   {
@@ -688,7 +620,6 @@ const HEX_DATA = [
     "hex": 317,
     "display": "317",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -698,7 +629,6 @@ const HEX_DATA = [
     "hex": 318,
     "display": "318",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -708,7 +638,6 @@ const HEX_DATA = [
     "hex": 319,
     "display": "319",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -718,7 +647,6 @@ const HEX_DATA = [
     "hex": 320,
     "display": "320",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -728,7 +656,6 @@ const HEX_DATA = [
     "hex": 321,
     "display": "321",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -738,7 +665,6 @@ const HEX_DATA = [
     "hex": 322,
     "display": "322",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -748,7 +674,6 @@ const HEX_DATA = [
     "hex": 323,
     "display": "323",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -758,7 +683,6 @@ const HEX_DATA = [
     "hex": 324,
     "display": "324",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -768,7 +692,6 @@ const HEX_DATA = [
     "hex": 325,
     "display": "325",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -778,7 +701,6 @@ const HEX_DATA = [
     "hex": 326,
     "display": "326",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -788,7 +710,6 @@ const HEX_DATA = [
     "hex": 401,
     "display": "401",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -798,7 +719,6 @@ const HEX_DATA = [
     "hex": 402,
     "display": "402",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -808,7 +728,6 @@ const HEX_DATA = [
     "hex": 403,
     "display": "403",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -818,7 +737,6 @@ const HEX_DATA = [
     "hex": 404,
     "display": "404",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -828,7 +746,6 @@ const HEX_DATA = [
     "hex": 405,
     "display": "405",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -838,7 +755,6 @@ const HEX_DATA = [
     "hex": 406,
     "display": "406",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -848,7 +764,6 @@ const HEX_DATA = [
     "hex": 407,
     "display": "407",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -858,7 +773,6 @@ const HEX_DATA = [
     "hex": 408,
     "display": "408",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -868,7 +782,6 @@ const HEX_DATA = [
     "hex": 409,
     "display": "409",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -878,7 +791,6 @@ const HEX_DATA = [
     "hex": 410,
     "display": "410",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -888,7 +800,6 @@ const HEX_DATA = [
     "hex": 411,
     "display": "411",
     "location": "West",
-    "faction": "White Ravens",
     "name": "Vlthar"
   },
   {
@@ -898,7 +809,6 @@ const HEX_DATA = [
     "hex": 412,
     "display": "412",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -908,7 +818,6 @@ const HEX_DATA = [
     "hex": 413,
     "display": "413",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -918,7 +827,6 @@ const HEX_DATA = [
     "hex": 414,
     "display": "414",
     "location": "West",
-    "faction": "Blackthorne",
     "name": ""
   },
   {
@@ -928,7 +836,6 @@ const HEX_DATA = [
     "hex": 415,
     "display": "415",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -938,7 +845,6 @@ const HEX_DATA = [
     "hex": 416,
     "display": "416",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -948,7 +854,6 @@ const HEX_DATA = [
     "hex": 417,
     "display": "417",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -958,7 +863,6 @@ const HEX_DATA = [
     "hex": 418,
     "display": "418",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -968,7 +872,6 @@ const HEX_DATA = [
     "hex": 419,
     "display": "419",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -978,7 +881,6 @@ const HEX_DATA = [
     "hex": 420,
     "display": "420",
     "location": "West",
-    "faction": "Bard City",
     "name": "Funky Town"
   },
   {
@@ -988,7 +890,6 @@ const HEX_DATA = [
     "hex": 421,
     "display": "421",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -998,7 +899,6 @@ const HEX_DATA = [
     "hex": 422,
     "display": "422",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1008,7 +908,6 @@ const HEX_DATA = [
     "hex": 423,
     "display": "423",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1018,7 +917,6 @@ const HEX_DATA = [
     "hex": 424,
     "display": "424",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1028,7 +926,6 @@ const HEX_DATA = [
     "hex": 425,
     "display": "425",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1038,7 +935,6 @@ const HEX_DATA = [
     "hex": 426,
     "display": "426",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1048,7 +944,6 @@ const HEX_DATA = [
     "hex": 501,
     "display": "501",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1058,7 +953,6 @@ const HEX_DATA = [
     "hex": 502,
     "display": "502",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1068,7 +962,6 @@ const HEX_DATA = [
     "hex": 503,
     "display": "503",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1078,7 +971,6 @@ const HEX_DATA = [
     "hex": 504,
     "display": "504",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1088,7 +980,6 @@ const HEX_DATA = [
     "hex": 505,
     "display": "505",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1098,7 +989,6 @@ const HEX_DATA = [
     "hex": 506,
     "display": "506",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1108,7 +998,6 @@ const HEX_DATA = [
     "hex": 507,
     "display": "507",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1118,7 +1007,6 @@ const HEX_DATA = [
     "hex": 508,
     "display": "508",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": ""
   },
   {
@@ -1128,7 +1016,6 @@ const HEX_DATA = [
     "hex": 509,
     "display": "509",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1138,7 +1025,6 @@ const HEX_DATA = [
     "hex": 510,
     "display": "510",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1148,7 +1034,6 @@ const HEX_DATA = [
     "hex": 511,
     "display": "511",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1158,7 +1043,6 @@ const HEX_DATA = [
     "hex": 512,
     "display": "512",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1168,7 +1052,6 @@ const HEX_DATA = [
     "hex": 513,
     "display": "513",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1178,7 +1061,6 @@ const HEX_DATA = [
     "hex": 514,
     "display": "514",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1188,7 +1070,6 @@ const HEX_DATA = [
     "hex": 515,
     "display": "515",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1198,7 +1079,6 @@ const HEX_DATA = [
     "hex": 516,
     "display": "516",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1208,7 +1088,6 @@ const HEX_DATA = [
     "hex": 517,
     "display": "517",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": ""
   },
   {
@@ -1218,7 +1097,6 @@ const HEX_DATA = [
     "hex": 518,
     "display": "518",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1228,7 +1106,6 @@ const HEX_DATA = [
     "hex": 519,
     "display": "519",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1238,7 +1115,6 @@ const HEX_DATA = [
     "hex": 520,
     "display": "520",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1248,7 +1124,6 @@ const HEX_DATA = [
     "hex": 521,
     "display": "521",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1258,7 +1133,6 @@ const HEX_DATA = [
     "hex": 522,
     "display": "522",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1268,7 +1142,6 @@ const HEX_DATA = [
     "hex": 523,
     "display": "523",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1278,7 +1151,6 @@ const HEX_DATA = [
     "hex": 524,
     "display": "524",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1288,7 +1160,6 @@ const HEX_DATA = [
     "hex": 525,
     "display": "525",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1298,7 +1169,6 @@ const HEX_DATA = [
     "hex": 526,
     "display": "526",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1308,7 +1178,6 @@ const HEX_DATA = [
     "hex": 601,
     "display": "601",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1318,7 +1187,6 @@ const HEX_DATA = [
     "hex": 602,
     "display": "602",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1328,7 +1196,6 @@ const HEX_DATA = [
     "hex": 603,
     "display": "603",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1338,7 +1205,6 @@ const HEX_DATA = [
     "hex": 604,
     "display": "604",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1348,7 +1214,6 @@ const HEX_DATA = [
     "hex": 605,
     "display": "605",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1358,7 +1223,6 @@ const HEX_DATA = [
     "hex": 606,
     "display": "606",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1368,7 +1232,6 @@ const HEX_DATA = [
     "hex": 607,
     "display": "607",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": ""
   },
   {
@@ -1378,7 +1241,6 @@ const HEX_DATA = [
     "hex": 608,
     "display": "608",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1388,7 +1250,6 @@ const HEX_DATA = [
     "hex": 609,
     "display": "609",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1398,7 +1259,6 @@ const HEX_DATA = [
     "hex": 610,
     "display": "610",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1408,7 +1268,6 @@ const HEX_DATA = [
     "hex": 611,
     "display": "611",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1418,7 +1277,6 @@ const HEX_DATA = [
     "hex": 612,
     "display": "612",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1428,7 +1286,6 @@ const HEX_DATA = [
     "hex": 613,
     "display": "613",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1438,7 +1295,6 @@ const HEX_DATA = [
     "hex": 614,
     "display": "614",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1448,7 +1304,6 @@ const HEX_DATA = [
     "hex": 615,
     "display": "615",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1458,7 +1313,6 @@ const HEX_DATA = [
     "hex": 616,
     "display": "616",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1468,7 +1322,6 @@ const HEX_DATA = [
     "hex": 617,
     "display": "617",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1478,7 +1331,6 @@ const HEX_DATA = [
     "hex": 618,
     "display": "618",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1488,7 +1340,6 @@ const HEX_DATA = [
     "hex": 619,
     "display": "619",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1498,7 +1349,6 @@ const HEX_DATA = [
     "hex": 620,
     "display": "620",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1508,7 +1358,6 @@ const HEX_DATA = [
     "hex": 621,
     "display": "621",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1518,7 +1367,6 @@ const HEX_DATA = [
     "hex": 622,
     "display": "622",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1528,7 +1376,6 @@ const HEX_DATA = [
     "hex": 623,
     "display": "623",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1538,7 +1385,6 @@ const HEX_DATA = [
     "hex": 624,
     "display": "624",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1548,7 +1394,6 @@ const HEX_DATA = [
     "hex": 625,
     "display": "625",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1558,7 +1403,6 @@ const HEX_DATA = [
     "hex": 626,
     "display": "626",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1568,7 +1412,6 @@ const HEX_DATA = [
     "hex": 701,
     "display": "701",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1578,7 +1421,6 @@ const HEX_DATA = [
     "hex": 702,
     "display": "702",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1588,7 +1430,6 @@ const HEX_DATA = [
     "hex": 703,
     "display": "703",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1598,7 +1439,6 @@ const HEX_DATA = [
     "hex": 704,
     "display": "704",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1608,7 +1448,6 @@ const HEX_DATA = [
     "hex": 705,
     "display": "705",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1618,7 +1457,6 @@ const HEX_DATA = [
     "hex": 706,
     "display": "706",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1628,7 +1466,6 @@ const HEX_DATA = [
     "hex": 707,
     "display": "707",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1638,7 +1475,6 @@ const HEX_DATA = [
     "hex": 708,
     "display": "708",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": ""
   },
   {
@@ -1648,7 +1484,6 @@ const HEX_DATA = [
     "hex": 709,
     "display": "709",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": ""
   },
   {
@@ -1658,7 +1493,6 @@ const HEX_DATA = [
     "hex": 710,
     "display": "710",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1668,7 +1502,6 @@ const HEX_DATA = [
     "hex": 711,
     "display": "711",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1678,7 +1511,6 @@ const HEX_DATA = [
     "hex": 712,
     "display": "712",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1688,7 +1520,6 @@ const HEX_DATA = [
     "hex": 713,
     "display": "713",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1698,7 +1529,6 @@ const HEX_DATA = [
     "hex": 714,
     "display": "714",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1708,7 +1538,6 @@ const HEX_DATA = [
     "hex": 715,
     "display": "715",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1718,7 +1547,6 @@ const HEX_DATA = [
     "hex": 716,
     "display": "716",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1728,7 +1556,6 @@ const HEX_DATA = [
     "hex": 717,
     "display": "717",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1738,7 +1565,6 @@ const HEX_DATA = [
     "hex": 718,
     "display": "718",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1748,7 +1574,6 @@ const HEX_DATA = [
     "hex": 719,
     "display": "719",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1758,7 +1583,6 @@ const HEX_DATA = [
     "hex": 720,
     "display": "720",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1768,7 +1592,6 @@ const HEX_DATA = [
     "hex": 721,
     "display": "721",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1778,7 +1601,6 @@ const HEX_DATA = [
     "hex": 722,
     "display": "722",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1788,7 +1610,6 @@ const HEX_DATA = [
     "hex": 723,
     "display": "723",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1798,7 +1619,6 @@ const HEX_DATA = [
     "hex": 724,
     "display": "724",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1808,7 +1628,6 @@ const HEX_DATA = [
     "hex": 725,
     "display": "725",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1818,7 +1637,6 @@ const HEX_DATA = [
     "hex": 726,
     "display": "726",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1828,7 +1646,6 @@ const HEX_DATA = [
     "hex": 801,
     "display": "801",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1838,7 +1655,6 @@ const HEX_DATA = [
     "hex": 802,
     "display": "802",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1848,7 +1664,6 @@ const HEX_DATA = [
     "hex": 803,
     "display": "803",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1858,7 +1673,6 @@ const HEX_DATA = [
     "hex": 804,
     "display": "804",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1868,7 +1682,6 @@ const HEX_DATA = [
     "hex": 805,
     "display": "805",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1878,7 +1691,6 @@ const HEX_DATA = [
     "hex": 806,
     "display": "806",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1888,7 +1700,6 @@ const HEX_DATA = [
     "hex": 807,
     "display": "807",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1898,7 +1709,6 @@ const HEX_DATA = [
     "hex": 808,
     "display": "808",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": ""
   },
   {
@@ -1908,7 +1718,6 @@ const HEX_DATA = [
     "hex": 809,
     "display": "809",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": ""
   },
   {
@@ -1918,7 +1727,6 @@ const HEX_DATA = [
     "hex": 810,
     "display": "810",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1928,7 +1736,6 @@ const HEX_DATA = [
     "hex": 811,
     "display": "811",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1938,7 +1745,6 @@ const HEX_DATA = [
     "hex": 812,
     "display": "812",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1948,7 +1754,6 @@ const HEX_DATA = [
     "hex": 813,
     "display": "813",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1958,7 +1763,6 @@ const HEX_DATA = [
     "hex": 814,
     "display": "814",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1968,7 +1772,6 @@ const HEX_DATA = [
     "hex": 815,
     "display": "815",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1978,7 +1781,6 @@ const HEX_DATA = [
     "hex": 816,
     "display": "816",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": ""
   },
   {
@@ -1988,7 +1790,6 @@ const HEX_DATA = [
     "hex": 817,
     "display": "817",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -1998,7 +1799,6 @@ const HEX_DATA = [
     "hex": 818,
     "display": "818",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2008,7 +1808,6 @@ const HEX_DATA = [
     "hex": 819,
     "display": "819",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2018,7 +1817,6 @@ const HEX_DATA = [
     "hex": 820,
     "display": "820",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2028,7 +1826,6 @@ const HEX_DATA = [
     "hex": 821,
     "display": "821",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2038,7 +1835,6 @@ const HEX_DATA = [
     "hex": 822,
     "display": "822",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2048,7 +1844,6 @@ const HEX_DATA = [
     "hex": 823,
     "display": "823",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2058,7 +1853,6 @@ const HEX_DATA = [
     "hex": 824,
     "display": "824",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2068,7 +1862,6 @@ const HEX_DATA = [
     "hex": 825,
     "display": "825",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2078,7 +1871,6 @@ const HEX_DATA = [
     "hex": 826,
     "display": "826",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2088,7 +1880,6 @@ const HEX_DATA = [
     "hex": 901,
     "display": "901",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2098,7 +1889,6 @@ const HEX_DATA = [
     "hex": 902,
     "display": "902",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2108,7 +1898,6 @@ const HEX_DATA = [
     "hex": 903,
     "display": "903",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2118,7 +1907,6 @@ const HEX_DATA = [
     "hex": 904,
     "display": "904",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2128,7 +1916,6 @@ const HEX_DATA = [
     "hex": 905,
     "display": "905",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2138,7 +1925,6 @@ const HEX_DATA = [
     "hex": 906,
     "display": "906",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2148,7 +1934,6 @@ const HEX_DATA = [
     "hex": 907,
     "display": "907",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2158,7 +1943,6 @@ const HEX_DATA = [
     "hex": 908,
     "display": "908",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2168,7 +1952,6 @@ const HEX_DATA = [
     "hex": 909,
     "display": "909",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2178,7 +1961,6 @@ const HEX_DATA = [
     "hex": 910,
     "display": "910",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2188,7 +1970,6 @@ const HEX_DATA = [
     "hex": 911,
     "display": "911",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2198,7 +1979,6 @@ const HEX_DATA = [
     "hex": 912,
     "display": "912",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2208,7 +1988,6 @@ const HEX_DATA = [
     "hex": 913,
     "display": "913",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2218,7 +1997,6 @@ const HEX_DATA = [
     "hex": 914,
     "display": "914",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2228,7 +2006,6 @@ const HEX_DATA = [
     "hex": 915,
     "display": "915",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2238,7 +2015,6 @@ const HEX_DATA = [
     "hex": 916,
     "display": "916",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": ""
   },
   {
@@ -2248,7 +2024,6 @@ const HEX_DATA = [
     "hex": 917,
     "display": "917",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2258,7 +2033,6 @@ const HEX_DATA = [
     "hex": 918,
     "display": "918",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2268,7 +2042,6 @@ const HEX_DATA = [
     "hex": 919,
     "display": "919",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2278,7 +2051,6 @@ const HEX_DATA = [
     "hex": 920,
     "display": "920",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2288,7 +2060,6 @@ const HEX_DATA = [
     "hex": 921,
     "display": "921",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2298,7 +2069,6 @@ const HEX_DATA = [
     "hex": 922,
     "display": "922",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2308,7 +2078,6 @@ const HEX_DATA = [
     "hex": 923,
     "display": "923",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2318,7 +2087,6 @@ const HEX_DATA = [
     "hex": 924,
     "display": "924",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2328,7 +2096,6 @@ const HEX_DATA = [
     "hex": 925,
     "display": "925",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2338,7 +2105,6 @@ const HEX_DATA = [
     "hex": 926,
     "display": "926",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2348,7 +2114,6 @@ const HEX_DATA = [
     "hex": 1001,
     "display": "1001",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2358,7 +2123,6 @@ const HEX_DATA = [
     "hex": 1002,
     "display": "1002",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2368,7 +2132,6 @@ const HEX_DATA = [
     "hex": 1003,
     "display": "1003",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2378,7 +2141,6 @@ const HEX_DATA = [
     "hex": 1004,
     "display": "1004",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2388,7 +2150,6 @@ const HEX_DATA = [
     "hex": 1005,
     "display": "1005",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2398,7 +2159,6 @@ const HEX_DATA = [
     "hex": 1006,
     "display": "1006",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2408,7 +2168,6 @@ const HEX_DATA = [
     "hex": 1007,
     "display": "1007",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2418,7 +2177,6 @@ const HEX_DATA = [
     "hex": 1008,
     "display": "1008",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2428,7 +2186,6 @@ const HEX_DATA = [
     "hex": 1009,
     "display": "1009",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2438,7 +2195,6 @@ const HEX_DATA = [
     "hex": 1010,
     "display": "1010",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2448,7 +2204,6 @@ const HEX_DATA = [
     "hex": 1011,
     "display": "1011",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2458,7 +2213,6 @@ const HEX_DATA = [
     "hex": 1012,
     "display": "1012",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2468,7 +2222,6 @@ const HEX_DATA = [
     "hex": 1013,
     "display": "1013",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": ""
   },
   {
@@ -2478,7 +2231,6 @@ const HEX_DATA = [
     "hex": 1014,
     "display": "1014",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": "Starlight Bazaar"
   },
   {
@@ -2488,7 +2240,6 @@ const HEX_DATA = [
     "hex": 1015,
     "display": "1015",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": ""
   },
   {
@@ -2498,7 +2249,6 @@ const HEX_DATA = [
     "hex": 1016,
     "display": "1016",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2508,7 +2258,6 @@ const HEX_DATA = [
     "hex": 1017,
     "display": "1017",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2518,7 +2267,6 @@ const HEX_DATA = [
     "hex": 1018,
     "display": "1018",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2528,7 +2276,6 @@ const HEX_DATA = [
     "hex": 1019,
     "display": "1019",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2538,7 +2285,6 @@ const HEX_DATA = [
     "hex": 1020,
     "display": "1020",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2548,7 +2294,6 @@ const HEX_DATA = [
     "hex": 1021,
     "display": "1021",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2558,7 +2303,6 @@ const HEX_DATA = [
     "hex": 1022,
     "display": "1022",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2568,7 +2312,6 @@ const HEX_DATA = [
     "hex": 1023,
     "display": "1023",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2578,7 +2321,6 @@ const HEX_DATA = [
     "hex": 1024,
     "display": "1024",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2588,7 +2330,6 @@ const HEX_DATA = [
     "hex": 1025,
     "display": "1025",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2598,7 +2339,6 @@ const HEX_DATA = [
     "hex": 1026,
     "display": "1026",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2608,7 +2348,6 @@ const HEX_DATA = [
     "hex": 1101,
     "display": "1101",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2618,7 +2357,6 @@ const HEX_DATA = [
     "hex": 1102,
     "display": "1102",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2628,7 +2366,6 @@ const HEX_DATA = [
     "hex": 1103,
     "display": "1103",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2638,7 +2375,6 @@ const HEX_DATA = [
     "hex": 1104,
     "display": "1104",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2648,7 +2384,6 @@ const HEX_DATA = [
     "hex": 1105,
     "display": "1105",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2658,7 +2393,6 @@ const HEX_DATA = [
     "hex": 1106,
     "display": "1106",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2668,7 +2402,6 @@ const HEX_DATA = [
     "hex": 1107,
     "display": "1107",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2678,7 +2411,6 @@ const HEX_DATA = [
     "hex": 1108,
     "display": "1108",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2688,7 +2420,6 @@ const HEX_DATA = [
     "hex": 1109,
     "display": "1109",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2698,7 +2429,6 @@ const HEX_DATA = [
     "hex": 1110,
     "display": "1110",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2708,7 +2438,6 @@ const HEX_DATA = [
     "hex": 1111,
     "display": "1111",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2718,7 +2447,6 @@ const HEX_DATA = [
     "hex": 1112,
     "display": "1112",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2728,7 +2456,6 @@ const HEX_DATA = [
     "hex": 1113,
     "display": "1113",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2738,7 +2465,6 @@ const HEX_DATA = [
     "hex": 1114,
     "display": "1114",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": ""
   },
   {
@@ -2748,7 +2474,6 @@ const HEX_DATA = [
     "hex": 1115,
     "display": "1115",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": ""
   },
   {
@@ -2758,7 +2483,6 @@ const HEX_DATA = [
     "hex": 1116,
     "display": "1116",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": ""
   },
   {
@@ -2768,7 +2492,6 @@ const HEX_DATA = [
     "hex": 1117,
     "display": "1117",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2778,7 +2501,6 @@ const HEX_DATA = [
     "hex": 1118,
     "display": "1118",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2788,7 +2510,6 @@ const HEX_DATA = [
     "hex": 1119,
     "display": "1119",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2798,7 +2519,6 @@ const HEX_DATA = [
     "hex": 1120,
     "display": "1120",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2808,7 +2528,6 @@ const HEX_DATA = [
     "hex": 1121,
     "display": "1121",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2818,7 +2537,6 @@ const HEX_DATA = [
     "hex": 1122,
     "display": "1122",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2828,7 +2546,6 @@ const HEX_DATA = [
     "hex": 1123,
     "display": "1123",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2838,7 +2555,6 @@ const HEX_DATA = [
     "hex": 1124,
     "display": "1124",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2848,7 +2564,6 @@ const HEX_DATA = [
     "hex": 1125,
     "display": "1125",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2858,7 +2573,6 @@ const HEX_DATA = [
     "hex": 1126,
     "display": "1126",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2868,7 +2582,6 @@ const HEX_DATA = [
     "hex": 1201,
     "display": "1201",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2878,7 +2591,6 @@ const HEX_DATA = [
     "hex": 1202,
     "display": "1202",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2888,7 +2600,6 @@ const HEX_DATA = [
     "hex": 1203,
     "display": "1203",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2898,7 +2609,6 @@ const HEX_DATA = [
     "hex": 1204,
     "display": "1204",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2908,7 +2618,6 @@ const HEX_DATA = [
     "hex": 1205,
     "display": "1205",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2918,7 +2627,6 @@ const HEX_DATA = [
     "hex": 1206,
     "display": "1206",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2928,7 +2636,6 @@ const HEX_DATA = [
     "hex": 1207,
     "display": "1207",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2938,7 +2645,6 @@ const HEX_DATA = [
     "hex": 1208,
     "display": "1208",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2948,7 +2654,6 @@ const HEX_DATA = [
     "hex": 1209,
     "display": "1209",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2958,7 +2663,6 @@ const HEX_DATA = [
     "hex": 1210,
     "display": "1210",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2968,7 +2672,6 @@ const HEX_DATA = [
     "hex": 1211,
     "display": "1211",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2978,7 +2681,6 @@ const HEX_DATA = [
     "hex": 1212,
     "display": "1212",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2988,7 +2690,6 @@ const HEX_DATA = [
     "hex": 1213,
     "display": "1213",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -2998,7 +2699,6 @@ const HEX_DATA = [
     "hex": 1214,
     "display": "1214",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3008,7 +2708,6 @@ const HEX_DATA = [
     "hex": 1215,
     "display": "1215",
     "location": "West",
-    "faction": "Prismatic Troupe",
     "name": ""
   },
   {
@@ -3018,7 +2717,6 @@ const HEX_DATA = [
     "hex": 1216,
     "display": "1216",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3028,7 +2726,6 @@ const HEX_DATA = [
     "hex": 1217,
     "display": "1217",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3038,7 +2735,6 @@ const HEX_DATA = [
     "hex": 1218,
     "display": "1218",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3048,7 +2744,6 @@ const HEX_DATA = [
     "hex": 1219,
     "display": "1219",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3058,7 +2753,6 @@ const HEX_DATA = [
     "hex": 1220,
     "display": "1220",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3068,7 +2762,6 @@ const HEX_DATA = [
     "hex": 1221,
     "display": "1221",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3078,7 +2771,6 @@ const HEX_DATA = [
     "hex": 1222,
     "display": "1222",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3088,7 +2780,6 @@ const HEX_DATA = [
     "hex": 1223,
     "display": "1223",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3098,7 +2789,6 @@ const HEX_DATA = [
     "hex": 1224,
     "display": "1224",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3108,7 +2798,6 @@ const HEX_DATA = [
     "hex": 1225,
     "display": "1225",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3118,7 +2807,6 @@ const HEX_DATA = [
     "hex": 1226,
     "display": "1226",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3128,7 +2816,6 @@ const HEX_DATA = [
     "hex": 1301,
     "display": "1301",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3138,7 +2825,6 @@ const HEX_DATA = [
     "hex": 1302,
     "display": "1302",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3148,7 +2834,6 @@ const HEX_DATA = [
     "hex": 1303,
     "display": "1303",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3158,7 +2843,6 @@ const HEX_DATA = [
     "hex": 1304,
     "display": "1304",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3168,7 +2852,6 @@ const HEX_DATA = [
     "hex": 1305,
     "display": "1305",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3178,7 +2861,6 @@ const HEX_DATA = [
     "hex": 1306,
     "display": "1306",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3188,7 +2870,6 @@ const HEX_DATA = [
     "hex": 1307,
     "display": "1307",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3198,7 +2879,6 @@ const HEX_DATA = [
     "hex": 1308,
     "display": "1308",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3208,7 +2888,6 @@ const HEX_DATA = [
     "hex": 1309,
     "display": "1309",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3218,7 +2897,6 @@ const HEX_DATA = [
     "hex": 1310,
     "display": "1310",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3228,7 +2906,6 @@ const HEX_DATA = [
     "hex": 1311,
     "display": "1311",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3238,7 +2915,6 @@ const HEX_DATA = [
     "hex": 1312,
     "display": "1312",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3248,7 +2924,6 @@ const HEX_DATA = [
     "hex": 1313,
     "display": "1313",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3258,7 +2933,6 @@ const HEX_DATA = [
     "hex": 1314,
     "display": "1314",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3268,7 +2942,6 @@ const HEX_DATA = [
     "hex": 1315,
     "display": "1315",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3278,7 +2951,6 @@ const HEX_DATA = [
     "hex": 1316,
     "display": "1316",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3288,7 +2960,6 @@ const HEX_DATA = [
     "hex": 1317,
     "display": "1317",
     "location": "West",
-    "faction": "White Ravens",
     "name": "Decemvirate"
   },
   {
@@ -3298,7 +2969,6 @@ const HEX_DATA = [
     "hex": 1318,
     "display": "1318",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3308,7 +2978,6 @@ const HEX_DATA = [
     "hex": 1319,
     "display": "1319",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3318,7 +2987,6 @@ const HEX_DATA = [
     "hex": 1320,
     "display": "1320",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3328,7 +2996,6 @@ const HEX_DATA = [
     "hex": 1321,
     "display": "1321",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3338,7 +3005,6 @@ const HEX_DATA = [
     "hex": 1322,
     "display": "1322",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3348,7 +3014,6 @@ const HEX_DATA = [
     "hex": 1323,
     "display": "1323",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3358,7 +3023,6 @@ const HEX_DATA = [
     "hex": 1324,
     "display": "1324",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3368,7 +3032,6 @@ const HEX_DATA = [
     "hex": 1325,
     "display": "1325",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3378,7 +3041,6 @@ const HEX_DATA = [
     "hex": 1326,
     "display": "1326",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3388,7 +3050,6 @@ const HEX_DATA = [
     "hex": 1401,
     "display": "1401",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3398,7 +3059,6 @@ const HEX_DATA = [
     "hex": 1402,
     "display": "1402",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3408,7 +3068,6 @@ const HEX_DATA = [
     "hex": 1403,
     "display": "1403",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3418,7 +3077,6 @@ const HEX_DATA = [
     "hex": 1404,
     "display": "1404",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3428,7 +3086,6 @@ const HEX_DATA = [
     "hex": 1405,
     "display": "1405",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3438,7 +3095,6 @@ const HEX_DATA = [
     "hex": 1406,
     "display": "1406",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3448,7 +3104,6 @@ const HEX_DATA = [
     "hex": 1407,
     "display": "1407",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3458,7 +3113,6 @@ const HEX_DATA = [
     "hex": 1408,
     "display": "1408",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3468,7 +3122,6 @@ const HEX_DATA = [
     "hex": 1409,
     "display": "1409",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3478,7 +3131,6 @@ const HEX_DATA = [
     "hex": 1410,
     "display": "1410",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3488,7 +3140,6 @@ const HEX_DATA = [
     "hex": 1411,
     "display": "1411",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3498,7 +3149,6 @@ const HEX_DATA = [
     "hex": 1412,
     "display": "1412",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3508,7 +3158,6 @@ const HEX_DATA = [
     "hex": 1413,
     "display": "1413",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3518,7 +3167,6 @@ const HEX_DATA = [
     "hex": 1414,
     "display": "1414",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3528,7 +3176,6 @@ const HEX_DATA = [
     "hex": 1415,
     "display": "1415",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3538,7 +3185,6 @@ const HEX_DATA = [
     "hex": 1416,
     "display": "1416",
     "location": "West",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -3548,7 +3194,6 @@ const HEX_DATA = [
     "hex": 1417,
     "display": "1417",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3558,7 +3203,6 @@ const HEX_DATA = [
     "hex": 1418,
     "display": "1418",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3568,7 +3212,6 @@ const HEX_DATA = [
     "hex": 1419,
     "display": "1419",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3578,7 +3221,6 @@ const HEX_DATA = [
     "hex": 1420,
     "display": "1420",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3588,7 +3230,6 @@ const HEX_DATA = [
     "hex": 1421,
     "display": "1421",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3598,7 +3239,6 @@ const HEX_DATA = [
     "hex": 1422,
     "display": "1422",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3608,7 +3248,6 @@ const HEX_DATA = [
     "hex": 1423,
     "display": "1423",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3618,7 +3257,6 @@ const HEX_DATA = [
     "hex": 1424,
     "display": "1424",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3628,7 +3266,6 @@ const HEX_DATA = [
     "hex": 1425,
     "display": "1425",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3638,7 +3275,6 @@ const HEX_DATA = [
     "hex": 1426,
     "display": "1426",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3648,7 +3284,6 @@ const HEX_DATA = [
     "hex": 1501,
     "display": "1501",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3658,7 +3293,6 @@ const HEX_DATA = [
     "hex": 1502,
     "display": "1502",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3668,7 +3302,6 @@ const HEX_DATA = [
     "hex": 1503,
     "display": "1503",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3678,7 +3311,6 @@ const HEX_DATA = [
     "hex": 1504,
     "display": "1504",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3688,7 +3320,6 @@ const HEX_DATA = [
     "hex": 1505,
     "display": "1505",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3698,7 +3329,6 @@ const HEX_DATA = [
     "hex": 1506,
     "display": "1506",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3708,7 +3338,6 @@ const HEX_DATA = [
     "hex": 1507,
     "display": "1507",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3718,7 +3347,6 @@ const HEX_DATA = [
     "hex": 1508,
     "display": "1508",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3728,7 +3356,6 @@ const HEX_DATA = [
     "hex": 1509,
     "display": "1509",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3738,7 +3365,6 @@ const HEX_DATA = [
     "hex": 1510,
     "display": "1510",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3748,7 +3374,6 @@ const HEX_DATA = [
     "hex": 1511,
     "display": "1511",
     "location": "West",
-    "faction": "Orc Lands",
     "name": "Three Peaks"
   },
   {
@@ -3758,7 +3383,6 @@ const HEX_DATA = [
     "hex": 1512,
     "display": "1512",
     "location": "West",
-    "faction": "Orc Lands",
     "name": "Three Peaks"
   },
   {
@@ -3768,7 +3392,6 @@ const HEX_DATA = [
     "hex": 1513,
     "display": "1513",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3778,7 +3401,6 @@ const HEX_DATA = [
     "hex": 1514,
     "display": "1514",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3788,7 +3410,6 @@ const HEX_DATA = [
     "hex": 1515,
     "display": "1515",
     "location": "West",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -3798,7 +3419,6 @@ const HEX_DATA = [
     "hex": 1516,
     "display": "1516",
     "location": "West",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -3808,7 +3428,6 @@ const HEX_DATA = [
     "hex": 1517,
     "display": "1517",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3818,7 +3437,6 @@ const HEX_DATA = [
     "hex": 1518,
     "display": "1518",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3828,7 +3446,6 @@ const HEX_DATA = [
     "hex": 1519,
     "display": "1519",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3838,7 +3455,6 @@ const HEX_DATA = [
     "hex": 1520,
     "display": "1520",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3848,7 +3464,6 @@ const HEX_DATA = [
     "hex": 1521,
     "display": "1521",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3858,7 +3473,6 @@ const HEX_DATA = [
     "hex": 1522,
     "display": "1522",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3868,7 +3482,6 @@ const HEX_DATA = [
     "hex": 1523,
     "display": "1523",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3878,7 +3491,6 @@ const HEX_DATA = [
     "hex": 1524,
     "display": "1524",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3888,7 +3500,6 @@ const HEX_DATA = [
     "hex": 1525,
     "display": "1525",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3898,7 +3509,6 @@ const HEX_DATA = [
     "hex": 1526,
     "display": "1526",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3908,7 +3518,6 @@ const HEX_DATA = [
     "hex": 1601,
     "display": "1601",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3918,7 +3527,6 @@ const HEX_DATA = [
     "hex": 1602,
     "display": "1602",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3928,7 +3536,6 @@ const HEX_DATA = [
     "hex": 1603,
     "display": "1603",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3938,7 +3545,6 @@ const HEX_DATA = [
     "hex": 1604,
     "display": "1604",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3948,7 +3554,6 @@ const HEX_DATA = [
     "hex": 1605,
     "display": "1605",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3958,7 +3563,6 @@ const HEX_DATA = [
     "hex": 1606,
     "display": "1606",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3968,7 +3572,6 @@ const HEX_DATA = [
     "hex": 1607,
     "display": "1607",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3978,7 +3581,6 @@ const HEX_DATA = [
     "hex": 1608,
     "display": "1608",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3988,7 +3590,6 @@ const HEX_DATA = [
     "hex": 1609,
     "display": "1609",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -3998,7 +3599,6 @@ const HEX_DATA = [
     "hex": 1610,
     "display": "1610",
     "location": "West",
-    "faction": "Orc Lands",
     "name": "Three Peaks"
   },
   {
@@ -4008,7 +3608,6 @@ const HEX_DATA = [
     "hex": 1611,
     "display": "1611",
     "location": "West",
-    "faction": "Orc Lands",
     "name": "Three Peaks"
   },
   {
@@ -4018,7 +3617,6 @@ const HEX_DATA = [
     "hex": 1612,
     "display": "1612",
     "location": "West",
-    "faction": "Orc Lands",
     "name": "Three Peaks"
   },
   {
@@ -4028,7 +3626,6 @@ const HEX_DATA = [
     "hex": 1613,
     "display": "1613",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4038,7 +3635,6 @@ const HEX_DATA = [
     "hex": 1614,
     "display": "1614",
     "location": "West",
-    "faction": "White Ravens",
     "name": "Kerlauger"
   },
   {
@@ -4048,7 +3644,6 @@ const HEX_DATA = [
     "hex": 1615,
     "display": "1615",
     "location": "West",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -4058,7 +3653,6 @@ const HEX_DATA = [
     "hex": 1616,
     "display": "1616",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4068,7 +3662,6 @@ const HEX_DATA = [
     "hex": 1617,
     "display": "1617",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4078,7 +3671,6 @@ const HEX_DATA = [
     "hex": 1618,
     "display": "1618",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4088,7 +3680,6 @@ const HEX_DATA = [
     "hex": 1619,
     "display": "1619",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4098,7 +3689,6 @@ const HEX_DATA = [
     "hex": 1620,
     "display": "1620",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4108,7 +3698,6 @@ const HEX_DATA = [
     "hex": 1621,
     "display": "1621",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4118,7 +3707,6 @@ const HEX_DATA = [
     "hex": 1622,
     "display": "1622",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4128,7 +3716,6 @@ const HEX_DATA = [
     "hex": 1623,
     "display": "1623",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4138,7 +3725,6 @@ const HEX_DATA = [
     "hex": 1624,
     "display": "1624",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4148,7 +3734,6 @@ const HEX_DATA = [
     "hex": 1625,
     "display": "1625",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4158,7 +3743,6 @@ const HEX_DATA = [
     "hex": 1626,
     "display": "1626",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4168,7 +3752,6 @@ const HEX_DATA = [
     "hex": 1701,
     "display": "1701",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4178,7 +3761,6 @@ const HEX_DATA = [
     "hex": 1702,
     "display": "1702",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4188,7 +3770,6 @@ const HEX_DATA = [
     "hex": 1703,
     "display": "1703",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4198,7 +3779,6 @@ const HEX_DATA = [
     "hex": 1704,
     "display": "1704",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4208,7 +3788,6 @@ const HEX_DATA = [
     "hex": 1705,
     "display": "1705",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4218,7 +3797,6 @@ const HEX_DATA = [
     "hex": 1706,
     "display": "1706",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4228,7 +3806,6 @@ const HEX_DATA = [
     "hex": 1707,
     "display": "1707",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4238,7 +3815,6 @@ const HEX_DATA = [
     "hex": 1708,
     "display": "1708",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4248,7 +3824,6 @@ const HEX_DATA = [
     "hex": 1709,
     "display": "1709",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4258,7 +3833,6 @@ const HEX_DATA = [
     "hex": 1710,
     "display": "1710",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4268,7 +3842,6 @@ const HEX_DATA = [
     "hex": 1711,
     "display": "1711",
     "location": "West",
-    "faction": "Orc Lands",
     "name": "Three Peaks"
   },
   {
@@ -4278,7 +3851,6 @@ const HEX_DATA = [
     "hex": 1712,
     "display": "1712",
     "location": "West",
-    "faction": "Orc Lands",
     "name": "Three Peaks"
   },
   {
@@ -4288,7 +3860,6 @@ const HEX_DATA = [
     "hex": 1713,
     "display": "1713",
     "location": "West",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -4298,7 +3869,6 @@ const HEX_DATA = [
     "hex": 1714,
     "display": "1714",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4308,7 +3878,6 @@ const HEX_DATA = [
     "hex": 1715,
     "display": "1715",
     "location": "West",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -4318,7 +3887,6 @@ const HEX_DATA = [
     "hex": 1716,
     "display": "1716",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4328,7 +3896,6 @@ const HEX_DATA = [
     "hex": 1717,
     "display": "1717",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4338,7 +3905,6 @@ const HEX_DATA = [
     "hex": 1718,
     "display": "1718",
     "location": "West",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -4348,7 +3914,6 @@ const HEX_DATA = [
     "hex": 1719,
     "display": "1719",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4358,7 +3923,6 @@ const HEX_DATA = [
     "hex": 1720,
     "display": "1720",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4368,7 +3932,6 @@ const HEX_DATA = [
     "hex": 1721,
     "display": "1721",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4378,7 +3941,6 @@ const HEX_DATA = [
     "hex": 1722,
     "display": "1722",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4388,7 +3950,6 @@ const HEX_DATA = [
     "hex": 1723,
     "display": "1723",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4398,7 +3959,6 @@ const HEX_DATA = [
     "hex": 1724,
     "display": "1724",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4408,7 +3968,6 @@ const HEX_DATA = [
     "hex": 1725,
     "display": "1725",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4418,7 +3977,6 @@ const HEX_DATA = [
     "hex": 1726,
     "display": "1726",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4428,7 +3986,6 @@ const HEX_DATA = [
     "hex": 1801,
     "display": "1801",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4438,7 +3995,6 @@ const HEX_DATA = [
     "hex": 1802,
     "display": "1802",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4448,7 +4004,6 @@ const HEX_DATA = [
     "hex": 1803,
     "display": "1803",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4458,7 +4013,6 @@ const HEX_DATA = [
     "hex": 1804,
     "display": "1804",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4468,7 +4022,6 @@ const HEX_DATA = [
     "hex": 1805,
     "display": "1805",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4478,7 +4031,6 @@ const HEX_DATA = [
     "hex": 1806,
     "display": "1806",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4488,7 +4040,6 @@ const HEX_DATA = [
     "hex": 1807,
     "display": "1807",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4498,7 +4049,6 @@ const HEX_DATA = [
     "hex": 1808,
     "display": "1808",
     "location": "West",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -4508,7 +4058,6 @@ const HEX_DATA = [
     "hex": 1809,
     "display": "1809",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4518,7 +4067,6 @@ const HEX_DATA = [
     "hex": 1810,
     "display": "1810",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4528,7 +4076,6 @@ const HEX_DATA = [
     "hex": 1811,
     "display": "1811",
     "location": "West",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -4538,7 +4085,6 @@ const HEX_DATA = [
     "hex": 1812,
     "display": "1812",
     "location": "West",
-    "faction": "Irregulars",
     "name": ""
   },
   {
@@ -4548,7 +4094,6 @@ const HEX_DATA = [
     "hex": 1813,
     "display": "1813",
     "location": "West",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -4558,7 +4103,6 @@ const HEX_DATA = [
     "hex": 1814,
     "display": "1814",
     "location": "West",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -4568,7 +4112,6 @@ const HEX_DATA = [
     "hex": 1815,
     "display": "1815",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4578,7 +4121,6 @@ const HEX_DATA = [
     "hex": 1816,
     "display": "1816",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4588,7 +4130,6 @@ const HEX_DATA = [
     "hex": 1817,
     "display": "1817",
     "location": "West",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -4598,7 +4139,6 @@ const HEX_DATA = [
     "hex": 1818,
     "display": "1818",
     "location": "West",
-    "faction": "White Ravens",
     "name": "Greywatch"
   },
   {
@@ -4608,7 +4148,6 @@ const HEX_DATA = [
     "hex": 1819,
     "display": "1819",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4618,7 +4157,6 @@ const HEX_DATA = [
     "hex": 1820,
     "display": "1820",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4628,7 +4166,6 @@ const HEX_DATA = [
     "hex": 1821,
     "display": "1821",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4638,7 +4175,6 @@ const HEX_DATA = [
     "hex": 1822,
     "display": "1822",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4648,7 +4184,6 @@ const HEX_DATA = [
     "hex": 1823,
     "display": "1823",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4658,7 +4193,6 @@ const HEX_DATA = [
     "hex": 1824,
     "display": "1824",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4668,7 +4202,6 @@ const HEX_DATA = [
     "hex": 1825,
     "display": "1825",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4678,7 +4211,6 @@ const HEX_DATA = [
     "hex": 1826,
     "display": "1826",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4688,7 +4220,6 @@ const HEX_DATA = [
     "hex": 1901,
     "display": "1901",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4698,7 +4229,6 @@ const HEX_DATA = [
     "hex": 1902,
     "display": "1902",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4708,7 +4238,6 @@ const HEX_DATA = [
     "hex": 1903,
     "display": "1903",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4718,7 +4247,6 @@ const HEX_DATA = [
     "hex": 1904,
     "display": "1904",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4728,7 +4256,6 @@ const HEX_DATA = [
     "hex": 1905,
     "display": "1905",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4738,7 +4265,6 @@ const HEX_DATA = [
     "hex": 1906,
     "display": "1906",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4748,7 +4274,6 @@ const HEX_DATA = [
     "hex": 1907,
     "display": "1907",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4758,7 +4283,6 @@ const HEX_DATA = [
     "hex": 1908,
     "display": "1908",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4768,7 +4292,6 @@ const HEX_DATA = [
     "hex": 1909,
     "display": "1909",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4778,7 +4301,6 @@ const HEX_DATA = [
     "hex": 1910,
     "display": "1910",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4788,7 +4310,6 @@ const HEX_DATA = [
     "hex": 1911,
     "display": "1911",
     "location": "West",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -4798,7 +4319,6 @@ const HEX_DATA = [
     "hex": 1912,
     "display": "1912",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4808,7 +4328,6 @@ const HEX_DATA = [
     "hex": 1913,
     "display": "1913",
     "location": "West",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -4818,7 +4337,6 @@ const HEX_DATA = [
     "hex": 1914,
     "display": "1914",
     "location": "West",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -4828,7 +4346,6 @@ const HEX_DATA = [
     "hex": 1915,
     "display": "1915",
     "location": "West",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -4838,7 +4355,6 @@ const HEX_DATA = [
     "hex": 1916,
     "display": "1916",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4848,7 +4364,6 @@ const HEX_DATA = [
     "hex": 1917,
     "display": "1917",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4858,7 +4373,6 @@ const HEX_DATA = [
     "hex": 1918,
     "display": "1918",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4868,7 +4382,6 @@ const HEX_DATA = [
     "hex": 1919,
     "display": "1919",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4878,7 +4391,6 @@ const HEX_DATA = [
     "hex": 1920,
     "display": "1920",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4888,7 +4400,6 @@ const HEX_DATA = [
     "hex": 1921,
     "display": "1921",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4898,7 +4409,6 @@ const HEX_DATA = [
     "hex": 1922,
     "display": "1922",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4908,7 +4418,6 @@ const HEX_DATA = [
     "hex": 1923,
     "display": "1923",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4918,7 +4427,6 @@ const HEX_DATA = [
     "hex": 1924,
     "display": "1924",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4928,7 +4436,6 @@ const HEX_DATA = [
     "hex": 1925,
     "display": "1925",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4938,7 +4445,6 @@ const HEX_DATA = [
     "hex": 1926,
     "display": "1926",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4948,7 +4454,6 @@ const HEX_DATA = [
     "hex": 2001,
     "display": "2001",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4958,7 +4463,6 @@ const HEX_DATA = [
     "hex": 2002,
     "display": "2002",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4968,7 +4472,6 @@ const HEX_DATA = [
     "hex": 2003,
     "display": "2003",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4978,7 +4481,6 @@ const HEX_DATA = [
     "hex": 2004,
     "display": "2004",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4988,7 +4490,6 @@ const HEX_DATA = [
     "hex": 2005,
     "display": "2005",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -4998,7 +4499,6 @@ const HEX_DATA = [
     "hex": 2006,
     "display": "2006",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5008,7 +4508,6 @@ const HEX_DATA = [
     "hex": 2007,
     "display": "2007",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5018,7 +4517,6 @@ const HEX_DATA = [
     "hex": 2008,
     "display": "2008",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5028,7 +4526,6 @@ const HEX_DATA = [
     "hex": 2009,
     "display": "2009",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5038,7 +4535,6 @@ const HEX_DATA = [
     "hex": 2010,
     "display": "2010",
     "location": "West",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -5048,7 +4544,6 @@ const HEX_DATA = [
     "hex": 2011,
     "display": "2011",
     "location": "West",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -5058,7 +4553,6 @@ const HEX_DATA = [
     "hex": 2012,
     "display": "2012",
     "location": "West",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -5068,7 +4562,6 @@ const HEX_DATA = [
     "hex": 2013,
     "display": "2013",
     "location": "West",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -5078,7 +4571,6 @@ const HEX_DATA = [
     "hex": 2014,
     "display": "2014",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5088,7 +4580,6 @@ const HEX_DATA = [
     "hex": 2015,
     "display": "2015",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5098,7 +4589,6 @@ const HEX_DATA = [
     "hex": 2016,
     "display": "2016",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5108,7 +4598,6 @@ const HEX_DATA = [
     "hex": 2017,
     "display": "2017",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5118,7 +4607,6 @@ const HEX_DATA = [
     "hex": 2018,
     "display": "2018",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5128,7 +4616,6 @@ const HEX_DATA = [
     "hex": 2019,
     "display": "2019",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5138,7 +4625,6 @@ const HEX_DATA = [
     "hex": 2020,
     "display": "2020",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5148,7 +4634,6 @@ const HEX_DATA = [
     "hex": 2021,
     "display": "2021",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5158,7 +4643,6 @@ const HEX_DATA = [
     "hex": 2022,
     "display": "2022",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5168,7 +4652,6 @@ const HEX_DATA = [
     "hex": 2023,
     "display": "2023",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5178,7 +4661,6 @@ const HEX_DATA = [
     "hex": 2024,
     "display": "2024",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5188,7 +4670,6 @@ const HEX_DATA = [
     "hex": 2025,
     "display": "2025",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5198,7 +4679,6 @@ const HEX_DATA = [
     "hex": 2026,
     "display": "2026",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5208,7 +4688,6 @@ const HEX_DATA = [
     "hex": 2101,
     "display": "2101",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5218,7 +4697,6 @@ const HEX_DATA = [
     "hex": 2102,
     "display": "2102",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5228,7 +4706,6 @@ const HEX_DATA = [
     "hex": 2103,
     "display": "2103",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5238,7 +4715,6 @@ const HEX_DATA = [
     "hex": 2104,
     "display": "2104",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5248,7 +4724,6 @@ const HEX_DATA = [
     "hex": 2105,
     "display": "2105",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5258,7 +4733,6 @@ const HEX_DATA = [
     "hex": 2106,
     "display": "2106",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5268,7 +4742,6 @@ const HEX_DATA = [
     "hex": 2107,
     "display": "2107",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5278,7 +4751,6 @@ const HEX_DATA = [
     "hex": 2108,
     "display": "2108",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5288,7 +4760,6 @@ const HEX_DATA = [
     "hex": 2109,
     "display": "2109",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5298,7 +4769,6 @@ const HEX_DATA = [
     "hex": 2110,
     "display": "2110",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5308,7 +4778,6 @@ const HEX_DATA = [
     "hex": 2111,
     "display": "2111",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5318,7 +4787,6 @@ const HEX_DATA = [
     "hex": 2112,
     "display": "2112",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5328,7 +4796,6 @@ const HEX_DATA = [
     "hex": 2113,
     "display": "2113",
     "location": "West",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -5338,7 +4805,6 @@ const HEX_DATA = [
     "hex": 2114,
     "display": "2114",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5348,7 +4814,6 @@ const HEX_DATA = [
     "hex": 2115,
     "display": "2115",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5358,7 +4823,6 @@ const HEX_DATA = [
     "hex": 2116,
     "display": "2116",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5368,7 +4832,6 @@ const HEX_DATA = [
     "hex": 2117,
     "display": "2117",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5378,7 +4841,6 @@ const HEX_DATA = [
     "hex": 2118,
     "display": "2118",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5388,7 +4850,6 @@ const HEX_DATA = [
     "hex": 2119,
     "display": "2119",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5398,7 +4859,6 @@ const HEX_DATA = [
     "hex": 2120,
     "display": "2120",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5408,7 +4868,6 @@ const HEX_DATA = [
     "hex": 2121,
     "display": "2121",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5418,7 +4877,6 @@ const HEX_DATA = [
     "hex": 2122,
     "display": "2122",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5428,7 +4886,6 @@ const HEX_DATA = [
     "hex": 2123,
     "display": "2123",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5438,7 +4895,6 @@ const HEX_DATA = [
     "hex": 2124,
     "display": "2124",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5448,7 +4904,6 @@ const HEX_DATA = [
     "hex": 2125,
     "display": "2125",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5458,7 +4913,6 @@ const HEX_DATA = [
     "hex": 2126,
     "display": "2126",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5468,7 +4922,6 @@ const HEX_DATA = [
     "hex": 2201,
     "display": "2201",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5478,7 +4931,6 @@ const HEX_DATA = [
     "hex": 2202,
     "display": "2202",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5488,7 +4940,6 @@ const HEX_DATA = [
     "hex": 2203,
     "display": "2203",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5498,7 +4949,6 @@ const HEX_DATA = [
     "hex": 2204,
     "display": "2204",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5508,7 +4958,6 @@ const HEX_DATA = [
     "hex": 2205,
     "display": "2205",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5518,7 +4967,6 @@ const HEX_DATA = [
     "hex": 2206,
     "display": "2206",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5528,7 +4976,6 @@ const HEX_DATA = [
     "hex": 2207,
     "display": "2207",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5538,7 +4985,6 @@ const HEX_DATA = [
     "hex": 2208,
     "display": "2208",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5548,7 +4994,6 @@ const HEX_DATA = [
     "hex": 2209,
     "display": "2209",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5558,7 +5003,6 @@ const HEX_DATA = [
     "hex": 2210,
     "display": "2210",
     "location": "West",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -5568,7 +5012,6 @@ const HEX_DATA = [
     "hex": 2211,
     "display": "2211",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5578,7 +5021,6 @@ const HEX_DATA = [
     "hex": 2212,
     "display": "2212",
     "location": "West",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -5588,7 +5030,6 @@ const HEX_DATA = [
     "hex": 2213,
     "display": "2213",
     "location": "West",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -5598,7 +5039,6 @@ const HEX_DATA = [
     "hex": 2214,
     "display": "2214",
     "location": "West",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -5608,7 +5048,6 @@ const HEX_DATA = [
     "hex": 2215,
     "display": "2215",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5618,7 +5057,6 @@ const HEX_DATA = [
     "hex": 2216,
     "display": "2216",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5628,7 +5066,6 @@ const HEX_DATA = [
     "hex": 2217,
     "display": "2217",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5638,7 +5075,6 @@ const HEX_DATA = [
     "hex": 2218,
     "display": "2218",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5648,7 +5084,6 @@ const HEX_DATA = [
     "hex": 2219,
     "display": "2219",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5658,7 +5093,6 @@ const HEX_DATA = [
     "hex": 2220,
     "display": "2220",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5668,7 +5102,6 @@ const HEX_DATA = [
     "hex": 2221,
     "display": "2221",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5678,7 +5111,6 @@ const HEX_DATA = [
     "hex": 2222,
     "display": "2222",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5688,7 +5120,6 @@ const HEX_DATA = [
     "hex": 2223,
     "display": "2223",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5698,7 +5129,6 @@ const HEX_DATA = [
     "hex": 2224,
     "display": "2224",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5708,7 +5138,6 @@ const HEX_DATA = [
     "hex": 2225,
     "display": "2225",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5718,7 +5147,6 @@ const HEX_DATA = [
     "hex": 2226,
     "display": "2226",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5728,7 +5156,6 @@ const HEX_DATA = [
     "hex": 2301,
     "display": "2301",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5738,7 +5165,6 @@ const HEX_DATA = [
     "hex": 2302,
     "display": "2302",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5748,7 +5174,6 @@ const HEX_DATA = [
     "hex": 2303,
     "display": "2303",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5758,7 +5183,6 @@ const HEX_DATA = [
     "hex": 2304,
     "display": "2304",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5768,7 +5192,6 @@ const HEX_DATA = [
     "hex": 2305,
     "display": "2305",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5778,7 +5201,6 @@ const HEX_DATA = [
     "hex": 2306,
     "display": "2306",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5788,7 +5210,6 @@ const HEX_DATA = [
     "hex": 2307,
     "display": "2307",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5798,7 +5219,6 @@ const HEX_DATA = [
     "hex": 2308,
     "display": "2308",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5808,7 +5228,6 @@ const HEX_DATA = [
     "hex": 2309,
     "display": "2309",
     "location": "West",
-    "faction": "Silver Branches",
     "name": ""
   },
   {
@@ -5818,7 +5237,6 @@ const HEX_DATA = [
     "hex": 2310,
     "display": "2310",
     "location": "West",
-    "faction": "Silver Branches",
     "name": ""
   },
   {
@@ -5828,7 +5246,6 @@ const HEX_DATA = [
     "hex": 2311,
     "display": "2311",
     "location": "West",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -5838,7 +5255,6 @@ const HEX_DATA = [
     "hex": 2312,
     "display": "2312",
     "location": "West",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -5848,7 +5264,6 @@ const HEX_DATA = [
     "hex": 2313,
     "display": "2313",
     "location": "West",
-    "faction": "Vidarians",
     "name": "Shakhet"
   },
   {
@@ -5858,7 +5273,6 @@ const HEX_DATA = [
     "hex": 2314,
     "display": "2314",
     "location": "West",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -5868,7 +5282,6 @@ const HEX_DATA = [
     "hex": 2315,
     "display": "2315",
     "location": "West",
-    "faction": "Vidarians",
     "name": "Khokhbatuul"
   },
   {
@@ -5878,7 +5291,6 @@ const HEX_DATA = [
     "hex": 2316,
     "display": "2316",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5888,7 +5300,6 @@ const HEX_DATA = [
     "hex": 2317,
     "display": "2317",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5898,7 +5309,6 @@ const HEX_DATA = [
     "hex": 2318,
     "display": "2318",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5908,7 +5318,6 @@ const HEX_DATA = [
     "hex": 2319,
     "display": "2319",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5918,7 +5327,6 @@ const HEX_DATA = [
     "hex": 2320,
     "display": "2320",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5928,7 +5336,6 @@ const HEX_DATA = [
     "hex": 2321,
     "display": "2321",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5938,7 +5345,6 @@ const HEX_DATA = [
     "hex": 2322,
     "display": "2322",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5948,7 +5354,6 @@ const HEX_DATA = [
     "hex": 2323,
     "display": "2323",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5958,7 +5363,6 @@ const HEX_DATA = [
     "hex": 2324,
     "display": "2324",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5968,7 +5372,6 @@ const HEX_DATA = [
     "hex": 2325,
     "display": "2325",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5978,7 +5381,6 @@ const HEX_DATA = [
     "hex": 2326,
     "display": "2326",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5988,7 +5390,6 @@ const HEX_DATA = [
     "hex": 2401,
     "display": "2401",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -5998,7 +5399,6 @@ const HEX_DATA = [
     "hex": 2402,
     "display": "2402",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6008,7 +5408,6 @@ const HEX_DATA = [
     "hex": 2403,
     "display": "2403",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6018,7 +5417,6 @@ const HEX_DATA = [
     "hex": 2404,
     "display": "2404",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6028,7 +5426,6 @@ const HEX_DATA = [
     "hex": 2405,
     "display": "2405",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6038,7 +5435,6 @@ const HEX_DATA = [
     "hex": 2406,
     "display": "2406",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6048,7 +5444,6 @@ const HEX_DATA = [
     "hex": 2407,
     "display": "2407",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6058,7 +5453,6 @@ const HEX_DATA = [
     "hex": 2408,
     "display": "2408",
     "location": "West",
-    "faction": "Silver Branches",
     "name": ""
   },
   {
@@ -6068,7 +5462,6 @@ const HEX_DATA = [
     "hex": 2409,
     "display": "2409",
     "location": "West",
-    "faction": "Silver Branches",
     "name": ""
   },
   {
@@ -6078,7 +5471,6 @@ const HEX_DATA = [
     "hex": 2410,
     "display": "2410",
     "location": "West",
-    "faction": "Silver Branches",
     "name": "Crossroads"
   },
   {
@@ -6088,7 +5480,6 @@ const HEX_DATA = [
     "hex": 2411,
     "display": "2411",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6098,7 +5489,6 @@ const HEX_DATA = [
     "hex": 2412,
     "display": "2412",
     "location": "West",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -6108,7 +5498,6 @@ const HEX_DATA = [
     "hex": 2413,
     "display": "2413",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6118,7 +5507,6 @@ const HEX_DATA = [
     "hex": 2414,
     "display": "2414",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6128,7 +5516,6 @@ const HEX_DATA = [
     "hex": 2415,
     "display": "2415",
     "location": "West",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -6138,7 +5525,6 @@ const HEX_DATA = [
     "hex": 2416,
     "display": "2416",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6148,7 +5534,6 @@ const HEX_DATA = [
     "hex": 2417,
     "display": "2417",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6158,7 +5543,6 @@ const HEX_DATA = [
     "hex": 2418,
     "display": "2418",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6168,7 +5552,6 @@ const HEX_DATA = [
     "hex": 2419,
     "display": "2419",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6178,7 +5561,6 @@ const HEX_DATA = [
     "hex": 2420,
     "display": "2420",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6188,7 +5570,6 @@ const HEX_DATA = [
     "hex": 2421,
     "display": "2421",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6198,7 +5579,6 @@ const HEX_DATA = [
     "hex": 2422,
     "display": "2422",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6208,7 +5588,6 @@ const HEX_DATA = [
     "hex": 2423,
     "display": "2423",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6218,7 +5597,6 @@ const HEX_DATA = [
     "hex": 2424,
     "display": "2424",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6228,7 +5606,6 @@ const HEX_DATA = [
     "hex": 2425,
     "display": "2425",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6238,7 +5615,6 @@ const HEX_DATA = [
     "hex": 2426,
     "display": "2426",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6248,7 +5624,6 @@ const HEX_DATA = [
     "hex": 2501,
     "display": "2501",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6258,7 +5633,6 @@ const HEX_DATA = [
     "hex": 2502,
     "display": "2502",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6268,7 +5642,6 @@ const HEX_DATA = [
     "hex": 2503,
     "display": "2503",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6278,7 +5651,6 @@ const HEX_DATA = [
     "hex": 2504,
     "display": "2504",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6288,7 +5660,6 @@ const HEX_DATA = [
     "hex": 2505,
     "display": "2505",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6298,7 +5669,6 @@ const HEX_DATA = [
     "hex": 2506,
     "display": "2506",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6308,7 +5678,6 @@ const HEX_DATA = [
     "hex": 2507,
     "display": "2507",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6318,7 +5687,6 @@ const HEX_DATA = [
     "hex": 2508,
     "display": "2508",
     "location": "West",
-    "faction": "Silver Branches",
     "name": "Ceoch Abhainn"
   },
   {
@@ -6328,7 +5696,6 @@ const HEX_DATA = [
     "hex": 2509,
     "display": "2509",
     "location": "West",
-    "faction": "Silver Branches",
     "name": ""
   },
   {
@@ -6338,7 +5705,6 @@ const HEX_DATA = [
     "hex": 2510,
     "display": "2510",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6348,7 +5714,6 @@ const HEX_DATA = [
     "hex": 2511,
     "display": "2511",
     "location": "West",
-    "faction": "Silver Branches",
     "name": ""
   },
   {
@@ -6358,7 +5723,6 @@ const HEX_DATA = [
     "hex": 2512,
     "display": "2512",
     "location": "West",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -6368,7 +5732,6 @@ const HEX_DATA = [
     "hex": 2513,
     "display": "2513",
     "location": "West",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -6378,7 +5741,6 @@ const HEX_DATA = [
     "hex": 2514,
     "display": "2514",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6388,7 +5750,6 @@ const HEX_DATA = [
     "hex": 2515,
     "display": "2515",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6398,7 +5759,6 @@ const HEX_DATA = [
     "hex": 2516,
     "display": "2516",
     "location": "West",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -6408,7 +5768,6 @@ const HEX_DATA = [
     "hex": 2517,
     "display": "2517",
     "location": "West",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -6418,7 +5777,6 @@ const HEX_DATA = [
     "hex": 2518,
     "display": "2518",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6428,7 +5786,6 @@ const HEX_DATA = [
     "hex": 2519,
     "display": "2519",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6438,7 +5795,6 @@ const HEX_DATA = [
     "hex": 2520,
     "display": "2520",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6448,7 +5804,6 @@ const HEX_DATA = [
     "hex": 2521,
     "display": "2521",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6458,7 +5813,6 @@ const HEX_DATA = [
     "hex": 2522,
     "display": "2522",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6468,7 +5822,6 @@ const HEX_DATA = [
     "hex": 2523,
     "display": "2523",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6478,7 +5831,6 @@ const HEX_DATA = [
     "hex": 2524,
     "display": "2524",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6488,7 +5840,6 @@ const HEX_DATA = [
     "hex": 2525,
     "display": "2525",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6498,7 +5849,6 @@ const HEX_DATA = [
     "hex": 2526,
     "display": "2526",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6508,7 +5858,6 @@ const HEX_DATA = [
     "hex": 2601,
     "display": "2601",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6518,7 +5867,6 @@ const HEX_DATA = [
     "hex": 2602,
     "display": "2602",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6528,7 +5876,6 @@ const HEX_DATA = [
     "hex": 2603,
     "display": "2603",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6538,7 +5885,6 @@ const HEX_DATA = [
     "hex": 2604,
     "display": "2604",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6548,7 +5894,6 @@ const HEX_DATA = [
     "hex": 2605,
     "display": "2605",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6558,7 +5903,6 @@ const HEX_DATA = [
     "hex": 2606,
     "display": "2606",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6568,7 +5912,6 @@ const HEX_DATA = [
     "hex": 2607,
     "display": "2607",
     "location": "West",
-    "faction": "Silver Branches",
     "name": ""
   },
   {
@@ -6578,7 +5921,6 @@ const HEX_DATA = [
     "hex": 2608,
     "display": "2608",
     "location": "West",
-    "faction": "Silver Branches",
     "name": ""
   },
   {
@@ -6588,7 +5930,6 @@ const HEX_DATA = [
     "hex": 2609,
     "display": "2609",
     "location": "West",
-    "faction": "Silver Branches",
     "name": ""
   },
   {
@@ -6598,7 +5939,6 @@ const HEX_DATA = [
     "hex": 2610,
     "display": "2610",
     "location": "West",
-    "faction": "Vidarians",
     "name": "Chugol"
   },
   {
@@ -6608,7 +5948,6 @@ const HEX_DATA = [
     "hex": 2611,
     "display": "2611",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6618,7 +5957,6 @@ const HEX_DATA = [
     "hex": 2612,
     "display": "2612",
     "location": "West",
-    "faction": "Vidarians",
     "name": "Shigon"
   },
   {
@@ -6628,7 +5966,6 @@ const HEX_DATA = [
     "hex": 2613,
     "display": "2613",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6638,7 +5975,6 @@ const HEX_DATA = [
     "hex": 2614,
     "display": "2614",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6648,7 +5984,6 @@ const HEX_DATA = [
     "hex": 2615,
     "display": "2615",
     "location": "West",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -6658,7 +5993,6 @@ const HEX_DATA = [
     "hex": 2616,
     "display": "2616",
     "location": "West",
-    "faction": "Vidarians",
     "name": "Kishahr"
   },
   {
@@ -6668,7 +6002,6 @@ const HEX_DATA = [
     "hex": 2617,
     "display": "2617",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6678,7 +6011,6 @@ const HEX_DATA = [
     "hex": 2618,
     "display": "2618",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6688,7 +6020,6 @@ const HEX_DATA = [
     "hex": 2619,
     "display": "2619",
     "location": "West",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -6698,7 +6029,6 @@ const HEX_DATA = [
     "hex": 2620,
     "display": "2620",
     "location": "West",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -6708,7 +6038,6 @@ const HEX_DATA = [
     "hex": 2621,
     "display": "2621",
     "location": "West",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -6718,7 +6047,6 @@ const HEX_DATA = [
     "hex": 2622,
     "display": "2622",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6728,7 +6056,6 @@ const HEX_DATA = [
     "hex": 2623,
     "display": "2623",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6738,7 +6065,6 @@ const HEX_DATA = [
     "hex": 2624,
     "display": "2624",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6748,7 +6074,6 @@ const HEX_DATA = [
     "hex": 2625,
     "display": "2625",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6758,7 +6083,6 @@ const HEX_DATA = [
     "hex": 2626,
     "display": "2626",
     "location": "West",
-    "faction": "",
     "name": ""
   },
   {
@@ -6768,7 +6092,6 @@ const HEX_DATA = [
     "hex": 2701,
     "display": "2701",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -6778,7 +6101,6 @@ const HEX_DATA = [
     "hex": 2702,
     "display": "2702",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -6788,7 +6110,6 @@ const HEX_DATA = [
     "hex": 2703,
     "display": "2703",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -6798,7 +6119,6 @@ const HEX_DATA = [
     "hex": 2704,
     "display": "2704",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -6808,7 +6128,6 @@ const HEX_DATA = [
     "hex": 2705,
     "display": "2705",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -6818,7 +6137,6 @@ const HEX_DATA = [
     "hex": 2706,
     "display": "2706",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -6828,7 +6146,6 @@ const HEX_DATA = [
     "hex": 2707,
     "display": "2707",
     "location": "Center",
-    "faction": "Silver Branches",
     "name": ""
   },
   {
@@ -6838,7 +6155,6 @@ const HEX_DATA = [
     "hex": 2708,
     "display": "2708",
     "location": "Center",
-    "faction": "Silver Branches",
     "name": ""
   },
   {
@@ -6848,7 +6164,6 @@ const HEX_DATA = [
     "hex": 2709,
     "display": "2709",
     "location": "Center",
-    "faction": "Silver Branches",
     "name": ""
   },
   {
@@ -6858,7 +6173,6 @@ const HEX_DATA = [
     "hex": 2710,
     "display": "2710",
     "location": "Center",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -6868,7 +6182,6 @@ const HEX_DATA = [
     "hex": 2711,
     "display": "2711",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -6878,7 +6191,6 @@ const HEX_DATA = [
     "hex": 2712,
     "display": "2712",
     "location": "Center",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -6888,7 +6200,6 @@ const HEX_DATA = [
     "hex": 2713,
     "display": "2713",
     "location": "Center",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -6898,7 +6209,6 @@ const HEX_DATA = [
     "hex": 2714,
     "display": "2714",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -6908,7 +6218,6 @@ const HEX_DATA = [
     "hex": 2715,
     "display": "2715",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -6918,7 +6227,6 @@ const HEX_DATA = [
     "hex": 2716,
     "display": "2716",
     "location": "Center",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -6928,7 +6236,6 @@ const HEX_DATA = [
     "hex": 2717,
     "display": "2717",
     "location": "Center",
-    "faction": "White Ravens",
     "name": "Tidewater"
   },
   {
@@ -6938,7 +6245,6 @@ const HEX_DATA = [
     "hex": 2718,
     "display": "2718",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -6948,7 +6254,6 @@ const HEX_DATA = [
     "hex": 2719,
     "display": "2719",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -6958,7 +6263,6 @@ const HEX_DATA = [
     "hex": 2720,
     "display": "2720",
     "location": "Center",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -6968,7 +6272,6 @@ const HEX_DATA = [
     "hex": 2721,
     "display": "2721",
     "location": "Center",
-    "faction": "White Ravens",
     "name": "Zone of Chaos"
   },
   {
@@ -6978,7 +6281,6 @@ const HEX_DATA = [
     "hex": 2722,
     "display": "2722",
     "location": "Center",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -6988,7 +6290,6 @@ const HEX_DATA = [
     "hex": 2723,
     "display": "2723",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -6998,7 +6299,6 @@ const HEX_DATA = [
     "hex": 2724,
     "display": "2724",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7008,7 +6308,6 @@ const HEX_DATA = [
     "hex": 2725,
     "display": "2725",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7018,7 +6317,6 @@ const HEX_DATA = [
     "hex": 2726,
     "display": "2726",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7028,7 +6326,6 @@ const HEX_DATA = [
     "hex": 2801,
     "display": "2801",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7038,7 +6335,6 @@ const HEX_DATA = [
     "hex": 2802,
     "display": "2802",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7048,7 +6344,6 @@ const HEX_DATA = [
     "hex": 2803,
     "display": "2803",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7058,7 +6353,6 @@ const HEX_DATA = [
     "hex": 2804,
     "display": "2804",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7068,7 +6362,6 @@ const HEX_DATA = [
     "hex": 2805,
     "display": "2805",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7078,7 +6371,6 @@ const HEX_DATA = [
     "hex": 2806,
     "display": "2806",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7088,7 +6380,6 @@ const HEX_DATA = [
     "hex": 2807,
     "display": "2807",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7098,7 +6389,6 @@ const HEX_DATA = [
     "hex": 2808,
     "display": "2808",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7108,7 +6398,6 @@ const HEX_DATA = [
     "hex": 2809,
     "display": "2809",
     "location": "Center",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -7118,7 +6407,6 @@ const HEX_DATA = [
     "hex": 2810,
     "display": "2810",
     "location": "Center",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -7128,7 +6416,6 @@ const HEX_DATA = [
     "hex": 2811,
     "display": "2811",
     "location": "Center",
-    "faction": "Vidarians",
     "name": "Shidher"
   },
   {
@@ -7138,7 +6425,6 @@ const HEX_DATA = [
     "hex": 2812,
     "display": "2812",
     "location": "Center",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -7148,7 +6434,6 @@ const HEX_DATA = [
     "hex": 2813,
     "display": "2813",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7158,7 +6443,6 @@ const HEX_DATA = [
     "hex": 2814,
     "display": "2814",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7168,7 +6452,6 @@ const HEX_DATA = [
     "hex": 2815,
     "display": "2815",
     "location": "Center",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -7178,7 +6461,6 @@ const HEX_DATA = [
     "hex": 2816,
     "display": "2816",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7188,7 +6470,6 @@ const HEX_DATA = [
     "hex": 2817,
     "display": "2817",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7198,7 +6479,6 @@ const HEX_DATA = [
     "hex": 2818,
     "display": "2818",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7208,7 +6488,6 @@ const HEX_DATA = [
     "hex": 2819,
     "display": "2819",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7218,7 +6497,6 @@ const HEX_DATA = [
     "hex": 2820,
     "display": "2820",
     "location": "Center",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -7228,7 +6506,6 @@ const HEX_DATA = [
     "hex": 2821,
     "display": "2821",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7238,7 +6515,6 @@ const HEX_DATA = [
     "hex": 2822,
     "display": "2822",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7248,7 +6524,6 @@ const HEX_DATA = [
     "hex": 2823,
     "display": "2823",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7258,7 +6533,6 @@ const HEX_DATA = [
     "hex": 2824,
     "display": "2824",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7268,7 +6542,6 @@ const HEX_DATA = [
     "hex": 2825,
     "display": "2825",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7278,7 +6551,6 @@ const HEX_DATA = [
     "hex": 2826,
     "display": "2826",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7288,7 +6560,6 @@ const HEX_DATA = [
     "hex": 2901,
     "display": "2901",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7298,7 +6569,6 @@ const HEX_DATA = [
     "hex": 2902,
     "display": "2902",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7308,7 +6578,6 @@ const HEX_DATA = [
     "hex": 2903,
     "display": "2903",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7318,7 +6587,6 @@ const HEX_DATA = [
     "hex": 2904,
     "display": "2904",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7328,7 +6596,6 @@ const HEX_DATA = [
     "hex": 2905,
     "display": "2905",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7338,7 +6605,6 @@ const HEX_DATA = [
     "hex": 2906,
     "display": "2906",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7348,7 +6614,6 @@ const HEX_DATA = [
     "hex": 2907,
     "display": "2907",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7358,7 +6623,6 @@ const HEX_DATA = [
     "hex": 2908,
     "display": "2908",
     "location": "Center",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -7368,7 +6632,6 @@ const HEX_DATA = [
     "hex": 2909,
     "display": "2909",
     "location": "Center",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -7378,7 +6641,6 @@ const HEX_DATA = [
     "hex": 2910,
     "display": "2910",
     "location": "Center",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -7388,7 +6650,6 @@ const HEX_DATA = [
     "hex": 2911,
     "display": "2911",
     "location": "Center",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -7398,7 +6659,6 @@ const HEX_DATA = [
     "hex": 2912,
     "display": "2912",
     "location": "Center",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -7408,7 +6668,6 @@ const HEX_DATA = [
     "hex": 2913,
     "display": "2913",
     "location": "Center",
-    "faction": "Vidarians",
     "name": "Kharaat"
   },
   {
@@ -7418,7 +6677,6 @@ const HEX_DATA = [
     "hex": 2914,
     "display": "2914",
     "location": "Center",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -7428,7 +6686,6 @@ const HEX_DATA = [
     "hex": 2915,
     "display": "2915",
     "location": "Center",
-    "faction": "Vidarians",
     "name": "Bazgush"
   },
   {
@@ -7438,7 +6695,6 @@ const HEX_DATA = [
     "hex": 2916,
     "display": "2916",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7448,7 +6704,6 @@ const HEX_DATA = [
     "hex": 2917,
     "display": "2917",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7458,7 +6713,6 @@ const HEX_DATA = [
     "hex": 2918,
     "display": "2918",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7468,7 +6722,6 @@ const HEX_DATA = [
     "hex": 2919,
     "display": "2919",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7478,7 +6731,6 @@ const HEX_DATA = [
     "hex": 2920,
     "display": "2920",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7488,7 +6740,6 @@ const HEX_DATA = [
     "hex": 2921,
     "display": "2921",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7498,7 +6749,6 @@ const HEX_DATA = [
     "hex": 2922,
     "display": "2922",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7508,7 +6758,6 @@ const HEX_DATA = [
     "hex": 2923,
     "display": "2923",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7518,7 +6767,6 @@ const HEX_DATA = [
     "hex": 2924,
     "display": "2924",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7528,7 +6776,6 @@ const HEX_DATA = [
     "hex": 2925,
     "display": "2925",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7538,7 +6785,6 @@ const HEX_DATA = [
     "hex": 2926,
     "display": "2926",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7548,7 +6794,6 @@ const HEX_DATA = [
     "hex": 3001,
     "display": "3001",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7558,7 +6803,6 @@ const HEX_DATA = [
     "hex": 3002,
     "display": "3002",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7568,7 +6812,6 @@ const HEX_DATA = [
     "hex": 3003,
     "display": "3003",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7578,7 +6821,6 @@ const HEX_DATA = [
     "hex": 3004,
     "display": "3004",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7588,7 +6830,6 @@ const HEX_DATA = [
     "hex": 3005,
     "display": "3005",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7598,7 +6839,6 @@ const HEX_DATA = [
     "hex": 3006,
     "display": "3006",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7608,7 +6848,6 @@ const HEX_DATA = [
     "hex": 3007,
     "display": "3007",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7618,7 +6857,6 @@ const HEX_DATA = [
     "hex": 3008,
     "display": "3008",
     "location": "Center",
-    "faction": "Orc Lands",
     "name": ""
   },
   {
@@ -7628,7 +6866,6 @@ const HEX_DATA = [
     "hex": 3009,
     "display": "3009",
     "location": "Center",
-    "faction": "Vidarians",
     "name": "Ugyen"
   },
   {
@@ -7638,7 +6875,6 @@ const HEX_DATA = [
     "hex": 3010,
     "display": "3010",
     "location": "Center",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -7648,7 +6884,6 @@ const HEX_DATA = [
     "hex": 3011,
     "display": "3011",
     "location": "Center",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -7658,7 +6893,6 @@ const HEX_DATA = [
     "hex": 3012,
     "display": "3012",
     "location": "Center",
-    "faction": "Vidarians",
     "name": "Kharaat"
   },
   {
@@ -7668,7 +6902,6 @@ const HEX_DATA = [
     "hex": 3013,
     "display": "3013",
     "location": "Center",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -7678,7 +6911,6 @@ const HEX_DATA = [
     "hex": 3014,
     "display": "3014",
     "location": "Center",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -7688,7 +6920,6 @@ const HEX_DATA = [
     "hex": 3015,
     "display": "3015",
     "location": "Center",
-    "faction": "White Ravens",
     "name": "Raven's Refuge"
   },
   {
@@ -7698,7 +6929,6 @@ const HEX_DATA = [
     "hex": 3016,
     "display": "3016",
     "location": "Center",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -7708,7 +6938,6 @@ const HEX_DATA = [
     "hex": 3017,
     "display": "3017",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7718,7 +6947,6 @@ const HEX_DATA = [
     "hex": 3018,
     "display": "3018",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7728,7 +6956,6 @@ const HEX_DATA = [
     "hex": 3019,
     "display": "3019",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": ""
   },
   {
@@ -7738,7 +6965,6 @@ const HEX_DATA = [
     "hex": 3020,
     "display": "3020",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7748,7 +6974,6 @@ const HEX_DATA = [
     "hex": 3021,
     "display": "3021",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7758,7 +6983,6 @@ const HEX_DATA = [
     "hex": 3022,
     "display": "3022",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7768,7 +6992,6 @@ const HEX_DATA = [
     "hex": 3023,
     "display": "3023",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7778,7 +7001,6 @@ const HEX_DATA = [
     "hex": 3024,
     "display": "3024",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7788,7 +7010,6 @@ const HEX_DATA = [
     "hex": 3025,
     "display": "3025",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7798,7 +7019,6 @@ const HEX_DATA = [
     "hex": 3026,
     "display": "3026",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7808,7 +7028,6 @@ const HEX_DATA = [
     "hex": 3101,
     "display": "3101",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7818,7 +7037,6 @@ const HEX_DATA = [
     "hex": 3102,
     "display": "3102",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7828,7 +7046,6 @@ const HEX_DATA = [
     "hex": 3103,
     "display": "3103",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7838,7 +7055,6 @@ const HEX_DATA = [
     "hex": 3104,
     "display": "3104",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7848,7 +7064,6 @@ const HEX_DATA = [
     "hex": 3105,
     "display": "3105",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7858,7 +7073,6 @@ const HEX_DATA = [
     "hex": 3106,
     "display": "3106",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7868,7 +7082,6 @@ const HEX_DATA = [
     "hex": 3107,
     "display": "3107",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7878,7 +7091,6 @@ const HEX_DATA = [
     "hex": 3108,
     "display": "3108",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7888,7 +7100,6 @@ const HEX_DATA = [
     "hex": 3109,
     "display": "3109",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7898,7 +7109,6 @@ const HEX_DATA = [
     "hex": 3110,
     "display": "3110",
     "location": "Center",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -7908,7 +7118,6 @@ const HEX_DATA = [
     "hex": 3111,
     "display": "3111",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7918,7 +7127,6 @@ const HEX_DATA = [
     "hex": 3112,
     "display": "3112",
     "location": "Center",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -7928,7 +7136,6 @@ const HEX_DATA = [
     "hex": 3113,
     "display": "3113",
     "location": "Center",
-    "faction": "Vidarians",
     "name": ""
   },
   {
@@ -7938,7 +7145,6 @@ const HEX_DATA = [
     "hex": 3114,
     "display": "3114",
     "location": "Center",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -7948,7 +7154,6 @@ const HEX_DATA = [
     "hex": 3115,
     "display": "3115",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7958,7 +7163,6 @@ const HEX_DATA = [
     "hex": 3116,
     "display": "3116",
     "location": "Center",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -7968,7 +7172,6 @@ const HEX_DATA = [
     "hex": 3117,
     "display": "3117",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7978,7 +7181,6 @@ const HEX_DATA = [
     "hex": 3118,
     "display": "3118",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -7988,7 +7190,6 @@ const HEX_DATA = [
     "hex": 3119,
     "display": "3119",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": "Alysicles"
   },
   {
@@ -7998,7 +7199,6 @@ const HEX_DATA = [
     "hex": 3120,
     "display": "3120",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8008,7 +7208,6 @@ const HEX_DATA = [
     "hex": 3121,
     "display": "3121",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8018,7 +7217,6 @@ const HEX_DATA = [
     "hex": 3122,
     "display": "3122",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8028,7 +7226,6 @@ const HEX_DATA = [
     "hex": 3123,
     "display": "3123",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8038,7 +7235,6 @@ const HEX_DATA = [
     "hex": 3124,
     "display": "3124",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8048,7 +7244,6 @@ const HEX_DATA = [
     "hex": 3125,
     "display": "3125",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8058,7 +7253,6 @@ const HEX_DATA = [
     "hex": 3126,
     "display": "3126",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8068,7 +7262,6 @@ const HEX_DATA = [
     "hex": 3201,
     "display": "3201",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8078,7 +7271,6 @@ const HEX_DATA = [
     "hex": 3202,
     "display": "3202",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8088,7 +7280,6 @@ const HEX_DATA = [
     "hex": 3203,
     "display": "3203",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8098,7 +7289,6 @@ const HEX_DATA = [
     "hex": 3204,
     "display": "3204",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8108,7 +7298,6 @@ const HEX_DATA = [
     "hex": 3205,
     "display": "3205",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8118,7 +7307,6 @@ const HEX_DATA = [
     "hex": 3206,
     "display": "3206",
     "location": "Center",
-    "faction": "Catalpa",
     "name": ""
   },
   {
@@ -8128,7 +7316,6 @@ const HEX_DATA = [
     "hex": 3207,
     "display": "3207",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8138,7 +7325,6 @@ const HEX_DATA = [
     "hex": 3208,
     "display": "3208",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8148,7 +7334,6 @@ const HEX_DATA = [
     "hex": 3209,
     "display": "3209",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8158,7 +7343,6 @@ const HEX_DATA = [
     "hex": 3210,
     "display": "3210",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8168,7 +7352,6 @@ const HEX_DATA = [
     "hex": 3211,
     "display": "3211",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8178,7 +7361,6 @@ const HEX_DATA = [
     "hex": 3212,
     "display": "3212",
     "location": "Center",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -8188,7 +7370,6 @@ const HEX_DATA = [
     "hex": 3213,
     "display": "3213",
     "location": "Center",
-    "faction": "White Ravens",
     "name": "Gai'hana"
   },
   {
@@ -8198,7 +7379,6 @@ const HEX_DATA = [
     "hex": 3214,
     "display": "3214",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8208,7 +7388,6 @@ const HEX_DATA = [
     "hex": 3215,
     "display": "3215",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8218,7 +7397,6 @@ const HEX_DATA = [
     "hex": 3216,
     "display": "3216",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8228,7 +7406,6 @@ const HEX_DATA = [
     "hex": 3217,
     "display": "3217",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8238,7 +7415,6 @@ const HEX_DATA = [
     "hex": 3218,
     "display": "3218",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8248,7 +7424,6 @@ const HEX_DATA = [
     "hex": 3219,
     "display": "3219",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8258,7 +7433,6 @@ const HEX_DATA = [
     "hex": 3220,
     "display": "3220",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8268,7 +7442,6 @@ const HEX_DATA = [
     "hex": 3221,
     "display": "3221",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8278,7 +7451,6 @@ const HEX_DATA = [
     "hex": 3222,
     "display": "3222",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8288,7 +7460,6 @@ const HEX_DATA = [
     "hex": 3223,
     "display": "3223",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8298,7 +7469,6 @@ const HEX_DATA = [
     "hex": 3224,
     "display": "3224",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8308,7 +7478,6 @@ const HEX_DATA = [
     "hex": 3225,
     "display": "3225",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8318,7 +7487,6 @@ const HEX_DATA = [
     "hex": 3226,
     "display": "3226",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8328,7 +7496,6 @@ const HEX_DATA = [
     "hex": 3301,
     "display": "3301",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8338,7 +7505,6 @@ const HEX_DATA = [
     "hex": 3302,
     "display": "3302",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8348,7 +7514,6 @@ const HEX_DATA = [
     "hex": 3303,
     "display": "3303",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8358,7 +7523,6 @@ const HEX_DATA = [
     "hex": 3304,
     "display": "3304",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8368,7 +7532,6 @@ const HEX_DATA = [
     "hex": 3305,
     "display": "3305",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8378,7 +7541,6 @@ const HEX_DATA = [
     "hex": 3306,
     "display": "3306",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8388,7 +7550,6 @@ const HEX_DATA = [
     "hex": 3307,
     "display": "3307",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8398,7 +7559,6 @@ const HEX_DATA = [
     "hex": 3308,
     "display": "3308",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8408,7 +7568,6 @@ const HEX_DATA = [
     "hex": 3309,
     "display": "3309",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8418,7 +7577,6 @@ const HEX_DATA = [
     "hex": 3310,
     "display": "3310",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8428,7 +7586,6 @@ const HEX_DATA = [
     "hex": 3311,
     "display": "3311",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8438,7 +7595,6 @@ const HEX_DATA = [
     "hex": 3312,
     "display": "3312",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8448,7 +7604,6 @@ const HEX_DATA = [
     "hex": 3313,
     "display": "3313",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8458,7 +7613,6 @@ const HEX_DATA = [
     "hex": 3314,
     "display": "3314",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8468,7 +7622,6 @@ const HEX_DATA = [
     "hex": 3315,
     "display": "3315",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8478,7 +7631,6 @@ const HEX_DATA = [
     "hex": 3316,
     "display": "3316",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8488,7 +7640,6 @@ const HEX_DATA = [
     "hex": 3317,
     "display": "3317",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8498,7 +7649,6 @@ const HEX_DATA = [
     "hex": 3318,
     "display": "3318",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8508,7 +7658,6 @@ const HEX_DATA = [
     "hex": 3319,
     "display": "3319",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8518,7 +7667,6 @@ const HEX_DATA = [
     "hex": 3320,
     "display": "3320",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8528,7 +7676,6 @@ const HEX_DATA = [
     "hex": 3321,
     "display": "3321",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8538,7 +7685,6 @@ const HEX_DATA = [
     "hex": 3322,
     "display": "3322",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8548,7 +7694,6 @@ const HEX_DATA = [
     "hex": 3323,
     "display": "3323",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8558,7 +7703,6 @@ const HEX_DATA = [
     "hex": 3324,
     "display": "3324",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8568,7 +7712,6 @@ const HEX_DATA = [
     "hex": 3325,
     "display": "3325",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8578,7 +7721,6 @@ const HEX_DATA = [
     "hex": 3326,
     "display": "3326",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8588,7 +7730,6 @@ const HEX_DATA = [
     "hex": 3401,
     "display": "3401",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8598,7 +7739,6 @@ const HEX_DATA = [
     "hex": 3402,
     "display": "3402",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8608,7 +7748,6 @@ const HEX_DATA = [
     "hex": 3403,
     "display": "3403",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8618,7 +7757,6 @@ const HEX_DATA = [
     "hex": 3404,
     "display": "3404",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8628,7 +7766,6 @@ const HEX_DATA = [
     "hex": 3405,
     "display": "3405",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8638,7 +7775,6 @@ const HEX_DATA = [
     "hex": 3406,
     "display": "3406",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8648,7 +7784,6 @@ const HEX_DATA = [
     "hex": 3407,
     "display": "3407",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8658,7 +7793,6 @@ const HEX_DATA = [
     "hex": 3408,
     "display": "3408",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8668,7 +7802,6 @@ const HEX_DATA = [
     "hex": 3409,
     "display": "3409",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": "Bronze Guardia"
   },
   {
@@ -8678,7 +7811,6 @@ const HEX_DATA = [
     "hex": 3410,
     "display": "3410",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8688,7 +7820,6 @@ const HEX_DATA = [
     "hex": 3411,
     "display": "3411",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8698,7 +7829,6 @@ const HEX_DATA = [
     "hex": 3412,
     "display": "3412",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8708,7 +7838,6 @@ const HEX_DATA = [
     "hex": 3413,
     "display": "3413",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8718,7 +7847,6 @@ const HEX_DATA = [
     "hex": 3414,
     "display": "3414",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8728,7 +7856,6 @@ const HEX_DATA = [
     "hex": 3415,
     "display": "3415",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8738,7 +7865,6 @@ const HEX_DATA = [
     "hex": 3416,
     "display": "3416",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8748,7 +7874,6 @@ const HEX_DATA = [
     "hex": 3417,
     "display": "3417",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8758,7 +7883,6 @@ const HEX_DATA = [
     "hex": 3418,
     "display": "3418",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8768,7 +7892,6 @@ const HEX_DATA = [
     "hex": 3419,
     "display": "3419",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8778,7 +7901,6 @@ const HEX_DATA = [
     "hex": 3420,
     "display": "3420",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8788,7 +7910,6 @@ const HEX_DATA = [
     "hex": 3421,
     "display": "3421",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8798,7 +7919,6 @@ const HEX_DATA = [
     "hex": 3422,
     "display": "3422",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8808,7 +7928,6 @@ const HEX_DATA = [
     "hex": 3423,
     "display": "3423",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8818,7 +7937,6 @@ const HEX_DATA = [
     "hex": 3424,
     "display": "3424",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8828,7 +7946,6 @@ const HEX_DATA = [
     "hex": 3425,
     "display": "3425",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8838,7 +7955,6 @@ const HEX_DATA = [
     "hex": 3426,
     "display": "3426",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8848,7 +7964,6 @@ const HEX_DATA = [
     "hex": 3501,
     "display": "3501",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8858,7 +7973,6 @@ const HEX_DATA = [
     "hex": 3502,
     "display": "3502",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8868,7 +7982,6 @@ const HEX_DATA = [
     "hex": 3503,
     "display": "3503",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8878,7 +7991,6 @@ const HEX_DATA = [
     "hex": 3504,
     "display": "3504",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8888,7 +8000,6 @@ const HEX_DATA = [
     "hex": 3505,
     "display": "3505",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": ""
   },
   {
@@ -8898,7 +8009,6 @@ const HEX_DATA = [
     "hex": 3506,
     "display": "3506",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8908,7 +8018,6 @@ const HEX_DATA = [
     "hex": 3507,
     "display": "3507",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8918,7 +8027,6 @@ const HEX_DATA = [
     "hex": 3508,
     "display": "3508",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8928,7 +8036,6 @@ const HEX_DATA = [
     "hex": 3509,
     "display": "3509",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": ""
   },
   {
@@ -8938,7 +8045,6 @@ const HEX_DATA = [
     "hex": 3510,
     "display": "3510",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": ""
   },
   {
@@ -8948,7 +8054,6 @@ const HEX_DATA = [
     "hex": 3511,
     "display": "3511",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8958,7 +8063,6 @@ const HEX_DATA = [
     "hex": 3512,
     "display": "3512",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8968,7 +8072,6 @@ const HEX_DATA = [
     "hex": 3513,
     "display": "3513",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8978,7 +8081,6 @@ const HEX_DATA = [
     "hex": 3514,
     "display": "3514",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8988,7 +8090,6 @@ const HEX_DATA = [
     "hex": 3515,
     "display": "3515",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -8998,7 +8099,6 @@ const HEX_DATA = [
     "hex": 3516,
     "display": "3516",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9008,7 +8108,6 @@ const HEX_DATA = [
     "hex": 3517,
     "display": "3517",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9018,7 +8117,6 @@ const HEX_DATA = [
     "hex": 3518,
     "display": "3518",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9028,7 +8126,6 @@ const HEX_DATA = [
     "hex": 3519,
     "display": "3519",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9038,7 +8135,6 @@ const HEX_DATA = [
     "hex": 3520,
     "display": "3520",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9048,7 +8144,6 @@ const HEX_DATA = [
     "hex": 3521,
     "display": "3521",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9058,7 +8153,6 @@ const HEX_DATA = [
     "hex": 3522,
     "display": "3522",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9068,7 +8162,6 @@ const HEX_DATA = [
     "hex": 3523,
     "display": "3523",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9078,7 +8171,6 @@ const HEX_DATA = [
     "hex": 3524,
     "display": "3524",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9088,7 +8180,6 @@ const HEX_DATA = [
     "hex": 3525,
     "display": "3525",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9098,7 +8189,6 @@ const HEX_DATA = [
     "hex": 3526,
     "display": "3526",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9108,7 +8198,6 @@ const HEX_DATA = [
     "hex": 3601,
     "display": "3601",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9118,7 +8207,6 @@ const HEX_DATA = [
     "hex": 3602,
     "display": "3602",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9128,7 +8216,6 @@ const HEX_DATA = [
     "hex": 3603,
     "display": "3603",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9138,7 +8225,6 @@ const HEX_DATA = [
     "hex": 3604,
     "display": "3604",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9148,7 +8234,6 @@ const HEX_DATA = [
     "hex": 3605,
     "display": "3605",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": ""
   },
   {
@@ -9158,7 +8243,6 @@ const HEX_DATA = [
     "hex": 3606,
     "display": "3606",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9168,7 +8252,6 @@ const HEX_DATA = [
     "hex": 3607,
     "display": "3607",
     "location": "Center",
-    "faction": "Catalpa",
     "name": ""
   },
   {
@@ -9178,7 +8261,6 @@ const HEX_DATA = [
     "hex": 3608,
     "display": "3608",
     "location": "Center",
-    "faction": "Catalpa",
     "name": ""
   },
   {
@@ -9188,7 +8270,6 @@ const HEX_DATA = [
     "hex": 3609,
     "display": "3609",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": ""
   },
   {
@@ -9198,7 +8279,6 @@ const HEX_DATA = [
     "hex": 3610,
     "display": "3610",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": ""
   },
   {
@@ -9208,7 +8288,6 @@ const HEX_DATA = [
     "hex": 3611,
     "display": "3611",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9218,7 +8297,6 @@ const HEX_DATA = [
     "hex": 3612,
     "display": "3612",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9228,7 +8306,6 @@ const HEX_DATA = [
     "hex": 3613,
     "display": "3613",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9238,7 +8315,6 @@ const HEX_DATA = [
     "hex": 3614,
     "display": "3614",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9248,7 +8324,6 @@ const HEX_DATA = [
     "hex": 3615,
     "display": "3615",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9258,7 +8333,6 @@ const HEX_DATA = [
     "hex": 3616,
     "display": "3616",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9268,7 +8342,6 @@ const HEX_DATA = [
     "hex": 3617,
     "display": "3617",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9278,7 +8351,6 @@ const HEX_DATA = [
     "hex": 3618,
     "display": "3618",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9288,7 +8360,6 @@ const HEX_DATA = [
     "hex": 3619,
     "display": "3619",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9298,7 +8369,6 @@ const HEX_DATA = [
     "hex": 3620,
     "display": "3620",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9308,7 +8378,6 @@ const HEX_DATA = [
     "hex": 3621,
     "display": "3621",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9318,7 +8387,6 @@ const HEX_DATA = [
     "hex": 3622,
     "display": "3622",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9328,7 +8396,6 @@ const HEX_DATA = [
     "hex": 3623,
     "display": "3623",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9338,7 +8405,6 @@ const HEX_DATA = [
     "hex": 3624,
     "display": "3624",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9348,7 +8414,6 @@ const HEX_DATA = [
     "hex": 3625,
     "display": "3625",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9358,7 +8423,6 @@ const HEX_DATA = [
     "hex": 3626,
     "display": "3626",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9368,7 +8432,6 @@ const HEX_DATA = [
     "hex": 3701,
     "display": "3701",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9378,7 +8441,6 @@ const HEX_DATA = [
     "hex": 3702,
     "display": "3702",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9388,7 +8450,6 @@ const HEX_DATA = [
     "hex": 3703,
     "display": "3703",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9398,7 +8459,6 @@ const HEX_DATA = [
     "hex": 3704,
     "display": "3704",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9408,7 +8468,6 @@ const HEX_DATA = [
     "hex": 3705,
     "display": "3705",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9418,7 +8477,6 @@ const HEX_DATA = [
     "hex": 3706,
     "display": "3706",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": "Silkwood"
   },
   {
@@ -9428,7 +8486,6 @@ const HEX_DATA = [
     "hex": 3707,
     "display": "3707",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9438,7 +8495,6 @@ const HEX_DATA = [
     "hex": 3708,
     "display": "3708",
     "location": "Center",
-    "faction": "Catalpa",
     "name": ""
   },
   {
@@ -9448,7 +8504,6 @@ const HEX_DATA = [
     "hex": 3709,
     "display": "3709",
     "location": "Center",
-    "faction": "Catalpa",
     "name": ""
   },
   {
@@ -9458,7 +8513,6 @@ const HEX_DATA = [
     "hex": 3710,
     "display": "3710",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": "Tharropolis"
   },
   {
@@ -9468,7 +8522,6 @@ const HEX_DATA = [
     "hex": 3711,
     "display": "3711",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9478,7 +8531,6 @@ const HEX_DATA = [
     "hex": 3712,
     "display": "3712",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9488,7 +8540,6 @@ const HEX_DATA = [
     "hex": 3713,
     "display": "3713",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9498,7 +8549,6 @@ const HEX_DATA = [
     "hex": 3714,
     "display": "3714",
     "location": "Center",
-    "faction": "White Ravens",
     "name": "New Pandalen"
   },
   {
@@ -9508,7 +8558,6 @@ const HEX_DATA = [
     "hex": 3715,
     "display": "3715",
     "location": "Center",
-    "faction": "White Ravens",
     "name": "Promise Keep"
   },
   {
@@ -9518,7 +8567,6 @@ const HEX_DATA = [
     "hex": 3716,
     "display": "3716",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9528,7 +8576,6 @@ const HEX_DATA = [
     "hex": 3717,
     "display": "3717",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9538,7 +8585,6 @@ const HEX_DATA = [
     "hex": 3718,
     "display": "3718",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9548,7 +8594,6 @@ const HEX_DATA = [
     "hex": 3719,
     "display": "3719",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9558,7 +8603,6 @@ const HEX_DATA = [
     "hex": 3720,
     "display": "3720",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9568,7 +8612,6 @@ const HEX_DATA = [
     "hex": 3721,
     "display": "3721",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9578,7 +8621,6 @@ const HEX_DATA = [
     "hex": 3722,
     "display": "3722",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9588,7 +8630,6 @@ const HEX_DATA = [
     "hex": 3723,
     "display": "3723",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9598,7 +8639,6 @@ const HEX_DATA = [
     "hex": 3724,
     "display": "3724",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9608,7 +8648,6 @@ const HEX_DATA = [
     "hex": 3725,
     "display": "3725",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9618,7 +8657,6 @@ const HEX_DATA = [
     "hex": 3726,
     "display": "3726",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9628,7 +8666,6 @@ const HEX_DATA = [
     "hex": 3801,
     "display": "3801",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9638,7 +8675,6 @@ const HEX_DATA = [
     "hex": 3802,
     "display": "3802",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9648,7 +8684,6 @@ const HEX_DATA = [
     "hex": 3803,
     "display": "3803",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9658,7 +8693,6 @@ const HEX_DATA = [
     "hex": 3804,
     "display": "3804",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9668,7 +8702,6 @@ const HEX_DATA = [
     "hex": 3805,
     "display": "3805",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9678,7 +8711,6 @@ const HEX_DATA = [
     "hex": 3806,
     "display": "3806",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9688,7 +8720,6 @@ const HEX_DATA = [
     "hex": 3807,
     "display": "3807",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9698,7 +8729,6 @@ const HEX_DATA = [
     "hex": 3808,
     "display": "3808",
     "location": "Center",
-    "faction": "Catalpa",
     "name": ""
   },
   {
@@ -9708,7 +8738,6 @@ const HEX_DATA = [
     "hex": 3809,
     "display": "3809",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": ""
   },
   {
@@ -9718,7 +8747,6 @@ const HEX_DATA = [
     "hex": 3810,
     "display": "3810",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": ""
   },
   {
@@ -9728,7 +8756,6 @@ const HEX_DATA = [
     "hex": 3811,
     "display": "3811",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": ""
   },
   {
@@ -9738,7 +8765,6 @@ const HEX_DATA = [
     "hex": 3812,
     "display": "3812",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": ""
   },
   {
@@ -9748,7 +8774,6 @@ const HEX_DATA = [
     "hex": 3813,
     "display": "3813",
     "location": "Center",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -9758,7 +8783,6 @@ const HEX_DATA = [
     "hex": 3814,
     "display": "3814",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9768,7 +8792,6 @@ const HEX_DATA = [
     "hex": 3815,
     "display": "3815",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9778,7 +8801,6 @@ const HEX_DATA = [
     "hex": 3816,
     "display": "3816",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9788,7 +8810,6 @@ const HEX_DATA = [
     "hex": 3817,
     "display": "3817",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9798,7 +8819,6 @@ const HEX_DATA = [
     "hex": 3818,
     "display": "3818",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9808,7 +8828,6 @@ const HEX_DATA = [
     "hex": 3819,
     "display": "3819",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9818,7 +8837,6 @@ const HEX_DATA = [
     "hex": 3820,
     "display": "3820",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9828,7 +8846,6 @@ const HEX_DATA = [
     "hex": 3821,
     "display": "3821",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9838,7 +8855,6 @@ const HEX_DATA = [
     "hex": 3822,
     "display": "3822",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9848,7 +8864,6 @@ const HEX_DATA = [
     "hex": 3823,
     "display": "3823",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9858,7 +8873,6 @@ const HEX_DATA = [
     "hex": 3824,
     "display": "3824",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9868,7 +8882,6 @@ const HEX_DATA = [
     "hex": 3825,
     "display": "3825",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9878,7 +8891,6 @@ const HEX_DATA = [
     "hex": 3826,
     "display": "3826",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9888,7 +8900,6 @@ const HEX_DATA = [
     "hex": 3901,
     "display": "3901",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9898,7 +8909,6 @@ const HEX_DATA = [
     "hex": 3902,
     "display": "3902",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9908,7 +8918,6 @@ const HEX_DATA = [
     "hex": 3903,
     "display": "3903",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9918,7 +8927,6 @@ const HEX_DATA = [
     "hex": 3904,
     "display": "3904",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9928,7 +8936,6 @@ const HEX_DATA = [
     "hex": 3905,
     "display": "3905",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9938,7 +8945,6 @@ const HEX_DATA = [
     "hex": 3906,
     "display": "3906",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9948,7 +8954,6 @@ const HEX_DATA = [
     "hex": 3907,
     "display": "3907",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -9958,7 +8963,6 @@ const HEX_DATA = [
     "hex": 3908,
     "display": "3908",
     "location": "Center",
-    "faction": "Catalpa",
     "name": ""
   },
   {
@@ -9968,7 +8972,6 @@ const HEX_DATA = [
     "hex": 3909,
     "display": "3909",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": ""
   },
   {
@@ -9978,7 +8981,6 @@ const HEX_DATA = [
     "hex": 3910,
     "display": "3910",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": "Mountain Run Winery"
   },
   {
@@ -9988,7 +8990,6 @@ const HEX_DATA = [
     "hex": 3911,
     "display": "3911",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": ""
   },
   {
@@ -9998,7 +8999,6 @@ const HEX_DATA = [
     "hex": 3912,
     "display": "3912",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": "Trinity"
   },
   {
@@ -10008,7 +9008,6 @@ const HEX_DATA = [
     "hex": 3913,
     "display": "3913",
     "location": "Center",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -10018,7 +9017,6 @@ const HEX_DATA = [
     "hex": 3914,
     "display": "3914",
     "location": "Center",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -10028,7 +9026,6 @@ const HEX_DATA = [
     "hex": 3915,
     "display": "3915",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10038,7 +9035,6 @@ const HEX_DATA = [
     "hex": 3916,
     "display": "3916",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10048,7 +9044,6 @@ const HEX_DATA = [
     "hex": 3917,
     "display": "3917",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10058,7 +9053,6 @@ const HEX_DATA = [
     "hex": 3918,
     "display": "3918",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": "Awindal"
   },
   {
@@ -10068,7 +9062,6 @@ const HEX_DATA = [
     "hex": 3919,
     "display": "3919",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": ""
   },
   {
@@ -10078,7 +9071,6 @@ const HEX_DATA = [
     "hex": 3920,
     "display": "3920",
     "location": "Center",
-    "faction": "Blackthorne",
     "name": "The Foundry"
   },
   {
@@ -10088,7 +9080,6 @@ const HEX_DATA = [
     "hex": 3921,
     "display": "3921",
     "location": "Center",
-    "faction": "Blackthorne",
     "name": ""
   },
   {
@@ -10098,7 +9089,6 @@ const HEX_DATA = [
     "hex": 3922,
     "display": "3922",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10108,7 +9098,6 @@ const HEX_DATA = [
     "hex": 3923,
     "display": "3923",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10118,7 +9107,6 @@ const HEX_DATA = [
     "hex": 3924,
     "display": "3924",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10128,7 +9116,6 @@ const HEX_DATA = [
     "hex": 3925,
     "display": "3925",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10138,7 +9125,6 @@ const HEX_DATA = [
     "hex": 3926,
     "display": "3926",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10148,7 +9134,6 @@ const HEX_DATA = [
     "hex": 4001,
     "display": "4001",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10158,7 +9143,6 @@ const HEX_DATA = [
     "hex": 4002,
     "display": "4002",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10168,7 +9152,6 @@ const HEX_DATA = [
     "hex": 4003,
     "display": "4003",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10178,7 +9161,6 @@ const HEX_DATA = [
     "hex": 4004,
     "display": "4004",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10188,7 +9170,6 @@ const HEX_DATA = [
     "hex": 4005,
     "display": "4005",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10198,7 +9179,6 @@ const HEX_DATA = [
     "hex": 4006,
     "display": "4006",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10208,7 +9188,6 @@ const HEX_DATA = [
     "hex": 4007,
     "display": "4007",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": ""
   },
   {
@@ -10218,7 +9197,6 @@ const HEX_DATA = [
     "hex": 4008,
     "display": "4008",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": "Petrapolis"
   },
   {
@@ -10228,7 +9206,6 @@ const HEX_DATA = [
     "hex": 4009,
     "display": "4009",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": ""
   },
   {
@@ -10238,7 +9215,6 @@ const HEX_DATA = [
     "hex": 4010,
     "display": "4010",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": ""
   },
   {
@@ -10248,7 +9224,6 @@ const HEX_DATA = [
     "hex": 4011,
     "display": "4011",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": ""
   },
   {
@@ -10258,7 +9233,6 @@ const HEX_DATA = [
     "hex": 4012,
     "display": "4012",
     "location": "Center",
-    "faction": "Cedar Hill / White Ravens",
     "name": ""
   },
   {
@@ -10268,7 +9242,6 @@ const HEX_DATA = [
     "hex": 4013,
     "display": "4013",
     "location": "Center",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -10278,7 +9251,6 @@ const HEX_DATA = [
     "hex": 4014,
     "display": "4014",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10288,7 +9260,6 @@ const HEX_DATA = [
     "hex": 4015,
     "display": "4015",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10298,7 +9269,6 @@ const HEX_DATA = [
     "hex": 4016,
     "display": "4016",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10308,7 +9278,6 @@ const HEX_DATA = [
     "hex": 4017,
     "display": "4017",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10318,7 +9287,6 @@ const HEX_DATA = [
     "hex": 4018,
     "display": "4018",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10328,7 +9296,6 @@ const HEX_DATA = [
     "hex": 4019,
     "display": "4019",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": "Greenhouse Project"
   },
   {
@@ -10338,7 +9305,6 @@ const HEX_DATA = [
     "hex": 4020,
     "display": "4020",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": ""
   },
   {
@@ -10348,7 +9314,6 @@ const HEX_DATA = [
     "hex": 4021,
     "display": "4021",
     "location": "Center",
-    "faction": "Blackthorne",
     "name": ""
   },
   {
@@ -10358,7 +9323,6 @@ const HEX_DATA = [
     "hex": 4022,
     "display": "4022",
     "location": "Center",
-    "faction": "Blackthorne",
     "name": "New Noxus"
   },
   {
@@ -10368,7 +9332,6 @@ const HEX_DATA = [
     "hex": 4023,
     "display": "4023",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10378,7 +9341,6 @@ const HEX_DATA = [
     "hex": 4024,
     "display": "4024",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10388,7 +9350,6 @@ const HEX_DATA = [
     "hex": 4025,
     "display": "4025",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10398,7 +9359,6 @@ const HEX_DATA = [
     "hex": 4026,
     "display": "4026",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10408,7 +9368,6 @@ const HEX_DATA = [
     "hex": 4101,
     "display": "4101",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10418,7 +9377,6 @@ const HEX_DATA = [
     "hex": 4102,
     "display": "4102",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10428,7 +9386,6 @@ const HEX_DATA = [
     "hex": 4103,
     "display": "4103",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10438,7 +9395,6 @@ const HEX_DATA = [
     "hex": 4104,
     "display": "4104",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10448,7 +9404,6 @@ const HEX_DATA = [
     "hex": 4105,
     "display": "4105",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10458,7 +9413,6 @@ const HEX_DATA = [
     "hex": 4106,
     "display": "4106",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10468,7 +9422,6 @@ const HEX_DATA = [
     "hex": 4107,
     "display": "4107",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10478,7 +9431,6 @@ const HEX_DATA = [
     "hex": 4108,
     "display": "4108",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10488,7 +9440,6 @@ const HEX_DATA = [
     "hex": 4109,
     "display": "4109",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": ""
   },
   {
@@ -10498,7 +9449,6 @@ const HEX_DATA = [
     "hex": 4110,
     "display": "4110",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": ""
   },
   {
@@ -10508,7 +9458,6 @@ const HEX_DATA = [
     "hex": 4111,
     "display": "4111",
     "location": "Center",
-    "faction": "Ce",
     "name": ""
   },
   {
@@ -10518,7 +9467,6 @@ const HEX_DATA = [
     "hex": 4112,
     "display": "4112",
     "location": "Center",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -10528,7 +9476,6 @@ const HEX_DATA = [
     "hex": 4113,
     "display": "4113",
     "location": "Center",
-    "faction": "White Ravens",
     "name": "Laurel Gate"
   },
   {
@@ -10538,7 +9485,6 @@ const HEX_DATA = [
     "hex": 4114,
     "display": "4114",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10548,7 +9494,6 @@ const HEX_DATA = [
     "hex": 4115,
     "display": "4115",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10558,7 +9503,6 @@ const HEX_DATA = [
     "hex": 4116,
     "display": "4116",
     "location": "Center",
-    "faction": "White Ravens",
     "name": "Nico's Rest"
   },
   {
@@ -10568,7 +9512,6 @@ const HEX_DATA = [
     "hex": 4117,
     "display": "4117",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10578,7 +9521,6 @@ const HEX_DATA = [
     "hex": 4118,
     "display": "4118",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10588,7 +9530,6 @@ const HEX_DATA = [
     "hex": 4119,
     "display": "4119",
     "location": "Center",
-    "faction": "Geth",
     "name": ""
   },
   {
@@ -10598,7 +9539,6 @@ const HEX_DATA = [
     "hex": 4120,
     "display": "4120",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": ""
   },
   {
@@ -10608,7 +9548,6 @@ const HEX_DATA = [
     "hex": 4121,
     "display": "4121",
     "location": "Center",
-    "faction": "",
     "name": "Carnarian"
   },
   {
@@ -10618,7 +9557,6 @@ const HEX_DATA = [
     "hex": 4122,
     "display": "4122",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10628,7 +9566,6 @@ const HEX_DATA = [
     "hex": 4123,
     "display": "4123",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10638,7 +9575,6 @@ const HEX_DATA = [
     "hex": 4124,
     "display": "4124",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10648,7 +9584,6 @@ const HEX_DATA = [
     "hex": 4125,
     "display": "4125",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10658,7 +9593,6 @@ const HEX_DATA = [
     "hex": 4126,
     "display": "4126",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10668,7 +9602,6 @@ const HEX_DATA = [
     "hex": 4201,
     "display": "4201",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10678,7 +9611,6 @@ const HEX_DATA = [
     "hex": 4202,
     "display": "4202",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10688,7 +9620,6 @@ const HEX_DATA = [
     "hex": 4203,
     "display": "4203",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10698,7 +9629,6 @@ const HEX_DATA = [
     "hex": 4204,
     "display": "4204",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10708,7 +9638,6 @@ const HEX_DATA = [
     "hex": 4205,
     "display": "4205",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10718,7 +9647,6 @@ const HEX_DATA = [
     "hex": 4206,
     "display": "4206",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10728,7 +9656,6 @@ const HEX_DATA = [
     "hex": 4207,
     "display": "4207",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10738,7 +9665,6 @@ const HEX_DATA = [
     "hex": 4208,
     "display": "4208",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": ""
   },
   {
@@ -10748,7 +9674,6 @@ const HEX_DATA = [
     "hex": 4209,
     "display": "4209",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": ""
   },
   {
@@ -10758,7 +9683,6 @@ const HEX_DATA = [
     "hex": 4210,
     "display": "4210",
     "location": "Center",
-    "faction": "White Ravens",
     "name": "Raven's Reach"
   },
   {
@@ -10768,7 +9692,6 @@ const HEX_DATA = [
     "hex": 4211,
     "display": "4211",
     "location": "Center",
-    "faction": "",
     "name": "Yule Glade"
   },
   {
@@ -10778,7 +9701,6 @@ const HEX_DATA = [
     "hex": 4212,
     "display": "4212",
     "location": "Center",
-    "faction": "Wardens",
     "name": ""
   },
   {
@@ -10788,7 +9710,6 @@ const HEX_DATA = [
     "hex": 4213,
     "display": "4213",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10798,7 +9719,6 @@ const HEX_DATA = [
     "hex": 4214,
     "display": "4214",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10808,7 +9728,6 @@ const HEX_DATA = [
     "hex": 4215,
     "display": "4215",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10818,7 +9737,6 @@ const HEX_DATA = [
     "hex": 4216,
     "display": "4216",
     "location": "Center",
-    "faction": "White Ravens",
     "name": ""
   },
   {
@@ -10828,7 +9746,6 @@ const HEX_DATA = [
     "hex": 4217,
     "display": "4217",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10838,7 +9755,6 @@ const HEX_DATA = [
     "hex": 4218,
     "display": "4218",
     "location": "Center",
-    "faction": "Geth",
     "name": ""
   },
   {
@@ -10848,7 +9764,6 @@ const HEX_DATA = [
     "hex": 4219,
     "display": "4219",
     "location": "Center",
-    "faction": "Black Sky",
     "name": ""
   },
   {
@@ -10858,7 +9773,6 @@ const HEX_DATA = [
     "hex": 4220,
     "display": "4220",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10868,7 +9782,6 @@ const HEX_DATA = [
     "hex": 4221,
     "display": "4221",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10878,7 +9791,6 @@ const HEX_DATA = [
     "hex": 4222,
     "display": "4222",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10888,7 +9800,6 @@ const HEX_DATA = [
     "hex": 4223,
     "display": "4223",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10898,7 +9809,6 @@ const HEX_DATA = [
     "hex": 4224,
     "display": "4224",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10908,7 +9818,6 @@ const HEX_DATA = [
     "hex": 4225,
     "display": "4225",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10918,7 +9827,6 @@ const HEX_DATA = [
     "hex": 4226,
     "display": "4226",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10928,7 +9836,6 @@ const HEX_DATA = [
     "hex": 4301,
     "display": "4301",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10938,7 +9845,6 @@ const HEX_DATA = [
     "hex": 4302,
     "display": "4302",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10948,7 +9854,6 @@ const HEX_DATA = [
     "hex": 4303,
     "display": "4303",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10958,7 +9863,6 @@ const HEX_DATA = [
     "hex": 4304,
     "display": "4304",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10968,7 +9872,6 @@ const HEX_DATA = [
     "hex": 4305,
     "display": "4305",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10978,7 +9881,6 @@ const HEX_DATA = [
     "hex": 4306,
     "display": "4306",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10988,7 +9890,6 @@ const HEX_DATA = [
     "hex": 4307,
     "display": "4307",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -10998,7 +9899,6 @@ const HEX_DATA = [
     "hex": 4308,
     "display": "4308",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11008,7 +9908,6 @@ const HEX_DATA = [
     "hex": 4309,
     "display": "4309",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": ""
   },
   {
@@ -11018,7 +9917,6 @@ const HEX_DATA = [
     "hex": 4310,
     "display": "4310",
     "location": "Center",
-    "faction": "Wardens",
     "name": ""
   },
   {
@@ -11028,7 +9926,6 @@ const HEX_DATA = [
     "hex": 4311,
     "display": "4311",
     "location": "Center",
-    "faction": "Wardens",
     "name": ""
   },
   {
@@ -11038,7 +9935,6 @@ const HEX_DATA = [
     "hex": 4312,
     "display": "4312",
     "location": "Center",
-    "faction": "Wardens",
     "name": ""
   },
   {
@@ -11048,7 +9944,6 @@ const HEX_DATA = [
     "hex": 4313,
     "display": "4313",
     "location": "Center",
-    "faction": "Wardens",
     "name": "Fletchings"
   },
   {
@@ -11058,7 +9953,6 @@ const HEX_DATA = [
     "hex": 4314,
     "display": "4314",
     "location": "Center",
-    "faction": "Wardens",
     "name": ""
   },
   {
@@ -11068,7 +9962,6 @@ const HEX_DATA = [
     "hex": 4315,
     "display": "4315",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11078,7 +9971,6 @@ const HEX_DATA = [
     "hex": 4316,
     "display": "4316",
     "location": "Center",
-    "faction": "Geth",
     "name": "Temple of Geth"
   },
   {
@@ -11088,7 +9980,6 @@ const HEX_DATA = [
     "hex": 4317,
     "display": "4317",
     "location": "Center",
-    "faction": "Geth",
     "name": ""
   },
   {
@@ -11098,7 +9989,6 @@ const HEX_DATA = [
     "hex": 4318,
     "display": "4318",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11108,7 +9998,6 @@ const HEX_DATA = [
     "hex": 4319,
     "display": "4319",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11118,7 +10007,6 @@ const HEX_DATA = [
     "hex": 4320,
     "display": "4320",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11128,7 +10016,6 @@ const HEX_DATA = [
     "hex": 4321,
     "display": "4321",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11138,7 +10025,6 @@ const HEX_DATA = [
     "hex": 4322,
     "display": "4322",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11148,7 +10034,6 @@ const HEX_DATA = [
     "hex": 4323,
     "display": "4323",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11158,7 +10043,6 @@ const HEX_DATA = [
     "hex": 4324,
     "display": "4324",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11168,7 +10052,6 @@ const HEX_DATA = [
     "hex": 4325,
     "display": "4325",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11178,7 +10061,6 @@ const HEX_DATA = [
     "hex": 4326,
     "display": "4326",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11188,7 +10070,6 @@ const HEX_DATA = [
     "hex": 4401,
     "display": "4401",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11198,7 +10079,6 @@ const HEX_DATA = [
     "hex": 4402,
     "display": "4402",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11208,7 +10088,6 @@ const HEX_DATA = [
     "hex": 4403,
     "display": "4403",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11218,7 +10097,6 @@ const HEX_DATA = [
     "hex": 4404,
     "display": "4404",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11228,7 +10106,6 @@ const HEX_DATA = [
     "hex": 4405,
     "display": "4405",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11238,7 +10115,6 @@ const HEX_DATA = [
     "hex": 4406,
     "display": "4406",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11248,7 +10124,6 @@ const HEX_DATA = [
     "hex": 4407,
     "display": "4407",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11258,7 +10133,6 @@ const HEX_DATA = [
     "hex": 4408,
     "display": "4408",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11268,7 +10142,6 @@ const HEX_DATA = [
     "hex": 4409,
     "display": "4409",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": ""
   },
   {
@@ -11278,7 +10151,6 @@ const HEX_DATA = [
     "hex": 4410,
     "display": "4410",
     "location": "Center",
-    "faction": "Wardens",
     "name": "Nock"
   },
   {
@@ -11288,7 +10160,6 @@ const HEX_DATA = [
     "hex": 4411,
     "display": "4411",
     "location": "Center",
-    "faction": "Wardens",
     "name": ""
   },
   {
@@ -11298,7 +10169,6 @@ const HEX_DATA = [
     "hex": 4412,
     "display": "4412",
     "location": "Center",
-    "faction": "Wardens",
     "name": ""
   },
   {
@@ -11308,7 +10178,6 @@ const HEX_DATA = [
     "hex": 4413,
     "display": "4413",
     "location": "Center",
-    "faction": "Wardens",
     "name": ""
   },
   {
@@ -11318,7 +10187,6 @@ const HEX_DATA = [
     "hex": 4414,
     "display": "4414",
     "location": "Center",
-    "faction": "Black Sky",
     "name": ""
   },
   {
@@ -11328,7 +10196,6 @@ const HEX_DATA = [
     "hex": 4415,
     "display": "4415",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11338,7 +10205,6 @@ const HEX_DATA = [
     "hex": 4416,
     "display": "4416",
     "location": "Center",
-    "faction": "Geth",
     "name": ""
   },
   {
@@ -11348,7 +10214,6 @@ const HEX_DATA = [
     "hex": 4417,
     "display": "4417",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11358,7 +10223,6 @@ const HEX_DATA = [
     "hex": 4418,
     "display": "4418",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11368,7 +10232,6 @@ const HEX_DATA = [
     "hex": 4419,
     "display": "4419",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11378,7 +10241,6 @@ const HEX_DATA = [
     "hex": 4420,
     "display": "4420",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11388,7 +10250,6 @@ const HEX_DATA = [
     "hex": 4421,
     "display": "4421",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11398,7 +10259,6 @@ const HEX_DATA = [
     "hex": 4422,
     "display": "4422",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": ""
   },
   {
@@ -11408,7 +10268,6 @@ const HEX_DATA = [
     "hex": 4423,
     "display": "4423",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11418,7 +10277,6 @@ const HEX_DATA = [
     "hex": 4424,
     "display": "4424",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11428,7 +10286,6 @@ const HEX_DATA = [
     "hex": 4425,
     "display": "4425",
     "location": "Center",
-    "faction": "Cedar Hill",
     "name": ""
   },
   {
@@ -11438,7 +10295,6 @@ const HEX_DATA = [
     "hex": 4426,
     "display": "4426",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11448,7 +10304,6 @@ const HEX_DATA = [
     "hex": 4501,
     "display": "4501",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11458,7 +10313,6 @@ const HEX_DATA = [
     "hex": 4502,
     "display": "4502",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11468,7 +10322,6 @@ const HEX_DATA = [
     "hex": 4503,
     "display": "4503",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11478,7 +10331,6 @@ const HEX_DATA = [
     "hex": 4504,
     "display": "4504",
     "location": "Center",
-    "faction": "Grimfrost",
     "name": ""
   },
   {
@@ -11488,7 +10340,6 @@ const HEX_DATA = [
     "hex": 4505,
     "display": "4505",
     "location": "Center",
-    "faction": "Grimfrost",
     "name": "Southport"
   },
   {
@@ -11498,7 +10349,6 @@ const HEX_DATA = [
     "hex": 4506,
     "display": "4506",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11508,7 +10358,6 @@ const HEX_DATA = [
     "hex": 4507,
     "display": "4507",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11518,7 +10367,6 @@ const HEX_DATA = [
     "hex": 4508,
     "display": "4508",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11528,7 +10376,6 @@ const HEX_DATA = [
     "hex": 4509,
     "display": "4509",
     "location": "Center",
-    "faction": "Kult of Tharros",
     "name": ""
   },
   {
@@ -11538,7 +10385,6 @@ const HEX_DATA = [
     "hex": 4510,
     "display": "4510",
     "location": "Center",
-    "faction": "Wardens",
     "name": ""
   },
   {
@@ -11548,7 +10394,6 @@ const HEX_DATA = [
     "hex": 4511,
     "display": "4511",
     "location": "Center",
-    "faction": "Wardens",
     "name": ""
   },
   {
@@ -11558,7 +10403,6 @@ const HEX_DATA = [
     "hex": 4512,
     "display": "4512",
     "location": "Center",
-    "faction": "Wardens",
     "name": "Archer's Crest"
   },
   {
@@ -11568,7 +10412,6 @@ const HEX_DATA = [
     "hex": 4513,
     "display": "4513",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11578,7 +10421,6 @@ const HEX_DATA = [
     "hex": 4514,
     "display": "4514",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11588,7 +10430,6 @@ const HEX_DATA = [
     "hex": 4515,
     "display": "4515",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11598,7 +10439,6 @@ const HEX_DATA = [
     "hex": 4516,
     "display": "4516",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11608,7 +10448,6 @@ const HEX_DATA = [
     "hex": 4517,
     "display": "4517",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11618,7 +10457,6 @@ const HEX_DATA = [
     "hex": 4518,
     "display": "4518",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11628,7 +10466,6 @@ const HEX_DATA = [
     "hex": 4519,
     "display": "4519",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11638,7 +10475,6 @@ const HEX_DATA = [
     "hex": 4520,
     "display": "4520",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11648,7 +10484,6 @@ const HEX_DATA = [
     "hex": 4521,
     "display": "4521",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11658,7 +10493,6 @@ const HEX_DATA = [
     "hex": 4522,
     "display": "4522",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11668,7 +10502,6 @@ const HEX_DATA = [
     "hex": 4523,
     "display": "4523",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11678,7 +10511,6 @@ const HEX_DATA = [
     "hex": 4524,
     "display": "4524",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11688,7 +10520,6 @@ const HEX_DATA = [
     "hex": 4525,
     "display": "4525",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11698,7 +10529,6 @@ const HEX_DATA = [
     "hex": 4526,
     "display": "4526",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11708,7 +10538,6 @@ const HEX_DATA = [
     "hex": 4601,
     "display": "4601",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11718,7 +10547,6 @@ const HEX_DATA = [
     "hex": 4602,
     "display": "4602",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11728,7 +10556,6 @@ const HEX_DATA = [
     "hex": 4603,
     "display": "4603",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11738,7 +10565,6 @@ const HEX_DATA = [
     "hex": 4604,
     "display": "4604",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11748,7 +10574,6 @@ const HEX_DATA = [
     "hex": 4605,
     "display": "4605",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11758,7 +10583,6 @@ const HEX_DATA = [
     "hex": 4606,
     "display": "4606",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11768,7 +10592,6 @@ const HEX_DATA = [
     "hex": 4607,
     "display": "4607",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11778,7 +10601,6 @@ const HEX_DATA = [
     "hex": 4608,
     "display": "4608",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11788,7 +10610,6 @@ const HEX_DATA = [
     "hex": 4609,
     "display": "4609",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11798,7 +10619,6 @@ const HEX_DATA = [
     "hex": 4610,
     "display": "4610",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11808,7 +10628,6 @@ const HEX_DATA = [
     "hex": 4611,
     "display": "4611",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11818,7 +10637,6 @@ const HEX_DATA = [
     "hex": 4612,
     "display": "4612",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11828,7 +10646,6 @@ const HEX_DATA = [
     "hex": 4613,
     "display": "4613",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11838,7 +10655,6 @@ const HEX_DATA = [
     "hex": 4614,
     "display": "4614",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11848,7 +10664,6 @@ const HEX_DATA = [
     "hex": 4615,
     "display": "4615",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11858,7 +10673,6 @@ const HEX_DATA = [
     "hex": 4616,
     "display": "4616",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11868,7 +10682,6 @@ const HEX_DATA = [
     "hex": 4617,
     "display": "4617",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11878,7 +10691,6 @@ const HEX_DATA = [
     "hex": 4618,
     "display": "4618",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11888,7 +10700,6 @@ const HEX_DATA = [
     "hex": 4619,
     "display": "4619",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11898,7 +10709,6 @@ const HEX_DATA = [
     "hex": 4620,
     "display": "4620",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11908,7 +10718,6 @@ const HEX_DATA = [
     "hex": 4621,
     "display": "4621",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11918,7 +10727,6 @@ const HEX_DATA = [
     "hex": 4622,
     "display": "4622",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11928,7 +10736,6 @@ const HEX_DATA = [
     "hex": 4623,
     "display": "4623",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11938,7 +10745,6 @@ const HEX_DATA = [
     "hex": 4624,
     "display": "4624",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11948,7 +10754,6 @@ const HEX_DATA = [
     "hex": 4625,
     "display": "4625",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11958,7 +10763,6 @@ const HEX_DATA = [
     "hex": 4626,
     "display": "4626",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11968,7 +10772,6 @@ const HEX_DATA = [
     "hex": 4701,
     "display": "4701",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11978,7 +10781,6 @@ const HEX_DATA = [
     "hex": 4702,
     "display": "4702",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11988,7 +10790,6 @@ const HEX_DATA = [
     "hex": 4703,
     "display": "4703",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -11998,7 +10799,6 @@ const HEX_DATA = [
     "hex": 4704,
     "display": "4704",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12008,7 +10808,6 @@ const HEX_DATA = [
     "hex": 4705,
     "display": "4705",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12018,7 +10817,6 @@ const HEX_DATA = [
     "hex": 4706,
     "display": "4706",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12028,7 +10826,6 @@ const HEX_DATA = [
     "hex": 4707,
     "display": "4707",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12038,7 +10835,6 @@ const HEX_DATA = [
     "hex": 4708,
     "display": "4708",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12048,7 +10844,6 @@ const HEX_DATA = [
     "hex": 4709,
     "display": "4709",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12058,7 +10853,6 @@ const HEX_DATA = [
     "hex": 4710,
     "display": "4710",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12068,7 +10862,6 @@ const HEX_DATA = [
     "hex": 4711,
     "display": "4711",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12078,7 +10871,6 @@ const HEX_DATA = [
     "hex": 4712,
     "display": "4712",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12088,7 +10880,6 @@ const HEX_DATA = [
     "hex": 4713,
     "display": "4713",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12098,7 +10889,6 @@ const HEX_DATA = [
     "hex": 4714,
     "display": "4714",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12108,7 +10898,6 @@ const HEX_DATA = [
     "hex": 4715,
     "display": "4715",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12118,7 +10907,6 @@ const HEX_DATA = [
     "hex": 4716,
     "display": "4716",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12128,7 +10916,6 @@ const HEX_DATA = [
     "hex": 4717,
     "display": "4717",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12138,7 +10925,6 @@ const HEX_DATA = [
     "hex": 4718,
     "display": "4718",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12148,7 +10934,6 @@ const HEX_DATA = [
     "hex": 4719,
     "display": "4719",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12158,7 +10943,6 @@ const HEX_DATA = [
     "hex": 4720,
     "display": "4720",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12168,7 +10952,6 @@ const HEX_DATA = [
     "hex": 4721,
     "display": "4721",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12178,7 +10961,6 @@ const HEX_DATA = [
     "hex": 4722,
     "display": "4722",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12188,7 +10970,6 @@ const HEX_DATA = [
     "hex": 4723,
     "display": "4723",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12198,7 +10979,6 @@ const HEX_DATA = [
     "hex": 4724,
     "display": "4724",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12208,7 +10988,6 @@ const HEX_DATA = [
     "hex": 4725,
     "display": "4725",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12218,7 +10997,6 @@ const HEX_DATA = [
     "hex": 4726,
     "display": "4726",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12228,7 +11006,6 @@ const HEX_DATA = [
     "hex": 4801,
     "display": "4801",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12238,7 +11015,6 @@ const HEX_DATA = [
     "hex": 4802,
     "display": "4802",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12248,7 +11024,6 @@ const HEX_DATA = [
     "hex": 4803,
     "display": "4803",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12258,7 +11033,6 @@ const HEX_DATA = [
     "hex": 4804,
     "display": "4804",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12268,7 +11042,6 @@ const HEX_DATA = [
     "hex": 4805,
     "display": "4805",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12278,7 +11051,6 @@ const HEX_DATA = [
     "hex": 4806,
     "display": "4806",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12288,7 +11060,6 @@ const HEX_DATA = [
     "hex": 4807,
     "display": "4807",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12298,7 +11069,6 @@ const HEX_DATA = [
     "hex": 4808,
     "display": "4808",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12308,7 +11078,6 @@ const HEX_DATA = [
     "hex": 4809,
     "display": "4809",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12318,7 +11087,6 @@ const HEX_DATA = [
     "hex": 4810,
     "display": "4810",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12328,7 +11096,6 @@ const HEX_DATA = [
     "hex": 4811,
     "display": "4811",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12338,7 +11105,6 @@ const HEX_DATA = [
     "hex": 4812,
     "display": "4812",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12348,7 +11114,6 @@ const HEX_DATA = [
     "hex": 4813,
     "display": "4813",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12358,7 +11123,6 @@ const HEX_DATA = [
     "hex": 4814,
     "display": "4814",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12368,7 +11132,6 @@ const HEX_DATA = [
     "hex": 4815,
     "display": "4815",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12378,7 +11141,6 @@ const HEX_DATA = [
     "hex": 4816,
     "display": "4816",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12388,7 +11150,6 @@ const HEX_DATA = [
     "hex": 4817,
     "display": "4817",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12398,7 +11159,6 @@ const HEX_DATA = [
     "hex": 4818,
     "display": "4818",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12408,7 +11168,6 @@ const HEX_DATA = [
     "hex": 4819,
     "display": "4819",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12418,7 +11177,6 @@ const HEX_DATA = [
     "hex": 4820,
     "display": "4820",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12428,7 +11186,6 @@ const HEX_DATA = [
     "hex": 4821,
     "display": "4821",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12438,7 +11195,6 @@ const HEX_DATA = [
     "hex": 4822,
     "display": "4822",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12448,7 +11204,6 @@ const HEX_DATA = [
     "hex": 4823,
     "display": "4823",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12458,7 +11213,6 @@ const HEX_DATA = [
     "hex": 4824,
     "display": "4824",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12468,7 +11222,6 @@ const HEX_DATA = [
     "hex": 4825,
     "display": "4825",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12478,7 +11231,6 @@ const HEX_DATA = [
     "hex": 4826,
     "display": "4826",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12488,7 +11240,6 @@ const HEX_DATA = [
     "hex": 4901,
     "display": "4901",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12498,7 +11249,6 @@ const HEX_DATA = [
     "hex": 4902,
     "display": "4902",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12508,7 +11258,6 @@ const HEX_DATA = [
     "hex": 4903,
     "display": "4903",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12518,7 +11267,6 @@ const HEX_DATA = [
     "hex": 4904,
     "display": "4904",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12528,7 +11276,6 @@ const HEX_DATA = [
     "hex": 4905,
     "display": "4905",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12538,7 +11285,6 @@ const HEX_DATA = [
     "hex": 4906,
     "display": "4906",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12548,7 +11294,6 @@ const HEX_DATA = [
     "hex": 4907,
     "display": "4907",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12558,7 +11303,6 @@ const HEX_DATA = [
     "hex": 4908,
     "display": "4908",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12568,7 +11312,6 @@ const HEX_DATA = [
     "hex": 4909,
     "display": "4909",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12578,7 +11321,6 @@ const HEX_DATA = [
     "hex": 4910,
     "display": "4910",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12588,7 +11330,6 @@ const HEX_DATA = [
     "hex": 4911,
     "display": "4911",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12598,7 +11339,6 @@ const HEX_DATA = [
     "hex": 4912,
     "display": "4912",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12608,7 +11348,6 @@ const HEX_DATA = [
     "hex": 4913,
     "display": "4913",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12618,7 +11357,6 @@ const HEX_DATA = [
     "hex": 4914,
     "display": "4914",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12628,7 +11366,6 @@ const HEX_DATA = [
     "hex": 4915,
     "display": "4915",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12638,7 +11375,6 @@ const HEX_DATA = [
     "hex": 4916,
     "display": "4916",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12648,7 +11384,6 @@ const HEX_DATA = [
     "hex": 4917,
     "display": "4917",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12658,7 +11393,6 @@ const HEX_DATA = [
     "hex": 4918,
     "display": "4918",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12668,7 +11402,6 @@ const HEX_DATA = [
     "hex": 4919,
     "display": "4919",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12678,7 +11411,6 @@ const HEX_DATA = [
     "hex": 4920,
     "display": "4920",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12688,7 +11420,6 @@ const HEX_DATA = [
     "hex": 4921,
     "display": "4921",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12698,7 +11429,6 @@ const HEX_DATA = [
     "hex": 4922,
     "display": "4922",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12708,7 +11438,6 @@ const HEX_DATA = [
     "hex": 4923,
     "display": "4923",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12718,7 +11447,6 @@ const HEX_DATA = [
     "hex": 4924,
     "display": "4924",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12728,7 +11456,6 @@ const HEX_DATA = [
     "hex": 4925,
     "display": "4925",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12738,7 +11465,6 @@ const HEX_DATA = [
     "hex": 4926,
     "display": "4926",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12748,7 +11474,6 @@ const HEX_DATA = [
     "hex": 5001,
     "display": "5001",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12758,7 +11483,6 @@ const HEX_DATA = [
     "hex": 5002,
     "display": "5002",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12768,7 +11492,6 @@ const HEX_DATA = [
     "hex": 5003,
     "display": "5003",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12778,7 +11501,6 @@ const HEX_DATA = [
     "hex": 5004,
     "display": "5004",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12788,7 +11510,6 @@ const HEX_DATA = [
     "hex": 5005,
     "display": "5005",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12798,7 +11519,6 @@ const HEX_DATA = [
     "hex": 5006,
     "display": "5006",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12808,7 +11528,6 @@ const HEX_DATA = [
     "hex": 5007,
     "display": "5007",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12818,7 +11537,6 @@ const HEX_DATA = [
     "hex": 5008,
     "display": "5008",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12828,7 +11546,6 @@ const HEX_DATA = [
     "hex": 5009,
     "display": "5009",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12838,7 +11555,6 @@ const HEX_DATA = [
     "hex": 5010,
     "display": "5010",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12848,7 +11564,6 @@ const HEX_DATA = [
     "hex": 5011,
     "display": "5011",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12858,7 +11573,6 @@ const HEX_DATA = [
     "hex": 5012,
     "display": "5012",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12868,7 +11582,6 @@ const HEX_DATA = [
     "hex": 5013,
     "display": "5013",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12878,7 +11591,6 @@ const HEX_DATA = [
     "hex": 5014,
     "display": "5014",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12888,7 +11600,6 @@ const HEX_DATA = [
     "hex": 5015,
     "display": "5015",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12898,7 +11609,6 @@ const HEX_DATA = [
     "hex": 5016,
     "display": "5016",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12908,7 +11618,6 @@ const HEX_DATA = [
     "hex": 5017,
     "display": "5017",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12918,7 +11627,6 @@ const HEX_DATA = [
     "hex": 5018,
     "display": "5018",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12928,7 +11636,6 @@ const HEX_DATA = [
     "hex": 5019,
     "display": "5019",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12938,7 +11645,6 @@ const HEX_DATA = [
     "hex": 5020,
     "display": "5020",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12948,7 +11654,6 @@ const HEX_DATA = [
     "hex": 5021,
     "display": "5021",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12958,7 +11663,6 @@ const HEX_DATA = [
     "hex": 5022,
     "display": "5022",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12968,7 +11672,6 @@ const HEX_DATA = [
     "hex": 5023,
     "display": "5023",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12978,7 +11681,6 @@ const HEX_DATA = [
     "hex": 5024,
     "display": "5024",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12988,7 +11690,6 @@ const HEX_DATA = [
     "hex": 5025,
     "display": "5025",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -12998,7 +11699,6 @@ const HEX_DATA = [
     "hex": 5026,
     "display": "5026",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13008,7 +11708,6 @@ const HEX_DATA = [
     "hex": 5101,
     "display": "5101",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13018,7 +11717,6 @@ const HEX_DATA = [
     "hex": 5102,
     "display": "5102",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13028,7 +11726,6 @@ const HEX_DATA = [
     "hex": 5103,
     "display": "5103",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13038,7 +11735,6 @@ const HEX_DATA = [
     "hex": 5104,
     "display": "5104",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13048,7 +11744,6 @@ const HEX_DATA = [
     "hex": 5105,
     "display": "5105",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13058,7 +11753,6 @@ const HEX_DATA = [
     "hex": 5106,
     "display": "5106",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13068,7 +11762,6 @@ const HEX_DATA = [
     "hex": 5107,
     "display": "5107",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13078,7 +11771,6 @@ const HEX_DATA = [
     "hex": 5108,
     "display": "5108",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13088,7 +11780,6 @@ const HEX_DATA = [
     "hex": 5109,
     "display": "5109",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13098,7 +11789,6 @@ const HEX_DATA = [
     "hex": 5110,
     "display": "5110",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13108,7 +11798,6 @@ const HEX_DATA = [
     "hex": 5111,
     "display": "5111",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13118,7 +11807,6 @@ const HEX_DATA = [
     "hex": 5112,
     "display": "5112",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13128,7 +11816,6 @@ const HEX_DATA = [
     "hex": 5113,
     "display": "5113",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13138,7 +11825,6 @@ const HEX_DATA = [
     "hex": 5114,
     "display": "5114",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13148,7 +11834,6 @@ const HEX_DATA = [
     "hex": 5115,
     "display": "5115",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13158,7 +11843,6 @@ const HEX_DATA = [
     "hex": 5116,
     "display": "5116",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13168,7 +11852,6 @@ const HEX_DATA = [
     "hex": 5117,
     "display": "5117",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13178,7 +11861,6 @@ const HEX_DATA = [
     "hex": 5118,
     "display": "5118",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13188,7 +11870,6 @@ const HEX_DATA = [
     "hex": 5119,
     "display": "5119",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13198,7 +11879,6 @@ const HEX_DATA = [
     "hex": 5120,
     "display": "5120",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13208,7 +11888,6 @@ const HEX_DATA = [
     "hex": 5121,
     "display": "5121",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13218,7 +11897,6 @@ const HEX_DATA = [
     "hex": 5122,
     "display": "5122",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13228,7 +11906,6 @@ const HEX_DATA = [
     "hex": 5123,
     "display": "5123",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13238,7 +11915,6 @@ const HEX_DATA = [
     "hex": 5124,
     "display": "5124",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13248,7 +11924,6 @@ const HEX_DATA = [
     "hex": 5125,
     "display": "5125",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13258,7 +11933,6 @@ const HEX_DATA = [
     "hex": 5126,
     "display": "5126",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13268,7 +11942,6 @@ const HEX_DATA = [
     "hex": 5201,
     "display": "5201",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13278,7 +11951,6 @@ const HEX_DATA = [
     "hex": 5202,
     "display": "5202",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13288,7 +11960,6 @@ const HEX_DATA = [
     "hex": 5203,
     "display": "5203",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13298,7 +11969,6 @@ const HEX_DATA = [
     "hex": 5204,
     "display": "5204",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13308,7 +11978,6 @@ const HEX_DATA = [
     "hex": 5205,
     "display": "5205",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13318,7 +11987,6 @@ const HEX_DATA = [
     "hex": 5206,
     "display": "5206",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13328,7 +11996,6 @@ const HEX_DATA = [
     "hex": 5207,
     "display": "5207",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13338,7 +12005,6 @@ const HEX_DATA = [
     "hex": 5208,
     "display": "5208",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13348,7 +12014,6 @@ const HEX_DATA = [
     "hex": 5209,
     "display": "5209",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13358,7 +12023,6 @@ const HEX_DATA = [
     "hex": 5210,
     "display": "5210",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13368,7 +12032,6 @@ const HEX_DATA = [
     "hex": 5211,
     "display": "5211",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13378,7 +12041,6 @@ const HEX_DATA = [
     "hex": 5212,
     "display": "5212",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13388,7 +12050,6 @@ const HEX_DATA = [
     "hex": 5213,
     "display": "5213",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13398,7 +12059,6 @@ const HEX_DATA = [
     "hex": 5214,
     "display": "5214",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13408,7 +12068,6 @@ const HEX_DATA = [
     "hex": 5215,
     "display": "5215",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13418,7 +12077,6 @@ const HEX_DATA = [
     "hex": 5216,
     "display": "5216",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13428,7 +12086,6 @@ const HEX_DATA = [
     "hex": 5217,
     "display": "5217",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13438,7 +12095,6 @@ const HEX_DATA = [
     "hex": 5218,
     "display": "5218",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13448,7 +12104,6 @@ const HEX_DATA = [
     "hex": 5219,
     "display": "5219",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13458,7 +12113,6 @@ const HEX_DATA = [
     "hex": 5220,
     "display": "5220",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13468,7 +12122,6 @@ const HEX_DATA = [
     "hex": 5221,
     "display": "5221",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13478,7 +12131,6 @@ const HEX_DATA = [
     "hex": 5222,
     "display": "5222",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13488,7 +12140,6 @@ const HEX_DATA = [
     "hex": 5223,
     "display": "5223",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13498,7 +12149,6 @@ const HEX_DATA = [
     "hex": 5224,
     "display": "5224",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13508,7 +12158,6 @@ const HEX_DATA = [
     "hex": 5225,
     "display": "5225",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13518,7 +12167,6 @@ const HEX_DATA = [
     "hex": 5226,
     "display": "5226",
     "location": "Center",
-    "faction": "",
     "name": ""
   },
   {
@@ -13528,7 +12176,6 @@ const HEX_DATA = [
     "hex": 2701,
     "display": "E2701",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13538,7 +12185,6 @@ const HEX_DATA = [
     "hex": 2702,
     "display": "E2702",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13548,7 +12194,6 @@ const HEX_DATA = [
     "hex": 2703,
     "display": "E2703",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13558,7 +12203,6 @@ const HEX_DATA = [
     "hex": 2704,
     "display": "E2704",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13568,7 +12212,6 @@ const HEX_DATA = [
     "hex": 2705,
     "display": "E2705",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13578,7 +12221,6 @@ const HEX_DATA = [
     "hex": 2706,
     "display": "E2706",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13588,7 +12230,6 @@ const HEX_DATA = [
     "hex": 2707,
     "display": "E2707",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13598,7 +12239,6 @@ const HEX_DATA = [
     "hex": 2708,
     "display": "E2708",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13608,7 +12248,6 @@ const HEX_DATA = [
     "hex": 2709,
     "display": "E2709",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13618,7 +12257,6 @@ const HEX_DATA = [
     "hex": 2710,
     "display": "E2710",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13628,7 +12266,6 @@ const HEX_DATA = [
     "hex": 2711,
     "display": "E2711",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13638,7 +12275,6 @@ const HEX_DATA = [
     "hex": 2712,
     "display": "E2712",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13648,7 +12284,6 @@ const HEX_DATA = [
     "hex": 2713,
     "display": "E2713",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13658,7 +12293,6 @@ const HEX_DATA = [
     "hex": 2714,
     "display": "E2714",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13668,7 +12302,6 @@ const HEX_DATA = [
     "hex": 2715,
     "display": "E2715",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13678,7 +12311,6 @@ const HEX_DATA = [
     "hex": 2716,
     "display": "E2716",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13688,7 +12320,6 @@ const HEX_DATA = [
     "hex": 2717,
     "display": "E2717",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13698,7 +12329,6 @@ const HEX_DATA = [
     "hex": 2718,
     "display": "E2718",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13708,7 +12338,6 @@ const HEX_DATA = [
     "hex": 2719,
     "display": "E2719",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13718,7 +12347,6 @@ const HEX_DATA = [
     "hex": 2720,
     "display": "E2720",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13728,7 +12356,6 @@ const HEX_DATA = [
     "hex": 2721,
     "display": "E2721",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13738,7 +12365,6 @@ const HEX_DATA = [
     "hex": 2722,
     "display": "E2722",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13748,7 +12374,6 @@ const HEX_DATA = [
     "hex": 2723,
     "display": "E2723",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13758,7 +12383,6 @@ const HEX_DATA = [
     "hex": 2724,
     "display": "E2724",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13768,7 +12392,6 @@ const HEX_DATA = [
     "hex": 2725,
     "display": "E2725",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13778,7 +12401,6 @@ const HEX_DATA = [
     "hex": 2726,
     "display": "E2726",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13788,7 +12410,6 @@ const HEX_DATA = [
     "hex": 2801,
     "display": "E2801",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13798,7 +12419,6 @@ const HEX_DATA = [
     "hex": 2802,
     "display": "E2802",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13808,7 +12428,6 @@ const HEX_DATA = [
     "hex": 2803,
     "display": "E2803",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13818,7 +12437,6 @@ const HEX_DATA = [
     "hex": 2804,
     "display": "E2804",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13828,7 +12446,6 @@ const HEX_DATA = [
     "hex": 2805,
     "display": "E2805",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13838,7 +12455,6 @@ const HEX_DATA = [
     "hex": 2806,
     "display": "E2806",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13848,7 +12464,6 @@ const HEX_DATA = [
     "hex": 2807,
     "display": "E2807",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13858,7 +12473,6 @@ const HEX_DATA = [
     "hex": 2808,
     "display": "E2808",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13868,7 +12482,6 @@ const HEX_DATA = [
     "hex": 2809,
     "display": "E2809",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13878,7 +12491,6 @@ const HEX_DATA = [
     "hex": 2810,
     "display": "E2810",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13888,7 +12500,6 @@ const HEX_DATA = [
     "hex": 2811,
     "display": "E2811",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13898,7 +12509,6 @@ const HEX_DATA = [
     "hex": 2812,
     "display": "E2812",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13908,7 +12518,6 @@ const HEX_DATA = [
     "hex": 2813,
     "display": "E2813",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13918,7 +12527,6 @@ const HEX_DATA = [
     "hex": 2814,
     "display": "E2814",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13928,7 +12536,6 @@ const HEX_DATA = [
     "hex": 2815,
     "display": "E2815",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13938,7 +12545,6 @@ const HEX_DATA = [
     "hex": 2816,
     "display": "E2816",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13948,7 +12554,6 @@ const HEX_DATA = [
     "hex": 2817,
     "display": "E2817",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13958,7 +12563,6 @@ const HEX_DATA = [
     "hex": 2818,
     "display": "E2818",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13968,7 +12572,6 @@ const HEX_DATA = [
     "hex": 2819,
     "display": "E2819",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13978,7 +12581,6 @@ const HEX_DATA = [
     "hex": 2820,
     "display": "E2820",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13988,7 +12590,6 @@ const HEX_DATA = [
     "hex": 2821,
     "display": "E2821",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -13998,7 +12599,6 @@ const HEX_DATA = [
     "hex": 2822,
     "display": "E2822",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14008,7 +12608,6 @@ const HEX_DATA = [
     "hex": 2823,
     "display": "E2823",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14018,7 +12617,6 @@ const HEX_DATA = [
     "hex": 2824,
     "display": "E2824",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14028,7 +12626,6 @@ const HEX_DATA = [
     "hex": 2825,
     "display": "E2825",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14038,7 +12635,6 @@ const HEX_DATA = [
     "hex": 2826,
     "display": "E2826",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14048,7 +12644,6 @@ const HEX_DATA = [
     "hex": 2901,
     "display": "E2901",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14058,7 +12653,6 @@ const HEX_DATA = [
     "hex": 2902,
     "display": "E2902",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14068,7 +12662,6 @@ const HEX_DATA = [
     "hex": 2903,
     "display": "E2903",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14078,7 +12671,6 @@ const HEX_DATA = [
     "hex": 2904,
     "display": "E2904",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14088,7 +12680,6 @@ const HEX_DATA = [
     "hex": 2905,
     "display": "E2905",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14098,7 +12689,6 @@ const HEX_DATA = [
     "hex": 2906,
     "display": "E2906",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14108,7 +12698,6 @@ const HEX_DATA = [
     "hex": 2907,
     "display": "E2907",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14118,7 +12707,6 @@ const HEX_DATA = [
     "hex": 2908,
     "display": "E2908",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14128,7 +12716,6 @@ const HEX_DATA = [
     "hex": 2909,
     "display": "E2909",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14138,7 +12725,6 @@ const HEX_DATA = [
     "hex": 2910,
     "display": "E2910",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14148,7 +12734,6 @@ const HEX_DATA = [
     "hex": 2911,
     "display": "E2911",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14158,7 +12743,6 @@ const HEX_DATA = [
     "hex": 2912,
     "display": "E2912",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14168,7 +12752,6 @@ const HEX_DATA = [
     "hex": 2913,
     "display": "E2913",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14178,7 +12761,6 @@ const HEX_DATA = [
     "hex": 2914,
     "display": "E2914",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14188,7 +12770,6 @@ const HEX_DATA = [
     "hex": 2915,
     "display": "E2915",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14198,7 +12779,6 @@ const HEX_DATA = [
     "hex": 2916,
     "display": "E2916",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14208,7 +12788,6 @@ const HEX_DATA = [
     "hex": 2917,
     "display": "E2917",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14218,7 +12797,6 @@ const HEX_DATA = [
     "hex": 2918,
     "display": "E2918",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14228,7 +12806,6 @@ const HEX_DATA = [
     "hex": 2919,
     "display": "E2919",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14238,7 +12815,6 @@ const HEX_DATA = [
     "hex": 2920,
     "display": "E2920",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14248,7 +12824,6 @@ const HEX_DATA = [
     "hex": 2921,
     "display": "E2921",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14258,7 +12833,6 @@ const HEX_DATA = [
     "hex": 2922,
     "display": "E2922",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14268,7 +12842,6 @@ const HEX_DATA = [
     "hex": 2923,
     "display": "E2923",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14278,7 +12851,6 @@ const HEX_DATA = [
     "hex": 2924,
     "display": "E2924",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14288,7 +12860,6 @@ const HEX_DATA = [
     "hex": 2925,
     "display": "E2925",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14298,7 +12869,6 @@ const HEX_DATA = [
     "hex": 2926,
     "display": "E2926",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14308,7 +12878,6 @@ const HEX_DATA = [
     "hex": 3001,
     "display": "E3001",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14318,7 +12887,6 @@ const HEX_DATA = [
     "hex": 3002,
     "display": "E3002",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14328,7 +12896,6 @@ const HEX_DATA = [
     "hex": 3003,
     "display": "E3003",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14338,7 +12905,6 @@ const HEX_DATA = [
     "hex": 3004,
     "display": "E3004",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14348,7 +12914,6 @@ const HEX_DATA = [
     "hex": 3005,
     "display": "E3005",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14358,7 +12923,6 @@ const HEX_DATA = [
     "hex": 3006,
     "display": "E3006",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14368,7 +12932,6 @@ const HEX_DATA = [
     "hex": 3007,
     "display": "E3007",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14378,7 +12941,6 @@ const HEX_DATA = [
     "hex": 3008,
     "display": "E3008",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14388,7 +12950,6 @@ const HEX_DATA = [
     "hex": 3009,
     "display": "E3009",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14398,7 +12959,6 @@ const HEX_DATA = [
     "hex": 3010,
     "display": "E3010",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14408,7 +12968,6 @@ const HEX_DATA = [
     "hex": 3011,
     "display": "E3011",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14418,7 +12977,6 @@ const HEX_DATA = [
     "hex": 3012,
     "display": "E3012",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14428,7 +12986,6 @@ const HEX_DATA = [
     "hex": 3013,
     "display": "E3013",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14438,7 +12995,6 @@ const HEX_DATA = [
     "hex": 3014,
     "display": "E3014",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14448,7 +13004,6 @@ const HEX_DATA = [
     "hex": 3015,
     "display": "E3015",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14458,7 +13013,6 @@ const HEX_DATA = [
     "hex": 3016,
     "display": "E3016",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14468,7 +13022,6 @@ const HEX_DATA = [
     "hex": 3017,
     "display": "E3017",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14478,7 +13031,6 @@ const HEX_DATA = [
     "hex": 3018,
     "display": "E3018",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14488,7 +13040,6 @@ const HEX_DATA = [
     "hex": 3019,
     "display": "E3019",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14498,7 +13049,6 @@ const HEX_DATA = [
     "hex": 3020,
     "display": "E3020",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14508,7 +13058,6 @@ const HEX_DATA = [
     "hex": 3021,
     "display": "E3021",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14518,7 +13067,6 @@ const HEX_DATA = [
     "hex": 3022,
     "display": "E3022",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14528,7 +13076,6 @@ const HEX_DATA = [
     "hex": 3023,
     "display": "E3023",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14538,7 +13085,6 @@ const HEX_DATA = [
     "hex": 3024,
     "display": "E3024",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14548,7 +13094,6 @@ const HEX_DATA = [
     "hex": 3025,
     "display": "E3025",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14558,7 +13103,6 @@ const HEX_DATA = [
     "hex": 3026,
     "display": "E3026",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14568,7 +13112,6 @@ const HEX_DATA = [
     "hex": 3101,
     "display": "E3101",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14578,7 +13121,6 @@ const HEX_DATA = [
     "hex": 3102,
     "display": "E3102",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14588,7 +13130,6 @@ const HEX_DATA = [
     "hex": 3103,
     "display": "E3103",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14598,7 +13139,6 @@ const HEX_DATA = [
     "hex": 3104,
     "display": "E3104",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14608,7 +13148,6 @@ const HEX_DATA = [
     "hex": 3105,
     "display": "E3105",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14618,7 +13157,6 @@ const HEX_DATA = [
     "hex": 3106,
     "display": "E3106",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14628,7 +13166,6 @@ const HEX_DATA = [
     "hex": 3107,
     "display": "E3107",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14638,7 +13175,6 @@ const HEX_DATA = [
     "hex": 3108,
     "display": "E3108",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14648,7 +13184,6 @@ const HEX_DATA = [
     "hex": 3109,
     "display": "E3109",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14658,7 +13193,6 @@ const HEX_DATA = [
     "hex": 3110,
     "display": "E3110",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14668,7 +13202,6 @@ const HEX_DATA = [
     "hex": 3111,
     "display": "E3111",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14678,7 +13211,6 @@ const HEX_DATA = [
     "hex": 3112,
     "display": "E3112",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14688,7 +13220,6 @@ const HEX_DATA = [
     "hex": 3113,
     "display": "E3113",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14698,7 +13229,6 @@ const HEX_DATA = [
     "hex": 3114,
     "display": "E3114",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14708,7 +13238,6 @@ const HEX_DATA = [
     "hex": 3115,
     "display": "E3115",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14718,7 +13247,6 @@ const HEX_DATA = [
     "hex": 3116,
     "display": "E3116",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14728,7 +13256,6 @@ const HEX_DATA = [
     "hex": 3117,
     "display": "E3117",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14738,7 +13265,6 @@ const HEX_DATA = [
     "hex": 3118,
     "display": "E3118",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14748,7 +13274,6 @@ const HEX_DATA = [
     "hex": 3119,
     "display": "E3119",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14758,7 +13283,6 @@ const HEX_DATA = [
     "hex": 3120,
     "display": "E3120",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14768,7 +13292,6 @@ const HEX_DATA = [
     "hex": 3121,
     "display": "E3121",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14778,7 +13301,6 @@ const HEX_DATA = [
     "hex": 3122,
     "display": "E3122",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14788,7 +13310,6 @@ const HEX_DATA = [
     "hex": 3123,
     "display": "E3123",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14798,7 +13319,6 @@ const HEX_DATA = [
     "hex": 3124,
     "display": "E3124",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14808,7 +13328,6 @@ const HEX_DATA = [
     "hex": 3125,
     "display": "E3125",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14818,7 +13337,6 @@ const HEX_DATA = [
     "hex": 3126,
     "display": "E3126",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14828,7 +13346,6 @@ const HEX_DATA = [
     "hex": 3201,
     "display": "E3201",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14838,7 +13355,6 @@ const HEX_DATA = [
     "hex": 3202,
     "display": "E3202",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14848,7 +13364,6 @@ const HEX_DATA = [
     "hex": 3203,
     "display": "E3203",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14858,7 +13373,6 @@ const HEX_DATA = [
     "hex": 3204,
     "display": "E3204",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14868,7 +13382,6 @@ const HEX_DATA = [
     "hex": 3205,
     "display": "E3205",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14878,7 +13391,6 @@ const HEX_DATA = [
     "hex": 3206,
     "display": "E3206",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14888,7 +13400,6 @@ const HEX_DATA = [
     "hex": 3207,
     "display": "E3207",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14898,7 +13409,6 @@ const HEX_DATA = [
     "hex": 3208,
     "display": "E3208",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14908,7 +13418,6 @@ const HEX_DATA = [
     "hex": 3209,
     "display": "E3209",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14918,7 +13427,6 @@ const HEX_DATA = [
     "hex": 3210,
     "display": "E3210",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14928,7 +13436,6 @@ const HEX_DATA = [
     "hex": 3211,
     "display": "E3211",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14938,7 +13445,6 @@ const HEX_DATA = [
     "hex": 3212,
     "display": "E3212",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14948,7 +13454,6 @@ const HEX_DATA = [
     "hex": 3213,
     "display": "E3213",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14958,7 +13463,6 @@ const HEX_DATA = [
     "hex": 3214,
     "display": "E3214",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14968,7 +13472,6 @@ const HEX_DATA = [
     "hex": 3215,
     "display": "E3215",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14978,7 +13481,6 @@ const HEX_DATA = [
     "hex": 3216,
     "display": "E3216",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14988,7 +13490,6 @@ const HEX_DATA = [
     "hex": 3217,
     "display": "E3217",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -14998,7 +13499,6 @@ const HEX_DATA = [
     "hex": 3218,
     "display": "E3218",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15008,7 +13508,6 @@ const HEX_DATA = [
     "hex": 3219,
     "display": "E3219",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15018,7 +13517,6 @@ const HEX_DATA = [
     "hex": 3220,
     "display": "E3220",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15028,7 +13526,6 @@ const HEX_DATA = [
     "hex": 3221,
     "display": "E3221",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15038,7 +13535,6 @@ const HEX_DATA = [
     "hex": 3222,
     "display": "E3222",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15048,7 +13544,6 @@ const HEX_DATA = [
     "hex": 3223,
     "display": "E3223",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15058,7 +13553,6 @@ const HEX_DATA = [
     "hex": 3224,
     "display": "E3224",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15068,7 +13562,6 @@ const HEX_DATA = [
     "hex": 3225,
     "display": "E3225",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15078,7 +13571,6 @@ const HEX_DATA = [
     "hex": 3226,
     "display": "E3226",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15088,7 +13580,6 @@ const HEX_DATA = [
     "hex": 3301,
     "display": "E3301",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15098,7 +13589,6 @@ const HEX_DATA = [
     "hex": 3302,
     "display": "E3302",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15108,7 +13598,6 @@ const HEX_DATA = [
     "hex": 3303,
     "display": "E3303",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15118,7 +13607,6 @@ const HEX_DATA = [
     "hex": 3304,
     "display": "E3304",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15128,7 +13616,6 @@ const HEX_DATA = [
     "hex": 3305,
     "display": "E3305",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15138,7 +13625,6 @@ const HEX_DATA = [
     "hex": 3306,
     "display": "E3306",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15148,7 +13634,6 @@ const HEX_DATA = [
     "hex": 3307,
     "display": "E3307",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15158,7 +13643,6 @@ const HEX_DATA = [
     "hex": 3308,
     "display": "E3308",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15168,7 +13652,6 @@ const HEX_DATA = [
     "hex": 3309,
     "display": "E3309",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15178,7 +13661,6 @@ const HEX_DATA = [
     "hex": 3310,
     "display": "E3310",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15188,7 +13670,6 @@ const HEX_DATA = [
     "hex": 3311,
     "display": "E3311",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15198,7 +13679,6 @@ const HEX_DATA = [
     "hex": 3312,
     "display": "E3312",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15208,7 +13688,6 @@ const HEX_DATA = [
     "hex": 3313,
     "display": "E3313",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15218,7 +13697,6 @@ const HEX_DATA = [
     "hex": 3314,
     "display": "E3314",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15228,7 +13706,6 @@ const HEX_DATA = [
     "hex": 3315,
     "display": "E3315",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15238,7 +13715,6 @@ const HEX_DATA = [
     "hex": 3316,
     "display": "E3316",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15248,7 +13724,6 @@ const HEX_DATA = [
     "hex": 3317,
     "display": "E3317",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15258,7 +13733,6 @@ const HEX_DATA = [
     "hex": 3318,
     "display": "E3318",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15268,7 +13742,6 @@ const HEX_DATA = [
     "hex": 3319,
     "display": "E3319",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15278,7 +13751,6 @@ const HEX_DATA = [
     "hex": 3320,
     "display": "E3320",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15288,7 +13760,6 @@ const HEX_DATA = [
     "hex": 3321,
     "display": "E3321",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15298,7 +13769,6 @@ const HEX_DATA = [
     "hex": 3322,
     "display": "E3322",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15308,7 +13778,6 @@ const HEX_DATA = [
     "hex": 3323,
     "display": "E3323",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15318,7 +13787,6 @@ const HEX_DATA = [
     "hex": 3324,
     "display": "E3324",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15328,7 +13796,6 @@ const HEX_DATA = [
     "hex": 3325,
     "display": "E3325",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15338,7 +13805,6 @@ const HEX_DATA = [
     "hex": 3326,
     "display": "E3326",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15348,7 +13814,6 @@ const HEX_DATA = [
     "hex": 3401,
     "display": "E3401",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15358,7 +13823,6 @@ const HEX_DATA = [
     "hex": 3402,
     "display": "E3402",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15368,7 +13832,6 @@ const HEX_DATA = [
     "hex": 3403,
     "display": "E3403",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15378,7 +13841,6 @@ const HEX_DATA = [
     "hex": 3404,
     "display": "E3404",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15388,7 +13850,6 @@ const HEX_DATA = [
     "hex": 3405,
     "display": "E3405",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15398,7 +13859,6 @@ const HEX_DATA = [
     "hex": 3406,
     "display": "E3406",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15408,7 +13868,6 @@ const HEX_DATA = [
     "hex": 3407,
     "display": "E3407",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15418,7 +13877,6 @@ const HEX_DATA = [
     "hex": 3408,
     "display": "E3408",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15428,7 +13886,6 @@ const HEX_DATA = [
     "hex": 3409,
     "display": "E3409",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15438,7 +13895,6 @@ const HEX_DATA = [
     "hex": 3410,
     "display": "E3410",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15448,7 +13904,6 @@ const HEX_DATA = [
     "hex": 3411,
     "display": "E3411",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15458,7 +13913,6 @@ const HEX_DATA = [
     "hex": 3412,
     "display": "E3412",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15468,7 +13922,6 @@ const HEX_DATA = [
     "hex": 3413,
     "display": "E3413",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15478,7 +13931,6 @@ const HEX_DATA = [
     "hex": 3414,
     "display": "E3414",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15488,7 +13940,6 @@ const HEX_DATA = [
     "hex": 3415,
     "display": "E3415",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15498,7 +13949,6 @@ const HEX_DATA = [
     "hex": 3416,
     "display": "E3416",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15508,7 +13958,6 @@ const HEX_DATA = [
     "hex": 3417,
     "display": "E3417",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15518,7 +13967,6 @@ const HEX_DATA = [
     "hex": 3418,
     "display": "E3418",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15528,7 +13976,6 @@ const HEX_DATA = [
     "hex": 3419,
     "display": "E3419",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15538,7 +13985,6 @@ const HEX_DATA = [
     "hex": 3420,
     "display": "E3420",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15548,7 +13994,6 @@ const HEX_DATA = [
     "hex": 3421,
     "display": "E3421",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15558,7 +14003,6 @@ const HEX_DATA = [
     "hex": 3422,
     "display": "E3422",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15568,7 +14012,6 @@ const HEX_DATA = [
     "hex": 3423,
     "display": "E3423",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15578,7 +14021,6 @@ const HEX_DATA = [
     "hex": 3424,
     "display": "E3424",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15588,7 +14030,6 @@ const HEX_DATA = [
     "hex": 3425,
     "display": "E3425",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15598,7 +14039,6 @@ const HEX_DATA = [
     "hex": 3426,
     "display": "E3426",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15608,7 +14048,6 @@ const HEX_DATA = [
     "hex": 3501,
     "display": "E3501",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15618,7 +14057,6 @@ const HEX_DATA = [
     "hex": 3502,
     "display": "E3502",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15628,7 +14066,6 @@ const HEX_DATA = [
     "hex": 3503,
     "display": "E3503",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15638,7 +14075,6 @@ const HEX_DATA = [
     "hex": 3504,
     "display": "E3504",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15648,7 +14084,6 @@ const HEX_DATA = [
     "hex": 3505,
     "display": "E3505",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15658,7 +14093,6 @@ const HEX_DATA = [
     "hex": 3506,
     "display": "E3506",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15668,7 +14102,6 @@ const HEX_DATA = [
     "hex": 3507,
     "display": "E3507",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15678,7 +14111,6 @@ const HEX_DATA = [
     "hex": 3508,
     "display": "E3508",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15688,7 +14120,6 @@ const HEX_DATA = [
     "hex": 3509,
     "display": "E3509",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15698,7 +14129,6 @@ const HEX_DATA = [
     "hex": 3510,
     "display": "E3510",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15708,7 +14138,6 @@ const HEX_DATA = [
     "hex": 3511,
     "display": "E3511",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15718,7 +14147,6 @@ const HEX_DATA = [
     "hex": 3512,
     "display": "E3512",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15728,7 +14156,6 @@ const HEX_DATA = [
     "hex": 3513,
     "display": "E3513",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15738,7 +14165,6 @@ const HEX_DATA = [
     "hex": 3514,
     "display": "E3514",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15748,7 +14174,6 @@ const HEX_DATA = [
     "hex": 3515,
     "display": "E3515",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15758,7 +14183,6 @@ const HEX_DATA = [
     "hex": 3516,
     "display": "E3516",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15768,7 +14192,6 @@ const HEX_DATA = [
     "hex": 3517,
     "display": "E3517",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15778,7 +14201,6 @@ const HEX_DATA = [
     "hex": 3518,
     "display": "E3518",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15788,7 +14210,6 @@ const HEX_DATA = [
     "hex": 3519,
     "display": "E3519",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15798,7 +14219,6 @@ const HEX_DATA = [
     "hex": 3520,
     "display": "E3520",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15808,7 +14228,6 @@ const HEX_DATA = [
     "hex": 3521,
     "display": "E3521",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15818,7 +14237,6 @@ const HEX_DATA = [
     "hex": 3522,
     "display": "E3522",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15828,7 +14246,6 @@ const HEX_DATA = [
     "hex": 3523,
     "display": "E3523",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15838,7 +14255,6 @@ const HEX_DATA = [
     "hex": 3524,
     "display": "E3524",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15848,7 +14264,6 @@ const HEX_DATA = [
     "hex": 3525,
     "display": "E3525",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15858,7 +14273,6 @@ const HEX_DATA = [
     "hex": 3526,
     "display": "E3526",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15868,7 +14282,6 @@ const HEX_DATA = [
     "hex": 3601,
     "display": "E3601",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15878,7 +14291,6 @@ const HEX_DATA = [
     "hex": 3602,
     "display": "E3602",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15888,7 +14300,6 @@ const HEX_DATA = [
     "hex": 3603,
     "display": "E3603",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15898,7 +14309,6 @@ const HEX_DATA = [
     "hex": 3604,
     "display": "E3604",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15908,7 +14318,6 @@ const HEX_DATA = [
     "hex": 3605,
     "display": "E3605",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15918,7 +14327,6 @@ const HEX_DATA = [
     "hex": 3606,
     "display": "E3606",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15928,7 +14336,6 @@ const HEX_DATA = [
     "hex": 3607,
     "display": "E3607",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15938,7 +14345,6 @@ const HEX_DATA = [
     "hex": 3608,
     "display": "E3608",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15948,7 +14354,6 @@ const HEX_DATA = [
     "hex": 3609,
     "display": "E3609",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15958,7 +14363,6 @@ const HEX_DATA = [
     "hex": 3610,
     "display": "E3610",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15968,7 +14372,6 @@ const HEX_DATA = [
     "hex": 3611,
     "display": "E3611",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15978,7 +14381,6 @@ const HEX_DATA = [
     "hex": 3612,
     "display": "E3612",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15988,7 +14390,6 @@ const HEX_DATA = [
     "hex": 3613,
     "display": "E3613",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -15998,7 +14399,6 @@ const HEX_DATA = [
     "hex": 3614,
     "display": "E3614",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16008,7 +14408,6 @@ const HEX_DATA = [
     "hex": 3615,
     "display": "E3615",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16018,7 +14417,6 @@ const HEX_DATA = [
     "hex": 3616,
     "display": "E3616",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16028,7 +14426,6 @@ const HEX_DATA = [
     "hex": 3617,
     "display": "E3617",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16038,7 +14435,6 @@ const HEX_DATA = [
     "hex": 3618,
     "display": "E3618",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16048,7 +14444,6 @@ const HEX_DATA = [
     "hex": 3619,
     "display": "E3619",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16058,7 +14453,6 @@ const HEX_DATA = [
     "hex": 3620,
     "display": "E3620",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16068,7 +14462,6 @@ const HEX_DATA = [
     "hex": 3621,
     "display": "E3621",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16078,7 +14471,6 @@ const HEX_DATA = [
     "hex": 3622,
     "display": "E3622",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16088,7 +14480,6 @@ const HEX_DATA = [
     "hex": 3623,
     "display": "E3623",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16098,7 +14489,6 @@ const HEX_DATA = [
     "hex": 3624,
     "display": "E3624",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16108,7 +14498,6 @@ const HEX_DATA = [
     "hex": 3625,
     "display": "E3625",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16118,7 +14507,6 @@ const HEX_DATA = [
     "hex": 3626,
     "display": "E3626",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16128,7 +14516,6 @@ const HEX_DATA = [
     "hex": 3701,
     "display": "E3701",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16138,7 +14525,6 @@ const HEX_DATA = [
     "hex": 3702,
     "display": "E3702",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16148,7 +14534,6 @@ const HEX_DATA = [
     "hex": 3703,
     "display": "E3703",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16158,7 +14543,6 @@ const HEX_DATA = [
     "hex": 3704,
     "display": "E3704",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16168,7 +14552,6 @@ const HEX_DATA = [
     "hex": 3705,
     "display": "E3705",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16178,7 +14561,6 @@ const HEX_DATA = [
     "hex": 3706,
     "display": "E3706",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16188,7 +14570,6 @@ const HEX_DATA = [
     "hex": 3707,
     "display": "E3707",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16198,7 +14579,6 @@ const HEX_DATA = [
     "hex": 3708,
     "display": "E3708",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16208,7 +14588,6 @@ const HEX_DATA = [
     "hex": 3709,
     "display": "E3709",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16218,7 +14597,6 @@ const HEX_DATA = [
     "hex": 3710,
     "display": "E3710",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16228,7 +14606,6 @@ const HEX_DATA = [
     "hex": 3711,
     "display": "E3711",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16238,7 +14615,6 @@ const HEX_DATA = [
     "hex": 3712,
     "display": "E3712",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16248,7 +14624,6 @@ const HEX_DATA = [
     "hex": 3713,
     "display": "E3713",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16258,7 +14633,6 @@ const HEX_DATA = [
     "hex": 3714,
     "display": "E3714",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16268,7 +14642,6 @@ const HEX_DATA = [
     "hex": 3715,
     "display": "E3715",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16278,7 +14651,6 @@ const HEX_DATA = [
     "hex": 3716,
     "display": "E3716",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16288,7 +14660,6 @@ const HEX_DATA = [
     "hex": 3717,
     "display": "E3717",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16298,7 +14669,6 @@ const HEX_DATA = [
     "hex": 3718,
     "display": "E3718",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16308,7 +14678,6 @@ const HEX_DATA = [
     "hex": 3719,
     "display": "E3719",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16318,7 +14687,6 @@ const HEX_DATA = [
     "hex": 3720,
     "display": "E3720",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16328,7 +14696,6 @@ const HEX_DATA = [
     "hex": 3721,
     "display": "E3721",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16338,7 +14705,6 @@ const HEX_DATA = [
     "hex": 3722,
     "display": "E3722",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16348,7 +14714,6 @@ const HEX_DATA = [
     "hex": 3723,
     "display": "E3723",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16358,7 +14723,6 @@ const HEX_DATA = [
     "hex": 3724,
     "display": "E3724",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16368,7 +14732,6 @@ const HEX_DATA = [
     "hex": 3725,
     "display": "E3725",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16378,7 +14741,6 @@ const HEX_DATA = [
     "hex": 3726,
     "display": "E3726",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16388,7 +14750,6 @@ const HEX_DATA = [
     "hex": 3801,
     "display": "E3801",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16398,7 +14759,6 @@ const HEX_DATA = [
     "hex": 3802,
     "display": "E3802",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16408,7 +14768,6 @@ const HEX_DATA = [
     "hex": 3803,
     "display": "E3803",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16418,7 +14777,6 @@ const HEX_DATA = [
     "hex": 3804,
     "display": "E3804",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16428,7 +14786,6 @@ const HEX_DATA = [
     "hex": 3805,
     "display": "E3805",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16438,7 +14795,6 @@ const HEX_DATA = [
     "hex": 3806,
     "display": "E3806",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16448,7 +14804,6 @@ const HEX_DATA = [
     "hex": 3807,
     "display": "E3807",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16458,7 +14813,6 @@ const HEX_DATA = [
     "hex": 3808,
     "display": "E3808",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16468,7 +14822,6 @@ const HEX_DATA = [
     "hex": 3809,
     "display": "E3809",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16478,7 +14831,6 @@ const HEX_DATA = [
     "hex": 3810,
     "display": "E3810",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16488,7 +14840,6 @@ const HEX_DATA = [
     "hex": 3811,
     "display": "E3811",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16498,7 +14849,6 @@ const HEX_DATA = [
     "hex": 3812,
     "display": "E3812",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16508,7 +14858,6 @@ const HEX_DATA = [
     "hex": 3813,
     "display": "E3813",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16518,7 +14867,6 @@ const HEX_DATA = [
     "hex": 3814,
     "display": "E3814",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16528,7 +14876,6 @@ const HEX_DATA = [
     "hex": 3815,
     "display": "E3815",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16538,7 +14885,6 @@ const HEX_DATA = [
     "hex": 3816,
     "display": "E3816",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16548,7 +14894,6 @@ const HEX_DATA = [
     "hex": 3817,
     "display": "E3817",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16558,7 +14903,6 @@ const HEX_DATA = [
     "hex": 3818,
     "display": "E3818",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16568,7 +14912,6 @@ const HEX_DATA = [
     "hex": 3819,
     "display": "E3819",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16578,7 +14921,6 @@ const HEX_DATA = [
     "hex": 3820,
     "display": "E3820",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16588,7 +14930,6 @@ const HEX_DATA = [
     "hex": 3821,
     "display": "E3821",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16598,7 +14939,6 @@ const HEX_DATA = [
     "hex": 3822,
     "display": "E3822",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16608,7 +14948,6 @@ const HEX_DATA = [
     "hex": 3823,
     "display": "E3823",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16618,7 +14957,6 @@ const HEX_DATA = [
     "hex": 3824,
     "display": "E3824",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16628,7 +14966,6 @@ const HEX_DATA = [
     "hex": 3825,
     "display": "E3825",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16638,7 +14975,6 @@ const HEX_DATA = [
     "hex": 3826,
     "display": "E3826",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16648,7 +14984,6 @@ const HEX_DATA = [
     "hex": 3901,
     "display": "E3901",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16658,7 +14993,6 @@ const HEX_DATA = [
     "hex": 3902,
     "display": "E3902",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16668,7 +15002,6 @@ const HEX_DATA = [
     "hex": 3903,
     "display": "E3903",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16678,7 +15011,6 @@ const HEX_DATA = [
     "hex": 3904,
     "display": "E3904",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16688,7 +15020,6 @@ const HEX_DATA = [
     "hex": 3905,
     "display": "E3905",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16698,7 +15029,6 @@ const HEX_DATA = [
     "hex": 3906,
     "display": "E3906",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16708,7 +15038,6 @@ const HEX_DATA = [
     "hex": 3907,
     "display": "E3907",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16718,7 +15047,6 @@ const HEX_DATA = [
     "hex": 3908,
     "display": "E3908",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16728,7 +15056,6 @@ const HEX_DATA = [
     "hex": 3909,
     "display": "E3909",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16738,7 +15065,6 @@ const HEX_DATA = [
     "hex": 3910,
     "display": "E3910",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16748,7 +15074,6 @@ const HEX_DATA = [
     "hex": 3911,
     "display": "E3911",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16758,7 +15083,6 @@ const HEX_DATA = [
     "hex": 3912,
     "display": "E3912",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16768,7 +15092,6 @@ const HEX_DATA = [
     "hex": 3913,
     "display": "E3913",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16778,7 +15101,6 @@ const HEX_DATA = [
     "hex": 3914,
     "display": "E3914",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16788,7 +15110,6 @@ const HEX_DATA = [
     "hex": 3915,
     "display": "E3915",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16798,7 +15119,6 @@ const HEX_DATA = [
     "hex": 3916,
     "display": "E3916",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16808,7 +15128,6 @@ const HEX_DATA = [
     "hex": 3917,
     "display": "E3917",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16818,7 +15137,6 @@ const HEX_DATA = [
     "hex": 3918,
     "display": "E3918",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16828,7 +15146,6 @@ const HEX_DATA = [
     "hex": 3919,
     "display": "E3919",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16838,7 +15155,6 @@ const HEX_DATA = [
     "hex": 3920,
     "display": "E3920",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16848,7 +15164,6 @@ const HEX_DATA = [
     "hex": 3921,
     "display": "E3921",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16858,7 +15173,6 @@ const HEX_DATA = [
     "hex": 3922,
     "display": "E3922",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16868,7 +15182,6 @@ const HEX_DATA = [
     "hex": 3923,
     "display": "E3923",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16878,7 +15191,6 @@ const HEX_DATA = [
     "hex": 3924,
     "display": "E3924",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16888,7 +15200,6 @@ const HEX_DATA = [
     "hex": 3925,
     "display": "E3925",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16898,7 +15209,6 @@ const HEX_DATA = [
     "hex": 3926,
     "display": "E3926",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16908,7 +15218,6 @@ const HEX_DATA = [
     "hex": 4001,
     "display": "E4001",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16918,7 +15227,6 @@ const HEX_DATA = [
     "hex": 4002,
     "display": "E4002",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16928,7 +15236,6 @@ const HEX_DATA = [
     "hex": 4003,
     "display": "E4003",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16938,7 +15245,6 @@ const HEX_DATA = [
     "hex": 4004,
     "display": "E4004",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16948,7 +15254,6 @@ const HEX_DATA = [
     "hex": 4005,
     "display": "E4005",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16958,7 +15263,6 @@ const HEX_DATA = [
     "hex": 4006,
     "display": "E4006",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16968,7 +15272,6 @@ const HEX_DATA = [
     "hex": 4007,
     "display": "E4007",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16978,7 +15281,6 @@ const HEX_DATA = [
     "hex": 4008,
     "display": "E4008",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16988,7 +15290,6 @@ const HEX_DATA = [
     "hex": 4009,
     "display": "E4009",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -16998,7 +15299,6 @@ const HEX_DATA = [
     "hex": 4010,
     "display": "E4010",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17008,7 +15308,6 @@ const HEX_DATA = [
     "hex": 4011,
     "display": "E4011",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17018,7 +15317,6 @@ const HEX_DATA = [
     "hex": 4012,
     "display": "E4012",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17028,7 +15326,6 @@ const HEX_DATA = [
     "hex": 4013,
     "display": "E4013",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17038,7 +15335,6 @@ const HEX_DATA = [
     "hex": 4014,
     "display": "E4014",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17048,7 +15344,6 @@ const HEX_DATA = [
     "hex": 4015,
     "display": "E4015",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17058,7 +15353,6 @@ const HEX_DATA = [
     "hex": 4016,
     "display": "E4016",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17068,7 +15362,6 @@ const HEX_DATA = [
     "hex": 4017,
     "display": "E4017",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17078,7 +15371,6 @@ const HEX_DATA = [
     "hex": 4018,
     "display": "E4018",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17088,7 +15380,6 @@ const HEX_DATA = [
     "hex": 4019,
     "display": "E4019",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17098,7 +15389,6 @@ const HEX_DATA = [
     "hex": 4020,
     "display": "E4020",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17108,7 +15398,6 @@ const HEX_DATA = [
     "hex": 4021,
     "display": "E4021",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17118,7 +15407,6 @@ const HEX_DATA = [
     "hex": 4022,
     "display": "E4022",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17128,7 +15416,6 @@ const HEX_DATA = [
     "hex": 4023,
     "display": "E4023",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17138,7 +15425,6 @@ const HEX_DATA = [
     "hex": 4024,
     "display": "E4024",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17148,7 +15434,6 @@ const HEX_DATA = [
     "hex": 4025,
     "display": "E4025",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17158,7 +15443,6 @@ const HEX_DATA = [
     "hex": 4026,
     "display": "E4026",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17168,7 +15452,6 @@ const HEX_DATA = [
     "hex": 4101,
     "display": "E4101",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17178,7 +15461,6 @@ const HEX_DATA = [
     "hex": 4102,
     "display": "E4102",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17188,7 +15470,6 @@ const HEX_DATA = [
     "hex": 4103,
     "display": "E4103",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17198,7 +15479,6 @@ const HEX_DATA = [
     "hex": 4104,
     "display": "E4104",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17208,7 +15488,6 @@ const HEX_DATA = [
     "hex": 4105,
     "display": "E4105",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17218,7 +15497,6 @@ const HEX_DATA = [
     "hex": 4106,
     "display": "E4106",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17228,7 +15506,6 @@ const HEX_DATA = [
     "hex": 4107,
     "display": "E4107",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17238,7 +15515,6 @@ const HEX_DATA = [
     "hex": 4108,
     "display": "E4108",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17248,7 +15524,6 @@ const HEX_DATA = [
     "hex": 4109,
     "display": "E4109",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17258,7 +15533,6 @@ const HEX_DATA = [
     "hex": 4110,
     "display": "E4110",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17268,7 +15542,6 @@ const HEX_DATA = [
     "hex": 4111,
     "display": "E4111",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17278,7 +15551,6 @@ const HEX_DATA = [
     "hex": 4112,
     "display": "E4112",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17288,7 +15560,6 @@ const HEX_DATA = [
     "hex": 4113,
     "display": "E4113",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17298,7 +15569,6 @@ const HEX_DATA = [
     "hex": 4114,
     "display": "E4114",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17308,7 +15578,6 @@ const HEX_DATA = [
     "hex": 4115,
     "display": "E4115",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17318,7 +15587,6 @@ const HEX_DATA = [
     "hex": 4116,
     "display": "E4116",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17328,7 +15596,6 @@ const HEX_DATA = [
     "hex": 4117,
     "display": "E4117",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17338,7 +15605,6 @@ const HEX_DATA = [
     "hex": 4118,
     "display": "E4118",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17348,7 +15614,6 @@ const HEX_DATA = [
     "hex": 4119,
     "display": "E4119",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17358,7 +15623,6 @@ const HEX_DATA = [
     "hex": 4120,
     "display": "E4120",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17368,7 +15632,6 @@ const HEX_DATA = [
     "hex": 4121,
     "display": "E4121",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17378,7 +15641,6 @@ const HEX_DATA = [
     "hex": 4122,
     "display": "E4122",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17388,7 +15650,6 @@ const HEX_DATA = [
     "hex": 4123,
     "display": "E4123",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17398,7 +15659,6 @@ const HEX_DATA = [
     "hex": 4124,
     "display": "E4124",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17408,7 +15668,6 @@ const HEX_DATA = [
     "hex": 4125,
     "display": "E4125",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17418,7 +15677,6 @@ const HEX_DATA = [
     "hex": 4126,
     "display": "E4126",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17428,7 +15686,6 @@ const HEX_DATA = [
     "hex": 4201,
     "display": "E4201",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17438,7 +15695,6 @@ const HEX_DATA = [
     "hex": 4202,
     "display": "E4202",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17448,7 +15704,6 @@ const HEX_DATA = [
     "hex": 4203,
     "display": "E4203",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17458,7 +15713,6 @@ const HEX_DATA = [
     "hex": 4204,
     "display": "E4204",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17468,7 +15722,6 @@ const HEX_DATA = [
     "hex": 4205,
     "display": "E4205",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17478,7 +15731,6 @@ const HEX_DATA = [
     "hex": 4206,
     "display": "E4206",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17488,7 +15740,6 @@ const HEX_DATA = [
     "hex": 4207,
     "display": "E4207",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17498,7 +15749,6 @@ const HEX_DATA = [
     "hex": 4208,
     "display": "E4208",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17508,7 +15758,6 @@ const HEX_DATA = [
     "hex": 4209,
     "display": "E4209",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17518,7 +15767,6 @@ const HEX_DATA = [
     "hex": 4210,
     "display": "E4210",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17528,7 +15776,6 @@ const HEX_DATA = [
     "hex": 4211,
     "display": "E4211",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17538,7 +15785,6 @@ const HEX_DATA = [
     "hex": 4212,
     "display": "E4212",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17548,7 +15794,6 @@ const HEX_DATA = [
     "hex": 4213,
     "display": "E4213",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17558,7 +15803,6 @@ const HEX_DATA = [
     "hex": 4214,
     "display": "E4214",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17568,7 +15812,6 @@ const HEX_DATA = [
     "hex": 4215,
     "display": "E4215",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17578,7 +15821,6 @@ const HEX_DATA = [
     "hex": 4216,
     "display": "E4216",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17588,7 +15830,6 @@ const HEX_DATA = [
     "hex": 4217,
     "display": "E4217",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17598,7 +15839,6 @@ const HEX_DATA = [
     "hex": 4218,
     "display": "E4218",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17608,7 +15848,6 @@ const HEX_DATA = [
     "hex": 4219,
     "display": "E4219",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17618,7 +15857,6 @@ const HEX_DATA = [
     "hex": 4220,
     "display": "E4220",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17628,7 +15866,6 @@ const HEX_DATA = [
     "hex": 4221,
     "display": "E4221",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17638,7 +15875,6 @@ const HEX_DATA = [
     "hex": 4222,
     "display": "E4222",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17648,7 +15884,6 @@ const HEX_DATA = [
     "hex": 4223,
     "display": "E4223",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17658,7 +15893,6 @@ const HEX_DATA = [
     "hex": 4224,
     "display": "E4224",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17668,7 +15902,6 @@ const HEX_DATA = [
     "hex": 4225,
     "display": "E4225",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17678,7 +15911,6 @@ const HEX_DATA = [
     "hex": 4226,
     "display": "E4226",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17688,7 +15920,6 @@ const HEX_DATA = [
     "hex": 4301,
     "display": "E4301",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17698,7 +15929,6 @@ const HEX_DATA = [
     "hex": 4302,
     "display": "E4302",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17708,7 +15938,6 @@ const HEX_DATA = [
     "hex": 4303,
     "display": "E4303",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17718,7 +15947,6 @@ const HEX_DATA = [
     "hex": 4304,
     "display": "E4304",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17728,7 +15956,6 @@ const HEX_DATA = [
     "hex": 4305,
     "display": "E4305",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17738,7 +15965,6 @@ const HEX_DATA = [
     "hex": 4306,
     "display": "E4306",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17748,7 +15974,6 @@ const HEX_DATA = [
     "hex": 4307,
     "display": "E4307",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17758,7 +15983,6 @@ const HEX_DATA = [
     "hex": 4308,
     "display": "E4308",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17768,7 +15992,6 @@ const HEX_DATA = [
     "hex": 4309,
     "display": "E4309",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17778,7 +16001,6 @@ const HEX_DATA = [
     "hex": 4310,
     "display": "E4310",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17788,7 +16010,6 @@ const HEX_DATA = [
     "hex": 4311,
     "display": "E4311",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17798,7 +16019,6 @@ const HEX_DATA = [
     "hex": 4312,
     "display": "E4312",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17808,7 +16028,6 @@ const HEX_DATA = [
     "hex": 4313,
     "display": "E4313",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17818,7 +16037,6 @@ const HEX_DATA = [
     "hex": 4314,
     "display": "E4314",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17828,7 +16046,6 @@ const HEX_DATA = [
     "hex": 4315,
     "display": "E4315",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17838,7 +16055,6 @@ const HEX_DATA = [
     "hex": 4316,
     "display": "E4316",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17848,7 +16064,6 @@ const HEX_DATA = [
     "hex": 4317,
     "display": "E4317",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17858,7 +16073,6 @@ const HEX_DATA = [
     "hex": 4318,
     "display": "E4318",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17868,7 +16082,6 @@ const HEX_DATA = [
     "hex": 4319,
     "display": "E4319",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17878,7 +16091,6 @@ const HEX_DATA = [
     "hex": 4320,
     "display": "E4320",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17888,7 +16100,6 @@ const HEX_DATA = [
     "hex": 4321,
     "display": "E4321",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17898,7 +16109,6 @@ const HEX_DATA = [
     "hex": 4322,
     "display": "E4322",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17908,7 +16118,6 @@ const HEX_DATA = [
     "hex": 4323,
     "display": "E4323",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17918,7 +16127,6 @@ const HEX_DATA = [
     "hex": 4324,
     "display": "E4324",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17928,7 +16136,6 @@ const HEX_DATA = [
     "hex": 4325,
     "display": "E4325",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17938,7 +16145,6 @@ const HEX_DATA = [
     "hex": 4326,
     "display": "E4326",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17948,7 +16154,6 @@ const HEX_DATA = [
     "hex": 4401,
     "display": "E4401",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17958,7 +16163,6 @@ const HEX_DATA = [
     "hex": 4402,
     "display": "E4402",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17968,7 +16172,6 @@ const HEX_DATA = [
     "hex": 4403,
     "display": "E4403",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17978,7 +16181,6 @@ const HEX_DATA = [
     "hex": 4404,
     "display": "E4404",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17988,7 +16190,6 @@ const HEX_DATA = [
     "hex": 4405,
     "display": "E4405",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -17998,7 +16199,6 @@ const HEX_DATA = [
     "hex": 4406,
     "display": "E4406",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18008,7 +16208,6 @@ const HEX_DATA = [
     "hex": 4407,
     "display": "E4407",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18018,7 +16217,6 @@ const HEX_DATA = [
     "hex": 4408,
     "display": "E4408",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18028,7 +16226,6 @@ const HEX_DATA = [
     "hex": 4409,
     "display": "E4409",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18038,7 +16235,6 @@ const HEX_DATA = [
     "hex": 4410,
     "display": "E4410",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18048,7 +16244,6 @@ const HEX_DATA = [
     "hex": 4411,
     "display": "E4411",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18058,7 +16253,6 @@ const HEX_DATA = [
     "hex": 4412,
     "display": "E4412",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18068,7 +16262,6 @@ const HEX_DATA = [
     "hex": 4413,
     "display": "E4413",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18078,7 +16271,6 @@ const HEX_DATA = [
     "hex": 4414,
     "display": "E4414",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18088,7 +16280,6 @@ const HEX_DATA = [
     "hex": 4415,
     "display": "E4415",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18098,7 +16289,6 @@ const HEX_DATA = [
     "hex": 4416,
     "display": "E4416",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18108,7 +16298,6 @@ const HEX_DATA = [
     "hex": 4417,
     "display": "E4417",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18118,7 +16307,6 @@ const HEX_DATA = [
     "hex": 4418,
     "display": "E4418",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18128,7 +16316,6 @@ const HEX_DATA = [
     "hex": 4419,
     "display": "E4419",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18138,7 +16325,6 @@ const HEX_DATA = [
     "hex": 4420,
     "display": "E4420",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18148,7 +16334,6 @@ const HEX_DATA = [
     "hex": 4421,
     "display": "E4421",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18158,7 +16343,6 @@ const HEX_DATA = [
     "hex": 4422,
     "display": "E4422",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18168,7 +16352,6 @@ const HEX_DATA = [
     "hex": 4423,
     "display": "E4423",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18178,7 +16361,6 @@ const HEX_DATA = [
     "hex": 4424,
     "display": "E4424",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18188,7 +16370,6 @@ const HEX_DATA = [
     "hex": 4425,
     "display": "E4425",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18198,7 +16379,6 @@ const HEX_DATA = [
     "hex": 4426,
     "display": "E4426",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18208,7 +16388,6 @@ const HEX_DATA = [
     "hex": 4501,
     "display": "E4501",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18218,7 +16397,6 @@ const HEX_DATA = [
     "hex": 4502,
     "display": "E4502",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18228,7 +16406,6 @@ const HEX_DATA = [
     "hex": 4503,
     "display": "E4503",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18238,7 +16415,6 @@ const HEX_DATA = [
     "hex": 4504,
     "display": "E4504",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18248,7 +16424,6 @@ const HEX_DATA = [
     "hex": 4505,
     "display": "E4505",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18258,7 +16433,6 @@ const HEX_DATA = [
     "hex": 4506,
     "display": "E4506",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18268,7 +16442,6 @@ const HEX_DATA = [
     "hex": 4507,
     "display": "E4507",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18278,7 +16451,6 @@ const HEX_DATA = [
     "hex": 4508,
     "display": "E4508",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18288,7 +16460,6 @@ const HEX_DATA = [
     "hex": 4509,
     "display": "E4509",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18298,7 +16469,6 @@ const HEX_DATA = [
     "hex": 4510,
     "display": "E4510",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18308,7 +16478,6 @@ const HEX_DATA = [
     "hex": 4511,
     "display": "E4511",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18318,7 +16487,6 @@ const HEX_DATA = [
     "hex": 4512,
     "display": "E4512",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18328,7 +16496,6 @@ const HEX_DATA = [
     "hex": 4513,
     "display": "E4513",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18338,7 +16505,6 @@ const HEX_DATA = [
     "hex": 4514,
     "display": "E4514",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18348,7 +16514,6 @@ const HEX_DATA = [
     "hex": 4515,
     "display": "E4515",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18358,7 +16523,6 @@ const HEX_DATA = [
     "hex": 4516,
     "display": "E4516",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18368,7 +16532,6 @@ const HEX_DATA = [
     "hex": 4517,
     "display": "E4517",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18378,7 +16541,6 @@ const HEX_DATA = [
     "hex": 4518,
     "display": "E4518",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18388,7 +16550,6 @@ const HEX_DATA = [
     "hex": 4519,
     "display": "E4519",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18398,7 +16559,6 @@ const HEX_DATA = [
     "hex": 4520,
     "display": "E4520",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18408,7 +16568,6 @@ const HEX_DATA = [
     "hex": 4521,
     "display": "E4521",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18418,7 +16577,6 @@ const HEX_DATA = [
     "hex": 4522,
     "display": "E4522",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18428,7 +16586,6 @@ const HEX_DATA = [
     "hex": 4523,
     "display": "E4523",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18438,7 +16595,6 @@ const HEX_DATA = [
     "hex": 4524,
     "display": "E4524",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18448,7 +16604,6 @@ const HEX_DATA = [
     "hex": 4525,
     "display": "E4525",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18458,7 +16613,6 @@ const HEX_DATA = [
     "hex": 4526,
     "display": "E4526",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18468,7 +16622,6 @@ const HEX_DATA = [
     "hex": 4601,
     "display": "E4601",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18478,7 +16631,6 @@ const HEX_DATA = [
     "hex": 4602,
     "display": "E4602",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18488,7 +16640,6 @@ const HEX_DATA = [
     "hex": 4603,
     "display": "E4603",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18498,7 +16649,6 @@ const HEX_DATA = [
     "hex": 4604,
     "display": "E4604",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18508,7 +16658,6 @@ const HEX_DATA = [
     "hex": 4605,
     "display": "E4605",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18518,7 +16667,6 @@ const HEX_DATA = [
     "hex": 4606,
     "display": "E4606",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18528,7 +16676,6 @@ const HEX_DATA = [
     "hex": 4607,
     "display": "E4607",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18538,7 +16685,6 @@ const HEX_DATA = [
     "hex": 4608,
     "display": "E4608",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18548,7 +16694,6 @@ const HEX_DATA = [
     "hex": 4609,
     "display": "E4609",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18558,7 +16703,6 @@ const HEX_DATA = [
     "hex": 4610,
     "display": "E4610",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18568,7 +16712,6 @@ const HEX_DATA = [
     "hex": 4611,
     "display": "E4611",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18578,7 +16721,6 @@ const HEX_DATA = [
     "hex": 4612,
     "display": "E4612",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18588,7 +16730,6 @@ const HEX_DATA = [
     "hex": 4613,
     "display": "E4613",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18598,7 +16739,6 @@ const HEX_DATA = [
     "hex": 4614,
     "display": "E4614",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18608,7 +16748,6 @@ const HEX_DATA = [
     "hex": 4615,
     "display": "E4615",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18618,7 +16757,6 @@ const HEX_DATA = [
     "hex": 4616,
     "display": "E4616",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18628,7 +16766,6 @@ const HEX_DATA = [
     "hex": 4617,
     "display": "E4617",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18638,7 +16775,6 @@ const HEX_DATA = [
     "hex": 4618,
     "display": "E4618",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18648,7 +16784,6 @@ const HEX_DATA = [
     "hex": 4619,
     "display": "E4619",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18658,7 +16793,6 @@ const HEX_DATA = [
     "hex": 4620,
     "display": "E4620",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18668,7 +16802,6 @@ const HEX_DATA = [
     "hex": 4621,
     "display": "E4621",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18678,7 +16811,6 @@ const HEX_DATA = [
     "hex": 4622,
     "display": "E4622",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18688,7 +16820,6 @@ const HEX_DATA = [
     "hex": 4623,
     "display": "E4623",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18698,7 +16829,6 @@ const HEX_DATA = [
     "hex": 4624,
     "display": "E4624",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18708,7 +16838,6 @@ const HEX_DATA = [
     "hex": 4625,
     "display": "E4625",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18718,7 +16847,6 @@ const HEX_DATA = [
     "hex": 4626,
     "display": "E4626",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18728,7 +16856,6 @@ const HEX_DATA = [
     "hex": 4701,
     "display": "E4701",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18738,7 +16865,6 @@ const HEX_DATA = [
     "hex": 4702,
     "display": "E4702",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18748,7 +16874,6 @@ const HEX_DATA = [
     "hex": 4703,
     "display": "E4703",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18758,7 +16883,6 @@ const HEX_DATA = [
     "hex": 4704,
     "display": "E4704",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18768,7 +16892,6 @@ const HEX_DATA = [
     "hex": 4705,
     "display": "E4705",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18778,7 +16901,6 @@ const HEX_DATA = [
     "hex": 4706,
     "display": "E4706",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18788,7 +16910,6 @@ const HEX_DATA = [
     "hex": 4707,
     "display": "E4707",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18798,7 +16919,6 @@ const HEX_DATA = [
     "hex": 4708,
     "display": "E4708",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18808,7 +16928,6 @@ const HEX_DATA = [
     "hex": 4709,
     "display": "E4709",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18818,7 +16937,6 @@ const HEX_DATA = [
     "hex": 4710,
     "display": "E4710",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18828,7 +16946,6 @@ const HEX_DATA = [
     "hex": 4711,
     "display": "E4711",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18838,7 +16955,6 @@ const HEX_DATA = [
     "hex": 4712,
     "display": "E4712",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18848,7 +16964,6 @@ const HEX_DATA = [
     "hex": 4713,
     "display": "E4713",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18858,7 +16973,6 @@ const HEX_DATA = [
     "hex": 4714,
     "display": "E4714",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18868,7 +16982,6 @@ const HEX_DATA = [
     "hex": 4715,
     "display": "E4715",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18878,7 +16991,6 @@ const HEX_DATA = [
     "hex": 4716,
     "display": "E4716",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18888,7 +17000,6 @@ const HEX_DATA = [
     "hex": 4717,
     "display": "E4717",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18898,7 +17009,6 @@ const HEX_DATA = [
     "hex": 4718,
     "display": "E4718",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18908,7 +17018,6 @@ const HEX_DATA = [
     "hex": 4719,
     "display": "E4719",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18918,7 +17027,6 @@ const HEX_DATA = [
     "hex": 4720,
     "display": "E4720",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18928,7 +17036,6 @@ const HEX_DATA = [
     "hex": 4721,
     "display": "E4721",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18938,7 +17045,6 @@ const HEX_DATA = [
     "hex": 4722,
     "display": "E4722",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18948,7 +17054,6 @@ const HEX_DATA = [
     "hex": 4723,
     "display": "E4723",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18958,7 +17063,6 @@ const HEX_DATA = [
     "hex": 4724,
     "display": "E4724",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18968,7 +17072,6 @@ const HEX_DATA = [
     "hex": 4725,
     "display": "E4725",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18978,7 +17081,6 @@ const HEX_DATA = [
     "hex": 4726,
     "display": "E4726",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18988,7 +17090,6 @@ const HEX_DATA = [
     "hex": 4801,
     "display": "E4801",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -18998,7 +17099,6 @@ const HEX_DATA = [
     "hex": 4802,
     "display": "E4802",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19008,7 +17108,6 @@ const HEX_DATA = [
     "hex": 4803,
     "display": "E4803",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19018,7 +17117,6 @@ const HEX_DATA = [
     "hex": 4804,
     "display": "E4804",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19028,7 +17126,6 @@ const HEX_DATA = [
     "hex": 4805,
     "display": "E4805",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19038,7 +17135,6 @@ const HEX_DATA = [
     "hex": 4806,
     "display": "E4806",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19048,7 +17144,6 @@ const HEX_DATA = [
     "hex": 4807,
     "display": "E4807",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19058,7 +17153,6 @@ const HEX_DATA = [
     "hex": 4808,
     "display": "E4808",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19068,7 +17162,6 @@ const HEX_DATA = [
     "hex": 4809,
     "display": "E4809",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19078,7 +17171,6 @@ const HEX_DATA = [
     "hex": 4810,
     "display": "E4810",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19088,7 +17180,6 @@ const HEX_DATA = [
     "hex": 4811,
     "display": "E4811",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19098,7 +17189,6 @@ const HEX_DATA = [
     "hex": 4812,
     "display": "E4812",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19108,7 +17198,6 @@ const HEX_DATA = [
     "hex": 4813,
     "display": "E4813",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19118,7 +17207,6 @@ const HEX_DATA = [
     "hex": 4814,
     "display": "E4814",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19128,7 +17216,6 @@ const HEX_DATA = [
     "hex": 4815,
     "display": "E4815",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19138,7 +17225,6 @@ const HEX_DATA = [
     "hex": 4816,
     "display": "E4816",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19148,7 +17234,6 @@ const HEX_DATA = [
     "hex": 4817,
     "display": "E4817",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19158,7 +17243,6 @@ const HEX_DATA = [
     "hex": 4818,
     "display": "E4818",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19168,7 +17252,6 @@ const HEX_DATA = [
     "hex": 4819,
     "display": "E4819",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19178,7 +17261,6 @@ const HEX_DATA = [
     "hex": 4820,
     "display": "E4820",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19188,7 +17270,6 @@ const HEX_DATA = [
     "hex": 4821,
     "display": "E4821",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19198,7 +17279,6 @@ const HEX_DATA = [
     "hex": 4822,
     "display": "E4822",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19208,7 +17288,6 @@ const HEX_DATA = [
     "hex": 4823,
     "display": "E4823",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19218,7 +17297,6 @@ const HEX_DATA = [
     "hex": 4824,
     "display": "E4824",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19228,7 +17306,6 @@ const HEX_DATA = [
     "hex": 4825,
     "display": "E4825",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19238,7 +17315,6 @@ const HEX_DATA = [
     "hex": 4826,
     "display": "E4826",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19248,7 +17324,6 @@ const HEX_DATA = [
     "hex": 4901,
     "display": "E4901",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19258,7 +17333,6 @@ const HEX_DATA = [
     "hex": 4902,
     "display": "E4902",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19268,7 +17342,6 @@ const HEX_DATA = [
     "hex": 4903,
     "display": "E4903",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19278,7 +17351,6 @@ const HEX_DATA = [
     "hex": 4904,
     "display": "E4904",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19288,7 +17360,6 @@ const HEX_DATA = [
     "hex": 4905,
     "display": "E4905",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19298,7 +17369,6 @@ const HEX_DATA = [
     "hex": 4906,
     "display": "E4906",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19308,7 +17378,6 @@ const HEX_DATA = [
     "hex": 4907,
     "display": "E4907",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19318,7 +17387,6 @@ const HEX_DATA = [
     "hex": 4908,
     "display": "E4908",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19328,7 +17396,6 @@ const HEX_DATA = [
     "hex": 4909,
     "display": "E4909",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19338,7 +17405,6 @@ const HEX_DATA = [
     "hex": 4910,
     "display": "E4910",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19348,7 +17414,6 @@ const HEX_DATA = [
     "hex": 4911,
     "display": "E4911",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19358,7 +17423,6 @@ const HEX_DATA = [
     "hex": 4912,
     "display": "E4912",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19368,7 +17432,6 @@ const HEX_DATA = [
     "hex": 4913,
     "display": "E4913",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19378,7 +17441,6 @@ const HEX_DATA = [
     "hex": 4914,
     "display": "E4914",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19388,7 +17450,6 @@ const HEX_DATA = [
     "hex": 4915,
     "display": "E4915",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19398,7 +17459,6 @@ const HEX_DATA = [
     "hex": 4916,
     "display": "E4916",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19408,7 +17468,6 @@ const HEX_DATA = [
     "hex": 4917,
     "display": "E4917",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19418,7 +17477,6 @@ const HEX_DATA = [
     "hex": 4918,
     "display": "E4918",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19428,7 +17486,6 @@ const HEX_DATA = [
     "hex": 4919,
     "display": "E4919",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19438,7 +17495,6 @@ const HEX_DATA = [
     "hex": 4920,
     "display": "E4920",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19448,7 +17504,6 @@ const HEX_DATA = [
     "hex": 4921,
     "display": "E4921",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19458,7 +17513,6 @@ const HEX_DATA = [
     "hex": 4922,
     "display": "E4922",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19468,7 +17522,6 @@ const HEX_DATA = [
     "hex": 4923,
     "display": "E4923",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19478,7 +17531,6 @@ const HEX_DATA = [
     "hex": 4924,
     "display": "E4924",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19488,7 +17540,6 @@ const HEX_DATA = [
     "hex": 4925,
     "display": "E4925",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19498,7 +17549,6 @@ const HEX_DATA = [
     "hex": 4926,
     "display": "E4926",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19508,7 +17558,6 @@ const HEX_DATA = [
     "hex": 5001,
     "display": "E5001",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19518,7 +17567,6 @@ const HEX_DATA = [
     "hex": 5002,
     "display": "E5002",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19528,7 +17576,6 @@ const HEX_DATA = [
     "hex": 5003,
     "display": "E5003",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19538,7 +17585,6 @@ const HEX_DATA = [
     "hex": 5004,
     "display": "E5004",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19548,7 +17594,6 @@ const HEX_DATA = [
     "hex": 5005,
     "display": "E5005",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19558,7 +17603,6 @@ const HEX_DATA = [
     "hex": 5006,
     "display": "E5006",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19568,7 +17612,6 @@ const HEX_DATA = [
     "hex": 5007,
     "display": "E5007",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19578,7 +17621,6 @@ const HEX_DATA = [
     "hex": 5008,
     "display": "E5008",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19588,7 +17630,6 @@ const HEX_DATA = [
     "hex": 5009,
     "display": "E5009",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19598,7 +17639,6 @@ const HEX_DATA = [
     "hex": 5010,
     "display": "E5010",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19608,7 +17648,6 @@ const HEX_DATA = [
     "hex": 5011,
     "display": "E5011",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19618,7 +17657,6 @@ const HEX_DATA = [
     "hex": 5012,
     "display": "E5012",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19628,7 +17666,6 @@ const HEX_DATA = [
     "hex": 5013,
     "display": "E5013",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19638,7 +17675,6 @@ const HEX_DATA = [
     "hex": 5014,
     "display": "E5014",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19648,7 +17684,6 @@ const HEX_DATA = [
     "hex": 5015,
     "display": "E5015",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19658,7 +17693,6 @@ const HEX_DATA = [
     "hex": 5016,
     "display": "E5016",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19668,7 +17702,6 @@ const HEX_DATA = [
     "hex": 5017,
     "display": "E5017",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19678,7 +17711,6 @@ const HEX_DATA = [
     "hex": 5018,
     "display": "E5018",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19688,7 +17720,6 @@ const HEX_DATA = [
     "hex": 5019,
     "display": "E5019",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19698,7 +17729,6 @@ const HEX_DATA = [
     "hex": 5020,
     "display": "E5020",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19708,7 +17738,6 @@ const HEX_DATA = [
     "hex": 5021,
     "display": "E5021",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19718,7 +17747,6 @@ const HEX_DATA = [
     "hex": 5022,
     "display": "E5022",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19728,7 +17756,6 @@ const HEX_DATA = [
     "hex": 5023,
     "display": "E5023",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19738,7 +17765,6 @@ const HEX_DATA = [
     "hex": 5024,
     "display": "E5024",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19748,7 +17774,6 @@ const HEX_DATA = [
     "hex": 5025,
     "display": "E5025",
     "location": "East",
-    "faction": "",
     "name": ""
   },
   {
@@ -19758,7 +17783,6 @@ const HEX_DATA = [
     "hex": 5026,
     "display": "E5026",
     "location": "East",
-    "faction": "",
     "name": ""
   }
 ];
