@@ -60,15 +60,16 @@ h1 {
   padding: 20px;
   width: max-content;
 
-  display: flex;          /* columns laid out left→right */
+  display: flex;
   align-items: flex-start;
 
-  /* your world map image (you have map.png in the img folder) */
+  /* use the correct folder */
   background-image: url("img/map.png");
-  background-size: cover;
+  background-size: cover;      /* or 'contain' if you want the whole map visible */
   background-repeat: no-repeat;
   background-position: center;
 }
+
 
 /* Each COLUMN of hexes (101–126, 201–226, etc.) */
 
