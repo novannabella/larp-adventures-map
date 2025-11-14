@@ -12,16 +12,17 @@ body {
   color: #eee;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 0;              /* no extra body padding */
 }
 
 #app {
   max-width: 100%;
+  padding: 10px;
 }
 
 h1 {
   text-align: center;
-  margin-top: 0;
+  margin: 0 0 8px 0;
 }
 
 /* Map container */
@@ -31,20 +32,22 @@ h1 {
   overflow: auto;
   border: 1px solid #333;
   background: #000;
+  width: 100%;
+  height: calc(100vh - 80px);  /* fill most of the window */
 }
 
 /* Background map + hex overlay */
 
 #hex-map {
   position: relative;
-  padding: 20px;              /* padding around whole grid */
+  padding: 0;                    /* NO padding around the grid itself */
   width: max-content;
 
-  display: flex;              /* columns left → right */
+  display: flex;                 /* columns left → right */
   align-items: flex-start;
 
   background-image: url("img/map.png");
-  background-size: cover;     /* or 'contain' if you want full map shown */
+  background-size: cover;        /* or 'contain' if you want full map visible */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -55,13 +58,13 @@ h1 {
   display: flex;
   flex-direction: column;
 
-  /* KEY FIX:
-     Overlap columns by 25% of hex width so the slanted sides touch */
+  /* Pull columns together so the slanted sides touch.
+     Centers are 0.75 * width apart, so overlap by 0.25 * width */
   margin-right: calc(var(--hex-size) * -0.25);
 }
 
-/* Stagger every other column DOWN by half a hex HEIGHT
-   For flat-top hexes: height ≈ 0.866 * width, so half-height ≈ 0.433 * width */
+/* Stagger every other column DOWN by half a hex HEIGHT.
+   Flat-top regular hex: height ≈ 0.866 * width, half-height ≈ 0.433 * width */
 .hex-col:nth-child(even) {
   margin-top: calc(var(--hex-size) * 0.433);
 }
@@ -74,7 +77,8 @@ h1 {
   width: var(--hex-size);
   height: calc(var(--hex-size) * 0.866);   /* correct hex height */
 
-  margin: 0;                /* no vertical spacing between hexes */
+  /* NO margins – all contact is via geometry, not margin gaps */
+  margin: 0;
   border: none;
   padding: 0;
   background: transparent;
@@ -90,11 +94,12 @@ h1 {
     0% 50%
   );
 
-  /* BLACK OUTLINE following the hex shape */
-  box-shadow: 0 0 0 1px #000;
+  /* BLACK OUTLINE following the hex shape.
+     Use 2px so it’s visible over the map. */
+  box-shadow: 0 0 0 2px #000;
 }
 
-/* If at some zoom levels you still see hairline gaps,
+/* If you *still* see tiny hairline gaps at some zoom levels,
    you can uncomment this tiny overlap fudge:
 */
 /*
@@ -132,15 +137,15 @@ h1 {
 /* Info box under the map */
 
 #hex-info {
-  margin-top: 12px;
+  margin-top: 6px;
   font-size: 14px;
-  padding: 6px 10px;
+  padding: 4px 8px;
   border-radius: 4px;
   background: #222;
   border: 1px solid #333;
 }
 
-/* Faction color overlays (mostly transparent, on top of the map) */
+/* Faction overlays (mostly transparent, on top of the map) */
 
 .hex[data-faction="Blackthorne"] .hex-inner {
   background-color: rgba(120, 0, 0, 0.35);
