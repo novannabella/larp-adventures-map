@@ -1,6 +1,8 @@
 :root {
-  --hex-size: 40px; /* width of each hex; tweak to fit your map image */
-  --hex-gap: 2px;
+  /* Width of each hex; tweak to fit your map image */
+  --hex-size: 40px;
+  /* Keep as 0 so there is NO space between hexes */
+  --hex-gap: 0px;
 }
 
 /* Basic page layout */
@@ -53,30 +55,28 @@ h1 {
   background: #000;
 }
 
-/* This is the big area with the background image under the hexes */
+/* Big area with background image under the hexes */
 
 #hex-map {
   position: relative;
-  padding: 20px;
+  padding: 20px;            /* space around the whole grid (outside the hexes) */
   width: max-content;
 
-  display: flex;
+  display: flex;            /* lay columns left → right */
   align-items: flex-start;
 
-  /* use the correct folder */
   background-image: url("img/map.png");
-  background-size: cover;      /* or 'contain' if you want the whole map visible */
+  background-size: cover;   /* use 'contain' if you want the whole map visible */
   background-repeat: no-repeat;
   background-position: center;
 }
-
 
 /* Each COLUMN of hexes (101–126, 201–226, etc.) */
 
 .hex-col {
   display: flex;
   flex-direction: column;
-  margin-right: var(--hex-gap);
+  margin-right: 0;          /* NO horizontal gap between columns */
 }
 
 /* Stagger every other column DOWN by half a hex
@@ -91,7 +91,7 @@ h1 {
   position: relative;
   width: var(--hex-size);
   aspect-ratio: 1 / 1;
-  margin-bottom: var(--hex-gap);
+  margin-bottom: 0;         /* NO vertical gap between hexes */
   border: none;
   padding: 0;
   background: transparent;
@@ -106,6 +106,7 @@ h1 {
 }
 
 /* The overlay & label sit inside */
+
 .hex-inner {
   width: 100%;
   height: 100%;
@@ -134,7 +135,7 @@ h1 {
   border: 1px solid #333;
 }
 
-/* Example faction-based coloring (you can add more as needed) */
+/* Example faction-based coloring (you can extend this) */
 
 .hex[data-faction="Blackthorne"] .hex-inner {
   background-color: rgba(120, 0, 0, 0.45);
@@ -154,6 +155,7 @@ h1 {
 }
 
 /* Optional: keyboard focus outline */
+
 .hex:focus-visible {
   outline: 2px solid #0af;
 }
