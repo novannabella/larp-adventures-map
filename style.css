@@ -13,7 +13,7 @@ body {
 }
 
 #app {
-  max-width: 100%;          /* don't crop the map */
+  max-width: 100%;
   margin: 0;
   padding: 10px 16px;       /* "a little room" on left/right */
 }
@@ -61,7 +61,7 @@ h1 {
   align-items: flex-start;
 
   background-image: url("img/map.png");
-  background-size: cover;    /* or 'contain' if you want full map visible */
+  background-size: cover;    /* change to 'contain' if you want full map visible */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -91,11 +91,13 @@ h1 {
   height: calc(var(--hex-size) * 0.866);   /* correct flat-top height */
 
   margin: 0;                /* 0 margin between hexes themselves */
-  border: none;
   padding: 0;
   background: transparent;
   cursor: pointer;
 
+  box-sizing: border-box;
+  /* FULL BLACK BORDER in a hex shape */
+  border: 1px solid #000;
   clip-path: polygon(
     25% 0%,
     75% 0%,
@@ -106,7 +108,7 @@ h1 {
   );
 }
 
-/* Inner content & border */
+/* Inner content (no border here) */
 
 .hex-inner {
   width: 100%;
@@ -123,10 +125,6 @@ h1 {
 
   /* transparent by default; script sets backgroundColor per faction */
   background-color: rgba(0, 0, 0, 0);
-
-  /* FULL BLACK BORDER all the way around each hex
-     drawn INSIDE the clipped hex */
-  border: 1px solid #000;
 
   transition: background-color 0.2s, transform 0.1s;
 }
