@@ -55,15 +55,21 @@ h1 {
 #hex-map {
   position: relative;
   padding: 10px;             /* padding around the hex grid itself */
-  width: max-content;
+  
+  /* Setting width to max-content is okay, but we need to ensure 
+     the background map is fully visible under the grid. */
+  width: max-content; 
 
   display: flex;             /* columns left → right */
   align-items: flex-start;
 
   background-image: url("img/map.png");
-  background-size: cover;    /* switch to 'contain' if you want full map visible */
+  /* Changed to 'contain' to ensure the full map is visible, then positioned 
+     and scaled to match the hex grid sizing. You may need to tweak 
+     the hex-size variable in :root to align the grid. */
+  background-size: contain; 
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top left; /* Align top-left for easier grid positioning */
 }
 
 /* Each column of hexes */
@@ -82,7 +88,7 @@ h1 {
   margin-top: calc(var(--hex-size) * 0.433);
 }
 
-/* FLAT-TOP REGULAR HEX CELL */
+/* FLAT-TOP REGULAR HEX CELL - Now only handles the clipped background fill */
 
 .hex {
   position: relative;
@@ -97,8 +103,9 @@ h1 {
 
   box-sizing: border-box;
 
-  /* FULL BLACK BORDER in a hex shape */
-  border: 1px solid #000;
+  /* **FIX**: Remove border from this element as it interferes with clip-path */
+  /* border: 1px solid #000; */
+  
   clip-path: polygon(
     25% 0%,
     75% 0%,
@@ -107,6 +114,27 @@ h1 {
     25% 100%,
     0% 50%
   );
+}
+
+/* **FIX**: New pseudo-element for the clean border */
+.hex::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  
+  /* Apply border color and width here */
+  border: 1px solid #000; 
+
+  /* Re-apply the same clip-path for the border */
+  clip-path: inherit; /* Inherits the clip-path from .hex */
+  
+  /* Ensure it is behind the inner content but in front of the map background */
+  z-index: 1;
+  pointer-events: none; /* Allows clicks to pass through to the .hex element */
 }
 
 /* Inner content (no border here) */
@@ -121,13 +149,22 @@ h1 {
   justify-content: center;
 
   font-size: 11px;
-  color: #000;
-  text-shadow: none;
+  /* Since the hex background is transparent, we need a better color for the text */
+  color: #fff; 
+  text-shadow: 1px 1px 2px #000;
 
-  /* transparent by default; script sets backgroundColor per faction */
+  /* **FIX**: The background-color is now applied directly to the .hex 
+     in the script, but we keep this as a fallback/default */
   background-color: rgba(0, 0, 0, 0);
 
   transition: background-color 0.2s, transform 0.1s;
+  
+  /* **FIX**: Apply the clip-path to the inner element too for safety/consistency */
+  clip-path: inherit; 
+  
+  /* Ensure the inner content sits above the border pseudo-element */
+  z-index: 2; 
+  position: relative; 
 }
 
 .hex:hover .hex-inner {
