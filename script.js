@@ -1,5 +1,5 @@
 // script.js
-// Requires: map-data.js (defines HEX_ROWS, HEX_COLS, HEX_DATA)
+// Requires map-data.js (defines HEX_ROWS, HEX_COLS, HEX_DATA)
 
 // DOM references
 const hexMapEl = document.getElementById("hex-map");
@@ -27,17 +27,17 @@ HEX_DATA.forEach(cell => {
   hexBtn.className = "hex";
   hexBtn.type = "button";
 
-  // Attach data for later
-  hexBtn.dataset.row = cell.row;        // 0..25
-  hexBtn.dataset.col = cell.col;        // 0..75
-  hexBtn.dataset.hex = cell.hex;        // raw number, e.g. 101
-  hexBtn.dataset.display = cell.display; // label, e.g. 101 or E2701
+  // Attach data attributes
+  hexBtn.dataset.row = cell.row;
+  hexBtn.dataset.col = cell.col;
+  hexBtn.dataset.hex = cell.hex;
+  hexBtn.dataset.display = cell.display;
 
   if (cell.location) hexBtn.dataset.location = cell.location;
   if (cell.faction) hexBtn.dataset.faction = cell.faction;
   if (cell.name) hexBtn.dataset.name = cell.name;
 
-  // Inner label
+  // Label inside hex
   const inner = document.createElement("div");
   inner.className = "hex-inner";
   inner.textContent = cell.display;
@@ -69,3 +69,28 @@ hexMapEl.addEventListener("click", (e) => {
 
   console.log("Clicked hex:", details);
 });
+
+
+// ------------------------------------------------------------
+// CTRL + SCROLL ZOOM
+// ------------------------------------------------------------
+
+const container = document.getElementById("hex-map-container");
+let zoom = 1;
+
+// Only zoom when the user holds CTRL
+container.addEventListener("wheel", (e) => {
+  if (!e.ctrlKey) return;          // ← this line makes zoom require Ctrl
+  e.preventDefault();
+
+  const zoomFactor = e.deltaY < 0 ? 1.1 : 0.9;
+  zoom *= zoomFactor;
+
+  // Clamp zoom to prevent it from getting tiny or huge
+  if (zoom < 0.3) zoom = 0.3;
+  if (zoom > 6) zoom = 6;
+
+  hexMapEl.style.transformOrigin = "0 0";
+  hexMapEl.style.transform = `scale(${zoom})`;
+
+}, { passive: false });
