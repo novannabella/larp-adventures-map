@@ -20,8 +20,8 @@ body {
 }
 
 h1 {
-  margin-top: 0;
   text-align: center;
+  margin-top: 0;
 }
 
 #controls {
@@ -44,36 +44,44 @@ h1 {
   border-color: #0af;
 }
 
-/* Hex map container with background image */
+/* Map container */
 
 #hex-map-container {
   position: relative;
-  overflow: auto;       /* in case it gets bigger than the screen */
+  overflow: auto;
   border: 1px solid #333;
   background: #000;
 }
+
+/* This is the big area with the background image under the hexes */
 
 #hex-map {
   position: relative;
   padding: 20px;
   width: max-content;
-  /* Your drawn map goes here */
-  background-image: url("img/map.png"); /* <-- adjust path/name if needed */
+
+  display: flex;          /* columns laid out left→right */
+  align-items: flex-start;
+
+  /* your world map image (you have map.png at repo root) */
+  background-image: url("map.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-/* Rows of hexes */
+/* Each COLUMN of hexes (101–126, 201–226, etc.) */
 
-.hex-row {
+.hex-col {
   display: flex;
-  margin-bottom: calc(var(--hex-size) * -0.25 + var(--hex-gap));
+  flex-direction: column;
+  margin-right: var(--hex-gap);
 }
 
-/* Offset every other row for hex staggering */
-.hex-row:nth-child(even) {
-  margin-left: calc(var(--hex-size) * 0.5);
+/* Stagger every other column DOWN by half a hex
+   so 201 is at ~4/5 o'clock from 101, 301 back up, etc. */
+.hex-col:nth-child(even) {
+  margin-top: calc(var(--hex-size) * 0.5);
 }
 
 /* Hex cell as a button */
@@ -82,13 +90,12 @@ h1 {
   position: relative;
   width: var(--hex-size);
   aspect-ratio: 1 / 1;
-  margin-right: var(--hex-gap);
+  margin-bottom: var(--hex-gap);
   border: none;
   padding: 0;
   background: transparent;
   cursor: pointer;
 
-  /* Make the button itself the clickable shape */
   clip-path: polygon(
     25% 6.7%, 75% 6.7%,
     100% 50%,
@@ -111,23 +118,38 @@ h1 {
   transition: background-color 0.2s, transform 0.1s;
 }
 
-/* Hover effect */
 .hex:hover .hex-inner {
   transform: scale(1.05);
 }
 
-/* Color modes (semi-transparent) */
+/* Info box under the map */
 
-.hex.highlight-none .hex-inner {
-  background-color: rgba(0, 0, 0, 0.1);
+#hex-info {
+  margin-top: 12px;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: #222;
+  border: 1px solid #333;
 }
 
-.hex.highlight-1 .hex-inner {
-  background-color: rgba(0, 128, 255, 0.4); /* blue-ish, transparent */
+/* Example faction-based coloring (you can add more as needed) */
+
+.hex[data-faction="Blackthorne"] .hex-inner {
+  background-color: rgba(120, 0, 0, 0.45);
 }
 
-.hex.highlight-2 .hex-inner {
-  background-color: rgba(0, 255, 128, 0.4); /* green-ish, transparent */
+.hex[data-faction="White Ravens"] .hex-inner {
+  background-color: rgba(255, 255, 255, 0.35);
+  color: #000;
+}
+
+.hex[data-faction="Silver Branches"] .hex-inner {
+  background-color: rgba(0, 150, 255, 0.45);
+}
+
+.hex[data-faction="Vidarians"] .hex-inner {
+  background-color: rgba(255, 165, 0, 0.45);
 }
 
 /* Optional: keyboard focus outline */
