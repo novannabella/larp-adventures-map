@@ -1,78 +1,74 @@
-// Grid dimensions
-const ROWS = 26;
-const COLS = 76;
+// script.js
+// Requires: map-data.js
 
-// Current color mode for clicks
-let currentMode = "highlight-1"; // default
-
+// DOM references
 const hexMapEl = document.getElementById("hex-map");
+const infoEl = document.getElementById("hex-info");
 
-// ---- Build the hex grid ----
+console.log("Loaded HEX_ROWS =", HEX_ROWS, "HEX_COLS =", HEX_COLS);
+console.log("HEX_DATA length:", HEX_DATA.length);
 
-let id = 1;
-for (let row = 0; row < ROWS; row++) {
-  const rowEl = document.createElement("div");
-  rowEl.className = "hex-row";
-  rowEl.dataset.row = row;
+// Build the hex map
+let currentRow = -1;
+let rowEl = null;
 
-  for (let col = 0; col < COLS; col++) {
-    const hexBtn = document.createElement("button");
-    hexBtn.className = "hex highlight-none";
-    hexBtn.type = "button";
-    hexBtn.dataset.row = row;
-    hexBtn.dataset.col = col;
-    hexBtn.dataset.id = id;
-
-    const inner = document.createElement("div");
-    inner.className = "hex-inner";
-    inner.textContent = id; // display number; you can swap to row/col labels if you want
-
-    hexBtn.appendChild(inner);
-    rowEl.appendChild(hexBtn);
-
-    id++;
+HEX_DATA.forEach(cell => {
+  // Start a new visual row when row index changes
+  if (cell.row !== currentRow) {
+    currentRow = cell.row;
+    rowEl = document.createElement("div");
+    rowEl.className = "hex-row";
+    rowEl.dataset.row = cell.row;
+    hexMapEl.appendChild(rowEl);
   }
 
-  hexMapEl.appendChild(rowEl);
-}
+  // Create hex element
+  const hexBtn = document.createElement("button");
+  hexBtn.className = "hex";
+  hexBtn.type = "button";
 
-// ---- Color mode buttons ----
+  // Data attributes for use later
+  hexBtn.dataset.row = cell.row;
+  hexBtn.dataset.col = cell.col;
+  hexBtn.dataset.hex = cell.hex;
+  hexBtn.dataset.display = cell.display;
 
-const buttons = {
-  none: document.getElementById("mode-none"),
-  highlight1: document.getElementById("mode-highlight1"),
-  highlight2: document.getElementById("mode-highlight2"),
-};
+  if (cell.location) hexBtn.dataset.location = cell.location;
+  if (cell.faction) hexBtn.dataset.faction = cell.faction;
+  if (cell.name) hexBtn.dataset.name = cell.name;
 
-function setMode(mode) {
-  currentMode = mode;
-  Object.values(buttons).forEach((btn) => btn.classList.remove("active"));
-  if (mode === "highlight-none") buttons.none.classList.add("active");
-  if (mode === "highlight-1") buttons.highlight1.classList.add("active");
-  if (mode === "highlight-2") buttons.highlight2.classList.add("active");
-}
+  // Inner label
+  const inner = document.createElement("div");
+  inner.className = "hex-inner";
+  inner.textContent = cell.display;
 
-// Initialize
-setMode("highlight-1");
+  hexBtn.appendChild(inner);
+  rowEl.appendChild(hexBtn);
+});
 
-buttons.none.addEventListener("click", () => setMode("highlight-none"));
-buttons.highlight1.addEventListener("click", () => setMode("highlight-1"));
-buttons.highlight2.addEventListener("click", () => setMode("highlight-2"));
-
-// ---- Click handling on hexes ----
-
+// Attach click handler
 hexMapEl.addEventListener("click", (e) => {
   const hex = e.target.closest(".hex");
   if (!hex) return;
 
-  // Remove existing highlight classes
-  hex.classList.remove("highlight-none", "highlight-1", "highlight-2");
-  // Apply current mode
-  hex.classList.add(currentMode);
+  const details = {
+    hex: hex.dataset.hex,
+    display: hex.dataset.display,
+    row: Number(hex.dataset.row),
+    col: Number(hex.dataset.col),
+    location: hex.dataset.location || "",
+    faction: hex.dataset.faction || "",
+    name: hex.dataset.name || ""
+  };
 
-  // Example: log which hex was clicked
-  const id = hex.dataset.id;
-  const row = hex.dataset.row;
-  const col = hex.dataset.col;
-  console.log(`Clicked hex ID=${id} (row=${row}, col=${col})`);
+  // Show data in the info box
+  let msg = `Hex ${details.display}`;
+  if (details.location) msg += ` (${details.location})`;
+  if (details.faction) msg += ` — Faction: ${details.faction}`;
+  if (details.name) msg += ` — Name: ${details.name}`;
+
+  infoEl.textContent = msg;
+
+  // Log details to console for debugging
+  console.log("Clicked hex:", details);
 });
