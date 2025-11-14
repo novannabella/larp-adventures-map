@@ -4,7 +4,7 @@ const hexMapEl = document.getElementById("hex-map");
 const infoEl = document.getElementById("hex-info");
 const container = document.getElementById("hex-map-container");
 
-// Built-in faction colors (from your factions.csv) as a safety net
+// Safety net colors in case factions.csv is missing
 const DEFAULT_FACTION_COLORS = {
   "Cedar Hill": "rgba(181,99,255,0.40)",
   "Catalpa": "rgba(222,32,20,0.40)",
@@ -25,58 +25,82 @@ const DEFAULT_FACTION_COLORS = {
   "Mellondor": "rgba(93,167,44,0.40)"
 };
 
-// ---------------------- CSV PARSERS ----------------------
+// ---------- helpers ----------
 
-// map.csv: headers should be something like: Location,Hex,Faction,Name
+function hexToRgba(hex, alpha) {
+  if (!hex) return null;
+  hex = hex.trim();
+  if (hex.startsWith("#")) hex = hex.slice(1);
+  if (hex.length !== 6) return null;
+  const r = parseInt(hex.slice(0, 2), 16);
+  const g = parseInt(hex.slice(2, 4), 16);
+  const b = parseInt(hex.slice(4, 6), 16);
+  if ([r, g, b].some(n => Number.isNaN(n))) return null;
+  return `rgba(${r},${g},${b},${alpha})`;
+}
+
+// ---------- CSV parsers ----------
+
+// map.csv: hex,display,faction,name,location
 function parseMapCsv(text) {
   const lines = text.split(/\r?\n/).filter(l => l.trim().length > 0);
   if (!lines.length) return { byHex: {} };
 
   const headers = lines[0].split(",").map(h => h.trim().toLowerCase());
-
-  const idxLoc     = headers.indexOf("location");
   const idxHex     = headers.indexOf("hex");
+  const idxDisplay = headers.indexOf("display");
   const idxFaction = headers.indexOf("faction");
   const idxName    = headers.indexOf("name");
+  const idxLoc     = headers.indexOf("location");
+
+  const get = (cells, idx) =>
+    idx < 0 || idx >= cells.length ? "" : cells[idx].trim();
 
   const byHex = {};
-  const get = (cells, idx) => (idx < 0 || idx >= cells.length) ? "" : cells[idx].trim();
 
   for (let i = 1; i < lines.length; i++) {
     const row = lines[i].split(",");
     if (row.length === 1 && row[0].trim() === "") continue;
 
-    const loc     = get(row, idxLoc);
     const hexStr  = get(row, idxHex);
-    const faction = get(row, idxFaction);
-    const name    = get(row, idxName);
-
     if (!hexStr) continue;
     const hexNum = parseInt(hexStr, 10);
     if (Number.isNaN(hexNum)) continue;
 
-    byHex[hexNum] = { faction, name, location: loc };
+    byHex[hexNum] = {
+      display: get(row, idxDisplay),
+      faction: get(row, idxFaction),
+      name:    get(row, idxName),
+      location:get(row, idxLoc)
+    };
   }
 
   console.log("map.csv entries:", Object.keys(byHex).length);
   return { byHex };
 }
 
-// factions.csv: faction,color (rgba string)
+// factions.csv: Faction,Hex (hex color) OR faction,color (rgba)
 function parseFactionsCsv(text) {
   const lines = text.split(/\r?\n/).filter(l => l.trim().length > 0);
   if (!lines.length) return { ...DEFAULT_FACTION_COLORS };
 
-  const headers = lines[0].split(",").map(h => h.trim().toLowerCase());
-  const idxFaction = headers.indexOf("faction");
-  const idxColor   = headers.indexOf("color");
+  const headers = lines[0].split(",").map(h => h.trim());
+  const lower   = headers.map(h => h.toLowerCase());
+
+  let idxFaction = lower.indexOf("faction");
+  if (idxFaction === -1) idxFaction = lower.indexOf("name"); // just in case
+
+  // color can be "color" or "hex"
+  let idxColor = lower.indexOf("color");
+  if (idxColor === -1) idxColor = lower.indexOf("hex");
 
   if (idxFaction === -1 || idxColor === -1) {
     console.warn("factions.csv headers not recognized, using built-in colors only");
     return { ...DEFAULT_FACTION_COLORS };
   }
 
-  const get = (cells, idx) => (idx < 0 || idx >= cells.length) ? "" : cells[idx].trim();
+  const get = (cells, idx) =>
+    idx < 0 || idx >= cells.length ? "" : cells[idx].trim();
 
   const colors = { ...DEFAULT_FACTION_COLORS };
 
@@ -85,8 +109,14 @@ function parseFactionsCsv(text) {
     if (row.length === 1 && row[0].trim() === "") continue;
 
     const faction = get(row, idxFaction);
-    const color   = get(row, idxColor);
+    let   color   = get(row, idxColor);
     if (!faction || !color) continue;
+
+    // convert #rrggbb → rgba(..., 0.4)
+    if (color.startsWith("#")) {
+      const rgba = hexToRgba(color, 0.4);
+      if (rgba) color = rgba;
+    }
 
     colors[faction] = color;
   }
@@ -95,7 +125,7 @@ function parseFactionsCsv(text) {
   return colors;
 }
 
-// ---------------------- BUILD GRID ----------------------
+// ---------- build grid ----------
 
 function buildHexMap(mapLookup, factionColors) {
   if (!Array.isArray(HEX_DATA)) {
@@ -103,13 +133,13 @@ function buildHexMap(mapLookup, factionColors) {
     return;
   }
 
+  const overrides = mapLookup.byHex || {};
   hexMapEl.innerHTML = "";
 
   let currentCol = -1;
   let colEl = null;
 
   HEX_DATA.forEach(cell => {
-    // New column when col index changes
     if (cell.col !== currentCol) {
       currentCol = cell.col;
       colEl = document.createElement("div");
@@ -118,13 +148,18 @@ function buildHexMap(mapLookup, factionColors) {
       hexMapEl.appendChild(colEl);
     }
 
-    // Only map.csv determines faction/name/location
-    const override = (mapLookup.byHex && mapLookup.byHex[cell.hex]) || {};
-    const faction  = override.faction || "";
-    const name     = override.name || "";
-    const location = override.location || "";
+    const baseFaction  = cell.faction  || "";
+    const baseName     = cell.name     || "";
+    const baseLocation = cell.location || "";
+    const baseDisplay  = cell.display  || String(cell.hex);
 
-    // Hex button
+    const o = overrides[cell.hex];
+
+    const faction  = o && ("faction" in o)  ? (o.faction  || "") : baseFaction;
+    const name     = o && ("name" in o)     ? (o.name     || "") : baseName;
+    const location = o && ("location" in o) ? (o.location || "") : baseLocation;
+    const display  = o && ("display" in o)  ? (o.display  || baseDisplay) : baseDisplay;
+
     const hexBtn = document.createElement("button");
     hexBtn.className = "hex";
     hexBtn.type = "button";
@@ -132,21 +167,17 @@ function buildHexMap(mapLookup, factionColors) {
     hexBtn.dataset.row = cell.row;
     hexBtn.dataset.col = cell.col;
     hexBtn.dataset.hex = cell.hex;
-    hexBtn.dataset.display = cell.display;
+    hexBtn.dataset.display = display;
     if (location) hexBtn.dataset.location = location;
     if (faction)  hexBtn.dataset.faction = faction;
     if (name)     hexBtn.dataset.name = name;
 
     const inner = document.createElement("div");
     inner.className = "hex-inner";
-    inner.textContent = cell.display;
+    inner.textContent = display;
 
-    // Apply faction color (translucent) if we have one
-    if (faction && factionColors[faction]) {
-      inner.style.backgroundColor = factionColors[faction];
-    } else {
-      inner.style.backgroundColor = "rgba(0,0,0,0)";
-    }
+    const color = faction && factionColors[faction];
+    inner.style.backgroundColor = color || "rgba(0,0,0,0)";
 
     hexBtn.appendChild(inner);
     colEl.appendChild(hexBtn);
@@ -155,7 +186,7 @@ function buildHexMap(mapLookup, factionColors) {
   console.log("Hex map built.");
 }
 
-// ---------------------- INIT ----------------------
+// ---------- init ----------
 
 function init() {
   const mapPromise = fetch("map.csv")
@@ -165,7 +196,7 @@ function init() {
     })
     .then(parseMapCsv)
     .catch(err => {
-      console.warn("Could not load map.csv; no factions will be assigned.", err);
+      console.warn("Could not load map.csv; using only map-data.js values.", err);
       return { byHex: {} };
     });
 
@@ -187,7 +218,7 @@ function init() {
 
 init();
 
-// ---------------------- CLICK INFO ----------------------
+// ---------- click info ----------
 
 hexMapEl.addEventListener("click", (e) => {
   const hex = e.target.closest(".hex");
@@ -212,7 +243,7 @@ hexMapEl.addEventListener("click", (e) => {
   console.log("Clicked hex:", details);
 });
 
-// ---------------------- CTRL + SCROLL ZOOM ----------------------
+// ---------- CTRL + scroll zoom ----------
 
 let zoom = 1;
 
