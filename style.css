@@ -1,5 +1,6 @@
 :root {
-  --hex-size: 40px;    /* width of each hex, tweak to scale the grid */
+  /* Width of each hex (flat side to flat side) */
+  --hex-size: 40px;
 }
 
 /* Basic layout */
@@ -36,14 +37,14 @@ h1 {
 
 #hex-map {
   position: relative;
-  padding: 20px;              /* space around whole grid */
+  padding: 20px;              /* padding around whole grid */
   width: max-content;
 
   display: flex;              /* columns left → right */
   align-items: flex-start;
 
   background-image: url("img/map.png");
-  background-size: cover;     /* or 'contain' if you prefer */
+  background-size: cover;     /* or 'contain' if you want full map shown */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -53,42 +54,53 @@ h1 {
 .hex-col {
   display: flex;
   flex-direction: column;
-
-  /* slight negative overlap to kill any vertical line between columns */
-  margin-right: -1px;
+  margin-right: 0;            /* no horizontal gap between columns */
 }
 
-/* Stagger every other column DOWN so neighbors touch at 4/5 & 7/8 o’clock */
+/* Stagger every other column DOWN by half a hex HEIGHT
+   For flat-top hexes: height ≈ 0.866 * width, so half-height ≈ 0.433 * width */
 .hex-col:nth-child(even) {
-  margin-top: calc(var(--hex-size) * 0.5);
+  margin-top: calc(var(--hex-size) * 0.433);
 }
 
 /* FLAT-TOP HEX CELL */
 
 .hex {
   position: relative;
+
   width: var(--hex-size);
-  aspect-ratio: 1 / 1;
+  height: calc(var(--hex-size) * 0.866);   /* correct hex height */
 
-  /* slight negative overlap to remove horizontal gaps between hexes */
-  margin-bottom: -1px;
-
+  margin: 0;                /* no vertical spacing between hexes */
   border: none;
   padding: 0;
   background: transparent;
   cursor: pointer;
 
-  /* flat-topped hex shape */
+  /* flat-topped regular hexagon */
   clip-path: polygon(
-    25% 6.7%, 75% 6.7%,
+    25% 0%,
+    75% 0%,
     100% 50%,
-    75% 93.3%, 25% 93.3%,
+    75% 100%,
+    25% 100%,
     0% 50%
   );
 
-  /* BLACK OUTLINE around the hex shape */
+  /* BLACK OUTLINE – follows the clipped hex shape */
   box-shadow: 0 0 0 1px #000;
 }
+
+/* Slight fudge to absolutely kill micro-gaps, if any appear:
+   uncomment this if you still see hairline gaps between edges */
+/*
+.hex {
+  margin-bottom: -0.5px;
+}
+.hex-col {
+  margin-right: -0.5px;
+}
+*/
 
 /* Inside overlay + label */
 
@@ -100,10 +112,10 @@ h1 {
   justify-content: center;
 
   font-size: 11px;
-  color: #000;                     /* dark text like your example */
+  color: #000;                     /* like your reference hex numbers */
   text-shadow: none;
 
-  background-color: rgba(0, 0, 0, 0); /* default transparent overlay */
+  background-color: rgba(0, 0, 0, 0);  /* fully transparent by default */
 
   box-sizing: border-box;
   transition: background-color 0.2s, transform 0.1s;
