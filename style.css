@@ -1,6 +1,5 @@
 :root {
-  --hex-size: 40px;   /* width of hex from flat-side to flat-side */
-  --hex-gap: 0px;     /* ensure no external spacing */
+  --hex-size: 40px;    /* width of each hex, tweak to scale the grid */
 }
 
 /* Basic layout */
@@ -19,6 +18,13 @@ body {
   max-width: 100%;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Map container */
+
 #hex-map-container {
   position: relative;
   overflow: auto;
@@ -26,121 +32,118 @@ body {
   background: #000;
 }
 
-/* Map background */
+/* Background map + hex overlay */
 
 #hex-map {
   position: relative;
-  padding: 20px;
+  padding: 20px;              /* space around whole grid */
   width: max-content;
 
-  display: flex;
+  display: flex;              /* columns left → right */
   align-items: flex-start;
 
   background-image: url("img/map.png");
-  background-size: cover;
+  background-size: cover;     /* or 'contain' if you prefer */
   background-repeat: no-repeat;
   background-position: center;
 }
 
-/* COLUMN layout */
+/* Each COLUMN of hexes (101–126, 201–226, etc.) */
 
 .hex-col {
   display: flex;
   flex-direction: column;
-  margin-right: 0; /* no spacing horizontally */
+
+  /* slight negative overlap to kill any vertical line between columns */
+  margin-right: -1px;
 }
 
-/* Proper stagger: 0.75 * hex height */
-
+/* Stagger every other column DOWN so neighbors touch at 4/5 & 7/8 o’clock */
 .hex-col:nth-child(even) {
-  margin-top: calc(var(--hex-size) * 0.75);
+  margin-top: calc(var(--hex-size) * 0.5);
 }
 
-/* PERFECT POINTY-TOP HEXAGON */
-
-/* math:
-   width = w
-   height = h = w * 1.1547  (because tan(30°) = 0.57735)
-*/
+/* FLAT-TOP HEX CELL */
 
 .hex {
   position: relative;
-
   width: var(--hex-size);
-  height: calc(var(--hex-size) * 1.1547);
+  aspect-ratio: 1 / 1;
 
-  margin: 0;             /* no vertical spacing */
+  /* slight negative overlap to remove horizontal gaps between hexes */
+  margin-bottom: -1px;
+
   border: none;
   padding: 0;
   background: transparent;
   cursor: pointer;
 
-  /* perfect pointy-top hex */
+  /* flat-topped hex shape */
   clip-path: polygon(
-    50% 0%,
-    93% 25%,
-    93% 75%,
-    50% 100%,
-    7% 75%,
-    7% 25%
+    25% 6.7%, 75% 6.7%,
+    100% 50%,
+    75% 93.3%, 25% 93.3%,
+    0% 50%
   );
+
+  /* BLACK OUTLINE around the hex shape */
+  box-shadow: 0 0 0 1px #000;
 }
 
-/* inside overlay (with black border) */
+/* Inside overlay + label */
 
 .hex-inner {
   width: 100%;
   height: 100%;
-
   display: flex;
   align-items: center;
   justify-content: center;
 
   font-size: 11px;
-  color: #fff;
-  text-shadow: 0 0 3px #000;
+  color: #000;                     /* dark text like your example */
+  text-shadow: none;
 
-  background-color: rgba(0,0,0,0.10);
-
-  /* BLACK BORDER */
-  border: 2px solid black;
-  border-radius: 4px; /* keeps edges smooth inside hex */
+  background-color: rgba(0, 0, 0, 0); /* default transparent overlay */
 
   box-sizing: border-box;
-
-  transition: transform 0.1s, background-color 0.2s;
+  transition: background-color 0.2s, transform 0.1s;
 }
 
 .hex:hover .hex-inner {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
-/* Info box */
+/* Info box under the map */
 
 #hex-info {
   margin-top: 12px;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 4px;
   background: #222;
   border: 1px solid #333;
-  padding: 8px 10px;
-  border-radius: 4px;
-  font-size: 14px;
 }
 
-/* Faction colors */
+/* Faction color overlays (mostly transparent, on top of the map) */
 
 .hex[data-faction="Blackthorne"] .hex-inner {
-  background-color: rgba(120, 0, 0, 0.45);
+  background-color: rgba(120, 0, 0, 0.35);
 }
 
 .hex[data-faction="White Ravens"] .hex-inner {
   background-color: rgba(255, 255, 255, 0.35);
-  color: black;
 }
 
 .hex[data-faction="Silver Branches"] .hex-inner {
-  background-color: rgba(0, 150, 255, 0.45);
+  background-color: rgba(0, 150, 255, 0.35);
 }
 
 .hex[data-faction="Vidarians"] .hex-inner {
-  background-color: rgba(255, 165, 0, 0.45);
+  background-color: rgba(255, 165, 0, 0.35);
+}
+
+/* Optional keyboard focus */
+
+.hex:focus-visible {
+  outline: 2px solid #0af;
 }
