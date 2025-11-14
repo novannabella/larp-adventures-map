@@ -63,8 +63,8 @@ h1 {
   display: flex;          /* columns laid out left→right */
   align-items: flex-start;
 
-  /* your world map image (you have map.png at repo root) */
-  background-image: url("map.png");
+  /* your world map image (you have map.png in the img folder) */
+  background-image: url("img/map.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
